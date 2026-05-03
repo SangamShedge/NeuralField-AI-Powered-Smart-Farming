@@ -1,0 +1,791 @@
+[
+  {
+    "id": "1",
+    "name": {
+      "en": "Powdery Mildew",
+      "hi": "चूर्णिल फफूंदी",
+      "mr": "भुकटी बुरशी"
+    },
+    "scientificName": "Erysiphales",
+    "type": {
+      "en": "fungal",
+      "hi": "फफूंदी",
+      "mr": "बुरशीजन्य"
+    },
+    "severity": {
+      "en": "medium",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "affectedCrops": {
+      "en": ["Wheat", "Grapes", "Cucurbits", "Rose", "Peas"],
+      "hi": ["गेहूं", "अंगूर", "कुकुरबिट्स", "गुलाब", "मटर"],
+      "mr": ["गहू", "द्राक्षे", "कुकुरबिट्स", "गुलाब", "मटार"]
+    },
+    "symptoms": {
+      "en": [
+        "White powdery spots on upper leaf surface",
+        "Yellowing and drying of leaves",
+        "Stunted plant growth",
+        "Reduced fruit size and quality",
+        "Leaves become distorted"
+      ],
+      "hi": [
+        "पत्तियों की ऊपरी सतह पर सफेद चूर्णिल धब्बे",
+        "पत्तियों का पीला पड़ना और सूखना",
+        "पौधे की वृद्धि रुक जाना",
+        "फलों के आकार और गुणवत्ता में कमी",
+        "पत्तियाँ विकृत हो जाती हैं"
+      ],
+      "mr": [
+        "पानांच्या वरच्या पृष्ठभागावर पांढरे भुकटीचे डाग",
+        "पानांचे पिवळे पडणे व कोरडे होणे",
+        "वनस्पतींची वाढ खुंटणे",
+        "फळांचा आकार व गुणवत्ता कमी होणे",
+        "पाने विकृत होतात"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Spray milk solution (1:9 ratio)",
+        "Apply baking soda solution (1g/L)",
+        "Use sulfur dust (after sunset)",
+        "Neem oil spray (5ml/L)",
+        "Garlic extract spray"
+      ],
+      "hi": [
+        "दूध का घोल छिड़कें (1:9 अनुपात)",
+        "बेकिंग सोडा घोल (1 ग्राम/लीटर) लगाएं",
+        "सल्फर धूल का उपयोग करें (सूर्यास्त के बाद)",
+        "नीम तेल का छिड़काव (5 मिली/लीटर)",
+        "लहसुन अर्क का छिड़काव"
+      ],
+      "mr": [
+        "दूधाचे द्रावण फवारणी (1:9 गुणोत्तर)",
+        "बेकिंग सोडा द्रावण (1 ग्रॅम/लीटर) लावा",
+        "गंधक भुकटी वापरा (सूर्यास्तानंतर)",
+        "निंब तेल फवारणी (5 मिली/लीटर)",
+        "लसूण अर्क फवारणी"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Sulfur wettable powder (2g/L)",
+        "Tebuconazole (1ml/L)",
+        "Propiconazole (1ml/L)",
+        "Hexaconazole (1ml/L)"
+      ],
+      "hi": [
+        "सल्फर गीला करने योग्य पाउडर (2 ग्राम/लीटर)",
+        "टेबुकोनाजोल (1 मिली/लीटर)",
+        "प्रोपिकोनाजोल (1 मिली/लीटर)",
+        "हेक्साकोनाजोल (1 मिली/लीटर)"
+      ],
+      "mr": [
+        "गंधक ओला पावडर (2 ग्रॅम/लीटर)",
+        "टेबुकोनाझोल (1 मिली/लीटर)",
+        "प्रोपिकोनाझोल (1 मिली/लीटर)",
+        "हेक्साकोनाझोल (1 मिली/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Ensure good air circulation",
+        "Avoid overhead irrigation",
+        "Plant resistant varieties",
+        "Remove infected plant debris",
+        "Avoid overcrowding of plants"
+      ],
+      "hi": [
+        "अच्छा वायु संचार सुनिश्चित करें",
+        "ऊपरी सिंचाई से बचें",
+        "प्रतिरोधी किस्में लगाएं",
+        "संक्रमित पौधे के मलबे हटाएं",
+        "पौधों की अधिक भीड़ से बचें"
+      ],
+      "mr": [
+        "चांगला हवा परिसंचरण सुनिश्चित करा",
+        "वरून सिंचन टाळा",
+        "प्रतिरोधक प्रकार लावा",
+        "संक्रमित वनस्पती अवशेष काढून टाका",
+        "वनस्पतींची अतिरेक गर्दी टाळा"
+      ]
+    },
+    "description": {
+      "en": "Powdery mildew is a fungal disease that appears as white powdery spots on leaves, affecting photosynthesis and plant health.",
+      "hi": "चूर्णिल फफूंदी एक फफूंदी रोग है जो पत्तियों पर सफेद चूर्णिल धब्बों के रूप में दिखाई देता है, जो प्रकाश संश्लेषण और पौधों के स्वास्थ्य को प्रभावित करता है।",
+      "mr": "भुकटी बुरशी हा एक बुरशीजन्य रोग आहे जो पानांवर पांढऱ्या भुकटीच्या डागांसारखा दिसतो, ज्यामुळे प्रकाशसंश्लेषण व वनस्पतींच्या आरोग्यावर परिणाम होतो."
+    },
+    "imageAsset": "media/crops/c1.jpg",
+    "favorableConditions": {
+      "en": "High humidity, moderate temperatures (20-25°C)",
+      "hi": "उच्च आर्द्रता, मध्यम तापमान (20-25°C)",
+      "mr": "उच्च आर्द्रता, मध्यम तापमान (20-25°C)"
+    },
+    "transmissionMethod": {
+      "en": "Airborne spores, wind, insects",
+      "hi": "वायुजनित बीजाणु, हवा, कीड़े",
+      "mr": "हवेतील बीजाणू, वारा, कीटक"
+    },
+    "incubationPeriod": {
+      "en": "3-7 days",
+      "hi": "3-7 दिन",
+      "mr": "3-7 दिवस"
+    },
+    "economicImpact": {
+      "en": "High yield loss in severe cases, reduced fruit quality",
+      "hi": "गंभीर मामलों में उच्च उपज हानि, फलों की गुणवत्ता में कमी",
+      "mr": "गंभीर प्रकरणांमध्ये उच्च उत्पादन हानी, फळांची गुणवत्ता कमी"
+    },
+    "globalDistribution": {
+      "en": "Worldwide",
+      "hi": "दुनिया भर में",
+      "mr": "जगभर"
+    },
+    "commonName": {
+      "en": "White mold",
+      "hi": "सफेद साँचा",
+      "mr": "पांढरा बुरशी"
+    },
+    "hostRange": {
+      "en": "Over 10,000 plant species",
+      "hi": "10,000 से अधिक पौधों की प्रजातियाँ",
+      "mr": "10,000 हून अधिक वनस्पती प्रजाती"
+    },
+    "fungicideResistance": {
+      "en": "Yes, common in some populations",
+      "hi": "हाँ, कुछ आबादी में आम",
+      "mr": "होय, काही लोकसंख्यांमध्ये सामान्य"
+    }
+  },
+  {
+    "id": "2",
+    "name": {
+      "en": "Late Blight",
+      "hi": "पछेती झुलसा रोग",
+      "mr": "उशीरा बुरशी (लेट ब्लाइट)"
+    },
+    "scientificName": "Phytophthora infestans",
+    "type": {
+      "en": "fungal",
+      "hi": "फफूंदी",
+      "mr": "बुरशीजन्य"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["Tomato", "Potato"],
+      "hi": ["टमाटर", "आलू"],
+      "mr": ["टोमॅटो", "बटाटा"]
+    },
+    "symptoms": {
+      "en": [
+        "Dark brown lesions on leaves",
+        "White fuzzy growth under leaves",
+        "Large irregular dark spots on stems",
+        "Dark greasy spots on fruits",
+        "Complete plant collapse in severe cases"
+      ],
+      "hi": [
+        "पत्तियों पर गहरे भूरे रंग के धब्बे",
+        "पत्तियों के नीचे सफेद रोएंदार वृद्धि",
+        "तनों पर बड़े अनियमित गहरे धब्बे",
+        "फलों पर गहरे चिकने धब्बे",
+        "गंभीर मामलों में पौधे का पूर्ण पतन"
+      ],
+      "mr": [
+        "पानांवर गडद तपकिरी डाग",
+        "पानांच्या खाली पांढरी आल्हाददायक वाढ",
+        "देठांवर मोठे अनियमित गडद डाग",
+        "फळांवर गडद निसरडे डाग",
+        "गंभीर प्रकरणांमध्ये वनस्पती पूर्णपणे कोसळणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Copper fungicide (Bordeaux mixture)",
+        "Apply Trichoderma",
+        "Compost tea spray",
+        "Remove and destroy infected plants",
+        "Avoid working in wet fields"
+      ],
+      "hi": [
+        "तांबा फफूंदनाशक (बोर्डो मिश्रण)",
+        "ट्राइकोडर्मा लगाएं",
+        "कम्पोस्ट टी का छिड़काव",
+        "संक्रमित पौधों को हटाएं और नष्ट करें",
+        "गीले खेतों में काम करने से बचें"
+      ],
+      "mr": [
+        "तांबा बुरशीनाशक (बोर्डो मिश्रण)",
+        "ट्रायकोडर्मा लावा",
+        "कंपोस्ट टी फवारणी",
+        "संक्रमित वनस्पती काढून टाका व नष्ट करा",
+        "ओल्या शेतात काम करणे टाळा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Mancozeb (2.5g/L)",
+        "Chlorothalonil (2ml/L)",
+        "Metalaxyl (1g/L)",
+        "Cymoxanil (1g/L)"
+      ],
+      "hi": [
+        "मैन्कोज़ेब (2.5 ग्राम/लीटर)",
+        "क्लोरोथैलोनिल (2 मिली/लीटर)",
+        "मेटालाक्सिल (1 ग्राम/लीटर)",
+        "साइमोक्सानिल (1 ग्राम/लीटर)"
+      ],
+      "mr": [
+        "मॅन्कोझेब (2.5 ग्रॅम/लीटर)",
+        "क्लोरोथॅलोनिल (2 मिली/लीटर)",
+        "मेटालॅक्सिल (1 ग्रॅम/लीटर)",
+        "सायमोक्सानिल (1 ग्रॅम/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Use certified disease-free seeds",
+        "Maintain proper plant spacing",
+        "Avoid overhead irrigation",
+        "Practice crop rotation (3-4 years)",
+        "Destroy volunteer potato plants"
+      ],
+      "hi": [
+        "प्रमाणित रोग-मुक्त बीजों का उपयोग करें",
+        "उचित पौधों की दूरी बनाए रखें",
+        "ऊपरी सिंचाई से बचें",
+        "फसल चक्र अपनाएं (3-4 वर्ष)",
+        "स्वयं उगी आलू की पौधों को नष्ट करें"
+      ],
+      "mr": [
+        "प्रमाणित रोगमुक्त बियाणे वापरा",
+        "योग्य वनस्पती अंतर ठेवा",
+        "वरून सिंचन टाळा",
+        "पीक फेरपालट करा (3-4 वर्षे)",
+        "स्वयं-उगवलेली बटाट्याची रोपे नष्ट करा"
+      ]
+    },
+    "description": {
+      "en": "Late blight is a devastating fungal disease that can destroy entire tomato and potato fields within days.",
+      "hi": "पछेती झुलसा एक विनाशकारी फफूंदी रोग है जो दिनों के भीतर पूरे टमाटर और आलू के खेतों को नष्ट कर सकता है।",
+      "mr": "उशीरा बुरशी हा एक विनाशकारी बुरशीजन्य रोग आहे जो काही दिवसांतच संपूर्ण टोमॅटो व बटाटा क्षेत्र नष्ट करू शकतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Cool, wet weather (15-20°C, high humidity)",
+      "hi": "ठंडा, नम मौसम (15-20°C, उच्च आर्द्रता)",
+      "mr": "थंड, ओले हवामान (15-20°C, उच्च आर्द्रता)"
+    },
+    "transmissionMethod": {
+      "en": "Airborne spores, infected tubers, wind, rain splash",
+      "hi": "वायुजनित बीजाणु, संक्रमित कंद, हवा, बारिश की बूंदें",
+      "mr": "हवेतील बीजाणू, संक्रमित कंद, वारा, पावसाची उडणारी थेंबे"
+    },
+    "incubationPeriod": {
+      "en": "3-10 days",
+      "hi": "3-10 दिन",
+      "mr": "3-10 दिवस"
+    },
+    "economicImpact": {
+      "en": "Extremely high - can cause 100% crop loss, responsible for Irish Potato Famine",
+      "hi": "अत्यंत उच्च - 100% फसल हानि पहुंचा सकता है, आयरिश आलू अकाल के लिए जिम्मेदार",
+      "mr": "अत्यंत उच्च - 100% पीक हानी कारणीभूत ठरू शकते, आयरिश बटाटा दुष्काळासाठी जबाबदार"
+    },
+    "globalDistribution": {
+      "en": "Worldwide, particularly in temperate and tropical highlands",
+      "hi": "दुनिया भर में, विशेष रूप से समशीतोष्ण और उष्णकटिबंधीय हाइलैंड्स में",
+      "mr": "जगभर, विशेषतः समशीतोष्ण आणि उष्णकटिबंधीय उच्चभूमीत"
+    },
+    "commonName": {
+      "en": "Potato blight",
+      "hi": "आलू झुलसा",
+      "mr": "बटाटा बुरशी"
+    },
+    "hostRange": {
+      "en": "Solanaceae family (potato, tomato, eggplant)",
+      "hi": "सोलेनेसी कुल (आलू, टमाटर, बैंगन)",
+      "mr": "सोलानेसी कुळ (बटाटा, टोमॅटो, वांगी)"
+    },
+    "fungicideResistance": {
+      "en": "Yes, metalaxyl resistance is common",
+      "hi": "हाँ, मेटालाक्सिल प्रतिरोध आम है",
+      "mr": "होय, मेटालॅक्सिल प्रतिकार सामान्य आहे"
+    }
+  },
+  {
+    "id": "3",
+    "name": {
+      "en": "Leaf Rust",
+      "hi": "पत्ती का किट्ट रोग",
+      "mr": "गव्हाची पानगळी (गंज)"
+    },
+    "scientificName": "Puccinia recondita",
+    "type": {
+      "en": "fungal",
+      "hi": "फफूंदी",
+      "mr": "बुरशीजन्य"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Wheat", "Barley", "Oats"],
+      "hi": ["गेहूं", "जौ", "जई"],
+      "mr": ["गहू", "जव", "ओट्स"]
+    },
+    "symptoms": {
+      "en": [
+        "Orange-brown pustules on leaves",
+        "Yellowing around pustules",
+        "Premature leaf drying",
+        "Reduced grain fill",
+        "Poor grain quality"
+      ],
+      "hi": [
+        "पत्तियों पर नारंगी-भूरे रंग के pustules",
+        "pustules के आसपास पीली पड़ना",
+        "समय से पहले पत्तियों का सूखना",
+        "अनाज भराव कम होना",
+        "खराब अनाज गुणवत्ता"
+      ],
+      "mr": [
+        "पानांवर नारिंगी-तपकिरी फोड",
+        "फोडांभोवती पिवळसरपणा",
+        "अकाली पाने कोरडी पडणे",
+        "धान्य भरणे कमी होणे",
+        "धान्याची खराब गुणवत्ता"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Spray compost tea",
+        "Apply baking soda solution",
+        "Use neem oil extract",
+        "Garlic and chili spray",
+        "Remove infected leaves"
+      ],
+      "hi": [
+        "कम्पोस्ट टी का छिड़काव करें",
+        "बेकिंग सोडा घोल लगाएं",
+        "नीम तेल अर्क का उपयोग करें",
+        "लहसुन और मिर्च का छिड़काव",
+        "संक्रमित पत्तियों को हटाएं"
+      ],
+      "mr": [
+        "कंपोस्ट टी फवारणी करा",
+        "बेकिंग सोडा द्रावण लावा",
+        "निंब तेल अर्क वापरा",
+        "लसूण व मिरची फवारणी",
+        "संक्रमित पाने काढून टाका"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Propiconazole (1ml/L)",
+        "Tebuconazole (1.5ml/L)",
+        "Azoxystrobin (1ml/L)",
+        "Mancozeb (2g/L)"
+      ],
+      "hi": [
+        "प्रोपिकोनाजोल (1 मिली/लीटर)",
+        "टेबुकोनाजोल (1.5 मिली/लीटर)",
+        "एज़ोक्सीस्ट्रोबिन (1 मिली/लीटर)",
+        "मैन्कोज़ेब (2 ग्राम/लीटर)"
+      ],
+      "mr": [
+        "प्रोपिकोनाझोल (1 मिली/लीटर)",
+        "टेबुकोनाझोल (1.5 मिली/लीटर)",
+        "अझोक्सिस्ट्रोबिन (1 मिली/लीटर)",
+        "मॅन्कोझेब (2 ग्रॅम/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Plant resistant varieties",
+        "Early sowing to avoid peak disease period",
+        "Remove alternate host plants",
+        "Balance nitrogen fertilizer",
+        "Optimize plant density"
+      ],
+      "hi": [
+        "प्रतिरोधी किस्में लगाएं",
+        "रोग चरम अवधि से बचने के लिए जल्दी बुवाई करें",
+        "वैकल्पिक मेजबान पौधों को हटाएं",
+        "नाइट्रोजन उर्वरक संतुलित करें",
+        "पौधों की घनत्व अनुकूलित करें"
+      ],
+      "mr": [
+        "प्रतिरोधक प्रकार लावा",
+        "रोग चरम काल टाळण्यासाठी लवकर पेरणी करा",
+        "वैकल्पिक यजमान वनस्पती काढून टाका",
+        "नायट्रोजन खत संतुलित करा",
+        "वनस्पती घनता अनुकूल करा"
+      ]
+    },
+    "description": {
+      "en": "Leaf rust is a fungal disease that causes significant yield loss in wheat and other cereal crops.",
+      "hi": "पत्ती का किट्ट एक फफूंदी रोग है जो गेहूं और अन्य अनाज फसलों में महत्वपूर्ण उपज हानि का कारण बनता है।",
+      "mr": "गव्हाची पानगळी हा एक बुरशीजन्य रोग आहे जो गहू व इतर धान्य पिकांमध्ये लक्षणीय उत्पादन हानी करतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Moderate temperatures (15-25°C), high humidity",
+      "hi": "मध्यम तापमान (15-25°C), उच्च आर्द्रता",
+      "mr": "मध्यम तापमान (15-25°C), उच्च आर्द्रता"
+    },
+    "transmissionMethod": {
+      "en": "Airborne spores, wind over long distances",
+      "hi": "वायुजनित बीजाणु, लंबी दूरी पर हवा",
+      "mr": "हवेतील बीजाणू, लांब अंतरापर्यंत वारा"
+    },
+    "incubationPeriod": {
+      "en": "5-14 days",
+      "hi": "5-14 दिन",
+      "mr": "5-14 दिवस"
+    },
+    "economicImpact": {
+      "en": "25-50% yield loss in susceptible varieties",
+      "hi": "संवेदनशील किस्मों में 25-50% उपज हानि",
+      "mr": "संवेदनशील प्रकारांमध्ये 25-50% उत्पादन हानी"
+    },
+    "globalDistribution": {
+      "en": "Worldwide, all wheat-growing regions",
+      "hi": "दुनिया भर में, सभी गेहूं उगाने वाले क्षेत्र",
+      "mr": "जगभर, सर्व गहू उत्पादक प्रदेश"
+    },
+    "commonName": {
+      "en": "Brown rust",
+      "hi": "भूरा किट्ट",
+      "mr": "तपकिरी गंज"
+    },
+    "hostRange": {
+      "en": "Wheat, barley, other cereal grasses",
+      "hi": "गेहूं, जौ, अन्य अनाज घास",
+      "mr": "गहू, जव, इतर धान्य गवत"
+    },
+    "fungicideResistance": {
+      "en": "Yes, to some triazole fungicides",
+      "hi": "हाँ, कुछ ट्रायज़ोल फफूंदनाशकों के लिए",
+      "mr": "होय, काही ट्रायाझोल बुरशीनाशकांसाठी"
+    }
+  },
+  {
+    "id": "4",
+    "name": {
+      "en": "Bacterial Wilt",
+      "hi": "जीवाणु विल्ट",
+      "mr": "जिवाणू मुरझाव"
+    },
+    "scientificName": "Ralstonia solanacearum",
+    "type": {
+      "en": "bacterial",
+      "hi": "जीवाणु",
+      "mr": "जिवाणूजन्य"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["Tomato", "Potato", "Brinjal", "Banana", "Pepper"],
+      "hi": ["टमाटर", "आलू", "बैंगन", "केला", "मिर्च"],
+      "mr": ["टोमॅटो", "बटाटा", "वांगी", "केळ", "मिरची"]
+    },
+    "symptoms": {
+      "en": [
+        "Sudden wilting of leaves",
+        "Bacterial ooze from cut stems",
+        "Brown discoloration in stem",
+        "Root rot in advanced stages",
+        "Plant collapse within days"
+      ],
+      "hi": [
+        "पत्तियों का अचानक मुरझाना",
+        "कटे हुए तनों से जीवाणु रिसाव",
+        "तने में भूरा मलिनकिरण",
+        "उन्नत अवस्था में जड़ सड़न",
+        "दिनों के भीतर पौधे का पतन"
+      ],
+      "mr": [
+        "अचानक पानांचे मुरझाणे",
+        "कापलेल्या देठांतून जिवाणूचा रिसाव",
+        "देठात तपकिरी वर्णहीनता",
+        "प्रगत अवस्थेत मूळ कुजणे",
+        "दिवसांतच वनस्पती कोसळणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Soil solarization",
+        "Apply Trichoderma and Pseudomonas",
+        "Use neem cake in soil",
+        "Crop rotation with grasses",
+        "Remove and destroy infected plants"
+      ],
+      "hi": [
+        "मिट्टी सौरीकरण",
+        "ट्राइकोडर्मा और स्यूडोमोनास लगाएं",
+        "मिट्टी में नीम केक का उपयोग करें",
+        "घास के साथ फसल चक्र",
+        "संक्रमित पौधों को हटाएं और नष्ट करें"
+      ],
+      "mr": [
+        "माती सौरीकरण (सोलरायझेशन)",
+        "ट्रायकोडर्मा व स्यूडोमोनास लावा",
+        "मातीत निंब केक वापरा",
+        "गवतांसोबत पीक फेरपालट",
+        "संक्रमित वनस्पती काढून टाका व नष्ट करा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Copper oxychloride (2g/L)",
+        "Streptocycline (0.5g/L)",
+        "Kasugamycin (1.5ml/L)"
+      ],
+      "hi": [
+        "कॉपर ऑक्सीक्लोराइड (2 ग्राम/लीटर)",
+        "स्ट्रेप्टोसाइक्लिन (0.5 ग्राम/लीटर)",
+        "कासुगामाइसिन (1.5 मिली/लीटर)"
+      ],
+      "mr": [
+        "कॉपर ऑक्सीक्लोराइड (2 ग्रॅम/लीटर)",
+        "स्ट्रेप्टोसायक्लिन (0.5 ग्रॅम/लीटर)",
+        "कासुगामायसिन (1.5 मिली/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Use disease-free seedlings",
+        "Avoid water logging",
+        "Practice long crop rotation (5-7 years)",
+        "Disinfect farm tools",
+        "Improve soil drainage"
+      ],
+      "hi": [
+        "रोग-मुक्त पौधों का उपयोग करें",
+        "जलभराव से बचें",
+        "लंबी फसल चक्र (5-7 वर्ष) अपनाएं",
+        "खेत के उपकरणों को कीटाणुरहित करें",
+        "मिट्टी जल निकास में सुधार करें"
+      ],
+      "mr": [
+        "रोगमुक्त रोपे वापरा",
+        "पाणी साचून राहणे टाळा",
+        "दीर्घ पीक फेरपालट (5-7 वर्षे) करा",
+        "शेताची अवजारे निर्जंतुक करा",
+        "मातीचा निचरा सुधारा"
+      ]
+    },
+    "description": {
+      "en": "Bacterial wilt is a soil-borne disease that causes rapid wilting and death of plants.",
+      "hi": "जीवाणु विल्ट एक मृदा जनित रोग है जो पौधों के तेजी से मुरझाने और मृत्यु का कारण बनता है।",
+      "mr": "जिवाणू मुरझाव हा मातीजन्य रोग आहे जो वनस्पतींचा जलद मुरझाव व मृत्यू घडवतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Warm, moist soil conditions (25-35°C)",
+      "hi": "गर्म, नम मिट्टी की स्थिति (25-35°C)",
+      "mr": "उबदार, ओली माती परिस्थिती (25-35°C)"
+    },
+    "transmissionMethod": {
+      "en": "Soil-borne, contaminated water, infected plant debris, farm tools",
+      "hi": "मृदा जनित, दूषित पानी, संक्रमित पौधे का मलबा, खेत के उपकरण",
+      "mr": "मातीजन्य, दूषित पाणी, संक्रमित वनस्पती अवशेष, शेत अवजारे"
+    },
+    "incubationPeriod": {
+      "en": "7-14 days",
+      "hi": "7-14 दिन",
+      "mr": "7-14 दिवस"
+    },
+    "economicImpact": {
+      "en": "Very high - can cause complete crop failure in infested fields",
+      "hi": "बहुत अधिक - संक्रमित खेतों में पूर्ण फसल विफलता का कारण बन सकता है",
+      "mr": "अत्यंत उच्च - संक्रमित शेतांमध्ये पूर्ण पीक अपयश घडवू शकतो"
+    },
+    "globalDistribution": {
+      "en": "Tropical, subtropical, and warm temperate regions",
+      "hi": "उष्णकटिबंधीय, उपोष्णकटिबंधीय और गर्म समशीतोष्ण क्षेत्र",
+      "mr": "उष्णकटिबंधीय, उप-उष्णकटिबंधीय व उबदार समशीतोष्ण प्रदेश"
+    },
+    "commonName": {
+      "en": "Southern bacterial wilt",
+      "hi": "दक्षिणी जीवाणु विल्ट",
+      "mr": "दक्षिणी जिवाणू मुरझाव"
+    },
+    "hostRange": {
+      "en": "Over 200 species in 33 plant families",
+      "hi": "33 पौधों के परिवारों में 200 से अधिक प्रजातियाँ",
+      "mr": "33 वनस्पती कुळातील 200 हून अधिक प्रजाती"
+    },
+    "fungicideResistance": {
+      "en": "Not applicable (bacterial), but antibiotic resistance emerging",
+      "hi": "लागू नहीं (जीवाणु), लेकिन एंटीबायोटिक प्रतिरोध उभर रहा है",
+      "mr": "लागू नाही (जिवाणू), परंतु प्रतिजैविक प्रतिकार उदयास येत आहे"
+    }
+  },
+  {
+    "id": "5",
+    "name": {
+      "en": "Yellow Mosaic Virus",
+      "hi": "पीला मोज़ेक वायरस",
+      "mr": "पिवळा मोझेक विषाणू"
+    },
+    "scientificName": "Geminivirus",
+    "type": {
+      "en": "viral",
+      "hi": "वायरल",
+      "mr": "विषाणूजन्य"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Pulses", "Okra", "Tomato", "Cotton"],
+      "hi": ["दलहन", "भिंडी", "टमाटर", "कपास"],
+      "mr": ["कडधान्ये", "भेंडी", "टोमॅटो", "कापूस"]
+    },
+    "symptoms": {
+      "en": [
+        "Yellow patches on leaves",
+        "Mosaic pattern on foliage",
+        "Stunted plant growth",
+        "Reduced pod/fruit formation",
+        "Leaf curling"
+      ],
+      "hi": [
+        "पत्तियों पर पीले धब्बे",
+        "पत्ते पर मोज़ेक पैटर्न",
+        "पौधों की वृद्धि रुक जाना",
+        "फली/फल निर्माण कम होना",
+        "पत्तियों का कर्ल होना"
+      ],
+      "mr": [
+        "पानांवर पिवळे डाग",
+        "पानांवर मोझेक नमुना",
+        "वनस्पतींची वाढ खुंटणे",
+        "शेंगा/फळ निर्मिती कमी होणे",
+        "पानांचे कुरळे होणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Control whitefly vectors",
+        "Remove infected plants",
+        "Use yellow sticky traps",
+        "Apply neem oil regularly",
+        "Grow barrier crops"
+      ],
+      "hi": [
+        "सफेद मक्खी वाहक नियंत्रित करें",
+        "संक्रमित पौधे हटाएं",
+        "पीले चिपचिपे ट्रैप का उपयोग करें",
+        "नियमित रूप से नीम तेल लगाएं",
+        "बैरियर फसलें उगाएं"
+      ],
+      "mr": [
+        "श्वेत माशी वाहक नियंत्रित करा",
+        "संक्रमित वनस्पती काढून टाका",
+        "पिवळे चिकट सापळे वापरा",
+        "नियमितपणे निंब तेल लावा",
+        "अडथळा पिके घ्या"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "No direct cure - focus on vector control",
+        "Imidacloprid for whitefly control",
+        "Buprofezin for vector management"
+      ],
+      "hi": [
+        "कोई प्रत्यक्ष इलाज नहीं - वेक्टर नियंत्रण पर ध्यान दें",
+        "सफेद मक्खी नियंत्रण के लिए इमिडाक्लोप्रिड",
+        "वेक्टर प्रबंधन के लिए ब्यूप्रोफेज़िन"
+      ],
+      "mr": [
+        "थेट उपचार नाही - वाहक नियंत्रणावर लक्ष केंद्रित करा",
+        "श्वेत माशी नियंत्रणासाठी इमिडाक्लोप्रिड",
+        "वाहक व्यवस्थापनासाठी ब्यूप्रोफेझिन"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Use virus-free seeds",
+        "Control whitefly population",
+        "Plant resistant varieties",
+        "Avoid growing susceptible crops together",
+        "Remove weed hosts"
+      ],
+      "hi": [
+        "वायरस मुक्त बीजों का उपयोग करें",
+        "सफेद मक्खी की आबादी को नियंत्रित करें",
+        "प्रतिरोधी किस्में लगाएं",
+        "संवेदनशील फसलों को एक साथ उगाने से बचें",
+        "खरपतवार मेजबान हटाएं"
+      ],
+      "mr": [
+        "विषाणूमुक्त बियाणे वापरा",
+        "श्वेत माशी लोकसंख्या नियंत्रित करा",
+        "प्रतिरोधक प्रकार लावा",
+        "संवेदनशील पिके एकत्र घेणे टाळा",
+        "तण यजमान काढून टाका"
+      ]
+    },
+    "description": {
+      "en": "Yellow mosaic virus is transmitted by whiteflies and causes significant yield loss in legume crops.",
+      "hi": "पीला मोज़ेक वायरस सफेद मक्खियों द्वारा फैलता है और फलियों की फसलों में महत्वपूर्ण उपज हानि का कारण बनता है।",
+      "mr": "पिवळा मोझेक विषाणू श्वेत माशींद्वारे प्रसारित होतो व कडधान्य पिकांमध्ये लक्षणीय उत्पादन हानी करतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Whitefly infestation periods, warm dry weather",
+      "hi": "सफेद मक्खी संक्रमण अवधि, गर्म सूखा मौसम",
+      "mr": "श्वेत माशी प्रादुर्भाव काल, उबदार कोरडे हवामान"
+    },
+    "transmissionMethod": {
+      "en": "Whitefly vector (Bemisia tabaci), infected plant material",
+      "hi": "सफेद मक्खी वेक्टर (बेमिसिया टाबासी), संक्रमित पौधा सामग्री",
+      "mr": "श्वेत माशी वाहक (बेमिसिया टाबासी), संक्रमित वनस्पती साहित्य"
+    },
+    "incubationPeriod": {
+      "en": "7-21 days",
+      "hi": "7-21 दिन",
+      "mr": "7-21 दिवस"
+    },
+    "economicImpact": {
+      "en": "40-100% yield loss in severe epidemics",
+      "hi": "गंभीर महामारियों में 40-100% उपज हानि",
+      "mr": "गंभीर साथ्यांमध्ये 40-100% उत्पादन हानी"
+    },
+    "globalDistribution": {
+      "en": "Tropical and subtropical Asia, Africa, Americas",
+      "hi": "उष्णकटिबंधीय और उपोष्णकटिबंधीय एशिया, अफ्रीका, अमेरिका",
+      "mr": "उष्णकटिबंधीय व उपोष्णकटिबंधीय आशिया, आफ्रिका, अमेरिका"
+    },
+    "commonName": {
+      "en": "MYMV",
+      "hi": "MYMV",
+      "mr": "MYMV"
+    },
+    "hostRange": {
+      "en": "Primarily legumes, also okra, cotton, tobacco",
+      "hi": "मुख्य रूप से फलियां, भिंडी, कपास, तम्बाकू भी",
+      "mr": "प्रामुख्याने कडधान्ये, तसेच भेंडी, कापूस, तंबाखू"
+    },
+    "fungicideResistance": {
+      "en": "Not applicable (viral), vector resistance to insecticides common",
+      "hi": "लागू नहीं (वायरल), कीटनाशकों के प्रति वेक्टर प्रतिरोध आम",
+      "mr": "लागू नाही (विषाणू), कीटकनाशकांना वाहक प्रतिकार सामान्य"
+    }
+  }
+]

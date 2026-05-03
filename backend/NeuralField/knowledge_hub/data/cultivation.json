@@ -1,0 +1,2724 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Smart Drip Irrigation System",
+      "hi": "स्मार्ट ड्रिप सिंचाई प्रणाली",
+      "mr": "स्मार्ट ठिबक सिंचन प्रणाली"
+    },
+    "description": {
+      "en": "Implement drip irrigation to save water and improve crop yield. This method delivers water directly to plant roots, reducing evaporation and weed growth.",
+      "hi": "पानी बचाने और फसल उपज बढ़ाने के लिए ड्रिप सिंचाई लागू करें। यह विधि पानी सीधे पौधों की जड़ों तक पहुँचाती है, जिससे वाष्पीकरण और खरपतवार वृद्धि कम होती है।",
+      "mr": "पाणी वाचवण्यासाठी आणि पीक उत्पादन वाढवण्यासाठी ठिबक सिंचन लागू करा. ही पद्धत पाणी थेट वनस्पतींच्या मुळांपर्यंत पोहोचवते, ज्यामुळे बाष्पीभवन आणि तणांची वाढ कमी होते."
+    },
+    "category": {
+      "en": "irrigation",
+      "hi": "सिंचाई",
+      "mr": "सिंचन"
+    },
+    "steps": {
+      "en": [
+        "Install main water supply line along the field",
+        "Connect drip lines with emitters spaced according to crop spacing",
+        "Install filters to prevent clogging",
+        "Set up pressure regulators for uniform water distribution",
+        "Schedule watering based on crop growth stage",
+        "Check system weekly for leaks or blockages"
+      ],
+      "hi": [
+        "खेत के साथ मुख्य जल आपूर्ति लाइन स्थापित करें",
+        "फसल अंतर के अनुसार दूरी वाली ड्रिप लाइन और एमिटर कनेक्ट करें",
+        "रुकावट रोकने के लिए फिल्टर लगाएं",
+        "समान जल वितरण के लिए दबाव नियामक स्थापित करें",
+        "फसल वृद्धि अवस्था के अनुसार पानी देने का कार्यक्रम बनाएं",
+        "लीक या अवरोधों के लिए साप्ताहिक प्रणाली की जाँच करें"
+      ],
+      "mr": [
+        "शेताच्या बाजूने मुख्य पाणीपुरवठा लाइन बसवा",
+        "पीक अंतरानुसार अंतर असलेल्या ठिबक लाइन आणि एमिटर जोडा",
+        "अडथळा टाळण्यासाठी फिल्टर बसवा",
+        "एकसमान पाणी वितरणासाठी दाब नियामक सेट करा",
+        "पीक वाढीच्या अवस्थेनुसार पाणी देण्याचे वेळापत्रक करा",
+        "गळती किंवा अडथळ्यांसाठी दर आठवड्याला प्रणाली तपासा"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Saves 40-60% water compared to flood irrigation",
+        "Reduces weed growth by 50%",
+        "Prevents soil erosion",
+        "Improves fertilizer efficiency by 30%",
+        "Reduces labor costs",
+        "Can be automated for precision farming"
+      ],
+      "hi": [
+        "बाढ़ सिंचाई की तुलना में 40-60% पानी बचाता है",
+        "खरपतवार वृद्धि को 50% तक कम करता है",
+        "मिट्टी के कटाव को रोकता है",
+        "उर्वरक दक्षता में 30% सुधार करता है",
+        "श्रम लागत कम करता है",
+        "सटीक खेती के लिए स्वचालित किया जा सकता है"
+      ],
+      "mr": [
+        "पूर सिंचनाच्या तुलनेत 40-60% पाणी वाचवते",
+        "तणांची वाढ 50% ने कमी करते",
+        "मातीची धूप रोखते",
+        "खताची कार्यक्षमता 30% ने सुधारते",
+        "मजुरीचा खर्च कमी करते",
+        "अचूक शेतीसाठी स्वयंचलित करता येते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Drip tubing and emitters",
+        "Main water pipe",
+        "Filters and pressure regulators",
+        "Connectors and valves",
+        "Timer (optional for automation)"
+      ],
+      "hi": [
+        "ड्रिप टयूबिंग और एमिटर",
+        "मुख्य जल पाइप",
+        "फिल्टर और दबाव नियामक",
+        "कनेक्टर और वाल्व",
+        "टाइमर (स्वचालन के लिए वैकल्पिक)"
+      ],
+      "mr": [
+        "ठिबक नळ्या आणि एमिटर",
+        "मुख्य पाणी पाईप",
+        "फिल्टर आणि दाब नियामक",
+        "कनेक्टर आणि वाल्व",
+        "टाइमर (स्वयंचलित करण्यासाठी पर्यायी)"
+      ]
+    },
+    "season": {
+      "en": "All Seasons",
+      "hi": "सभी मौसम",
+      "mr": "सर्व हंगाम"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Organic Soil Enrichment",
+      "hi": "जैविक मृदा संवर्धन",
+      "mr": "सेंद्रिय मृदा समृद्धी"
+    },
+    "description": {
+      "en": "Improve soil structure and fertility using natural amendments and composting techniques for sustainable farming.",
+      "hi": "प्राकृतिक संशोधन और खाद तकनीकों का उपयोग करके टिकाऊ खेती के लिए मिट्टी की संरचना और उर्वरता में सुधार करें।",
+      "mr": "शाश्वत शेतीसाठी नैसर्गिक घटक आणि कंपोस्ट तंत्रांचा वापर करून मातीची रचना आणि सुपीकता सुधारा."
+    },
+    "category": {
+      "en": "soilHealth",
+      "hi": "मृदा स्वास्थ्य",
+      "mr": "मृदा आरोग्य"
+    },
+    "steps": {
+      "en": [
+        "Collect crop residues, kitchen waste, and animal manure",
+        "Create compost pile with alternating green and brown layers",
+        "Maintain moisture level like a wrung sponge",
+        "Turn compost every 2 weeks for aeration",
+        "Apply mature compost (3-4 months) to field",
+        "Use green manure crops like sunhemp or dhaincha",
+        "Add vermicompost for nutrient-rich organic matter"
+      ],
+      "hi": [
+        "फसल अवशेष, रसोई कचरा और पशु खाद एकत्र करें",
+        "हरी और भूरी परतों को बारी-बारी से खाद का ढेर बनाएं",
+        "नमी का स्तर निचोड़े हुए स्पंज जैसा बनाए रखें",
+        "वातन के लिए हर 2 सप्ताह में खाद पलटें",
+        "परिपक्व खाद (3-4 महीने) खेत में लगाएं",
+        "सनहेम्प या ढैंचा जैसी हरी खाद की फसलों का उपयोग करें",
+        "पोषक तत्वों से भरपूर जैविक पदार्थ के लिए वर्मीकम्पोस्ट डालें"
+      ],
+      "mr": [
+        "पिकांचे अवशेष, स्वयंपाकघरातील कचरा आणि प्राणी खत गोळा करा",
+        "हिरव्या आणि तपकिरी थरांचा पर्यायी कंपोस्टचा ढीग तयार करा",
+        "ओलाव्याची पातळी पिळलेल्या स्पंजसारखी ठेवा",
+        "हवा खेळती करण्यासाठी दर 2 आठवड्यांनी कंपोस्ट उलटा",
+        "पिकलेले कंपोस्ट (3-4 महिने) शेतात लावा",
+        "सनहेम्प किंवा ढैंचा सारखी हिरवळीची पिके वापरा",
+        "पोषकतत्त्वांनी युक्त सेंद्रिय पदार्थासाठी वर्मीकंपोस्ट घाला"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Improves soil structure and water retention",
+        "Increases beneficial microbial activity",
+        "Provides slow-release nutrients",
+        "Reduces dependence on chemical fertilizers",
+        "Enhances crop resistance to diseases",
+        "Environmentally sustainable"
+      ],
+      "hi": [
+        "मिट्टी की संरचना और जल धारण क्षमता में सुधार",
+        "लाभकारी सूक्ष्मजीव गतिविधि बढ़ाता है",
+        "धीमी गति से निकलने वाले पोषक तत्व प्रदान करता है",
+        "रासायनिक उर्वरकों पर निर्भरता कम करता है",
+        "रोगों के प्रति फसल प्रतिरोधक क्षमता बढ़ाता है",
+        "पर्यावरण की दृष्टि से टिकाऊ"
+      ],
+      "mr": [
+        "मातीची रचना आणि पाणी टिकवण्याची क्षमता सुधारते",
+        "फायदेशीर सूक्ष्मजीव क्रिया वाढवते",
+        "हळूहळू मिळणारी पोषकतत्त्वे पुरवते",
+        "रासायनिक खतांवरील अवलंबित्व कमी करते",
+        "रोगांना पिकांचा प्रतिकार वाढवते",
+        "पर्यावरणीय दृष्ट्या शाश्वत"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Organic waste (crop residue, kitchen waste)",
+        "Animal manure",
+        "Compost bin or pit",
+        "Water source",
+        "Earthworms (for vermicompost)"
+      ],
+      "hi": [
+        "जैविक कचरा (फसल अवशेष, रसोई कचरा)",
+        "पशु खाद",
+        "खाद बिन या गड्ढा",
+        "पानी का स्रोत",
+        "केंचुए (वर्मीकम्पोस्ट के लिए)"
+      ],
+      "mr": [
+        "सेंद्रिय कचरा (पीक अवशेष, स्वयंपाकघरातील कचरा)",
+        "प्राणी खत",
+        "कंपोस्ट बिन किंवा खड्डा",
+        "पाण्याचा स्रोत",
+        "गांडुळे (वर्मीकंपोस्टसाठी)"
+      ]
+    },
+    "season": {
+      "en": "All Seasons",
+      "hi": "सभी मौसम",
+      "mr": "सर्व हंगाम"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Effective Crop Rotation Planning",
+      "hi": "प्रभावी फसल चक्र योजना",
+      "mr": "प्रभावी पीक फेरपालट नियोजन"
+    },
+    "description": {
+      "en": "Plan and implement crop rotation cycles to maintain soil health, break pest cycles, and maximize land productivity.",
+      "hi": "मिट्टी के स्वास्थ्य को बनाए रखने, कीट चक्र तोड़ने और भूमि उत्पादकता को अधिकतम करने के लिए फसल चक्र की योजना बनाएं और लागू करें।",
+      "mr": "मातीचे आरोग्य राखण्यासाठी, कीट चक्र तोडण्यासाठी आणि जमिनीची उत्पादकता वाढवण्यासाठी पीक फेरपालट चक्रांचे नियोजन व अंमलबजावणी करा."
+    },
+    "category": {
+      "en": "cropRotation",
+      "hi": "फसल चक्र",
+      "mr": "पीक फेरपालट"
+    },
+    "steps": {
+      "en": [
+        "Divide your field into 4-6 equal sections",
+        "Plan 3-4 year rotation cycles for different crop families",
+        "Follow legumes with heavy feeders like maize or tomato",
+        "Include green manure crops in rotation",
+        "Leave some area fallow for soil recovery",
+        "Maintain detailed records of crop placement",
+        "Adjust rotation based on pest pressure and soil tests"
+      ],
+      "hi": [
+        "अपने खेत को 4-6 बराबर भागों में बाँटें",
+        "विभिन्न फसल परिवारों के लिए 3-4 वर्ष के चक्र की योजना बनाएं",
+        "मक्का या टमाटर जैसी भारी भोजन करने वाली फसलों के बाद फलियाँ लगाएं",
+        "चक्र में हरी खाद वाली फसलें शामिल करें",
+        "मिट्टी की रिकवरी के लिए कुछ क्षेत्र परती छोड़ दें",
+        "फसल लगाने का विस्तृत रिकॉर्ड रखें",
+        "कीट दबाव और मिट्टी परीक्षण के आधार पर चक्र समायोजित करें"
+      ],
+      "mr": [
+        "तुमचे शेत 4-6 समान भागांत विभाजित करा",
+        "विविध पीक कुळांसाठी 3-4 वर्षांच्या फेरपालट चक्रांचे नियोजन करा",
+        "मका किंवा टोमॅटो सारख्या जास्त खाद्य घेणाऱ्या पिकांनंतर कडधान्ये लावा",
+        "फेरपालटात हिरवळीची पिके समाविष्ट करा",
+        "माती सुधारण्यासाठी काही भाग पडीत ठेवा",
+        "पीक स्थानाची तपशीलवार नोंद ठेवा",
+        "कीटक दाब व माती चाचण्यांनुसार फेरपालट समायोजित करा"
+      ]
+    },
+    "estimatedTime": 240,
+    "benefits": {
+      "en": [
+        "Prevents nutrient depletion from soil",
+        "Breaks disease and pest cycles",
+        "Reduces need for chemical pesticides",
+        "Improves soil structure and fertility",
+        "Increases overall farm biodiversity",
+        "Spreads labor and harvest timing"
+      ],
+      "hi": [
+        "मिट्टी से पोषक तत्वों की कमी को रोकता है",
+        "रोग और कीट चक्र तोड़ता है",
+        "रासायनिक कीटनाशकों की आवश्यकता कम करता है",
+        "मिट्टी की संरचना और उर्वरता में सुधार करता है",
+        "कुल खेत जैव विविधता बढ़ाता है",
+        "श्रम और कटाई के समय को फैलाता है"
+      ],
+      "mr": [
+        "मातीतील पोषकतत्त्वांची उणीव टाळते",
+        "रोग व कीट चक्रे तोडते",
+        "रासायनिक कीटनाशकांची गरज कमी करते",
+        "मातीची रचना व सुपीकता सुधारते",
+        "एकूण शेत जैवविविधता वाढवते",
+        "मजुरी व कापणीचा वेळ पसरवते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Farm map and planning notebook",
+        "Different crop seeds for rotation",
+        "Soil test kit",
+        "Calendar for tracking cycles"
+      ],
+      "hi": [
+        "खेत का नक्शा और योजना नोटबुक",
+        "चक्र के लिए विभिन्न फसल बीज",
+        "मृदा परीक्षण किट",
+        "चक्र ट्रैक करने के लिए कैलेंडर"
+      ],
+      "mr": [
+        "शेताचा नकाशा व नियोजन वही",
+        "फेरपालटासाठी विविध पीक बियाणे",
+        "माती चाचणी संच",
+        "चक्रे ट्रॅक करण्यासाठी दिनदर्शिका"
+      ]
+    },
+    "season": {
+      "en": "All Seasons",
+      "hi": "सभी मौसम",
+      "mr": "सर्व हंगाम"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "Three Sisters Companion Planting",
+      "hi": "थ्री सिस्टर्स सहचर रोपण",
+      "mr": "तीन बहिणी सहचर लागवड"
+    },
+    "description": {
+      "en": "Plant corn, beans, and squash together - a traditional Native American planting method that benefits all three crops.",
+      "hi": "मक्का, बीन्स और स्क्वैश एक साथ लगाएं - एक पारंपरिक मूल अमेरिकी रोपण विधि जो तीनों फसलों को लाभ पहुँचाती है।",
+      "mr": "मका, बीन्स आणि स्क्वॅश एकत्र लावा - ही एक पारंपरिक मूळ अमेरिकन लागवड पद्धत आहे जी तिन्ही पिकांना फायदा पोहोचवते."
+    },
+    "category": {
+      "en": "companionPlanting",
+      "hi": "सहचर रोपण",
+      "mr": "सहचर लागवड"
+    },
+    "steps": {
+      "en": [
+        "Prepare mounds of soil spaced 4 feet apart",
+        "Plant corn seeds first - 4 seeds per mound",
+        "When corn is 6 inches tall, plant bean seeds around corn",
+        "Plant squash seeds between the mounds",
+        "Beans will climb corn as natural trellis",
+        "Squash leaves shade soil reducing weeds",
+        "Beans fix nitrogen in soil for corn and squash"
+      ],
+      "hi": [
+        "4 फीट की दूरी पर मिट्टी के टीले बनाएं",
+        "पहले मक्का के बीज बोएं - प्रति टीले 4 बीज",
+        "जब मक्का 6 इंच लंबा हो जाए, तो मक्के के चारों ओर बीन्स के बीज बोएं",
+        "टीलों के बीच स्क्वैश के बीज बोएं",
+        "बीन्स प्राकृतिक जाली के रूप में मक्के पर चढ़ेंगी",
+        "स्क्वैश के पत्ते जमीन को छाया देते हैं जिससे खरपतवार कम होते हैं",
+        "बीन्स मक्के और स्क्वैश के लिए मिट्टी में नाइट्रोजन स्थिर करती हैं"
+      ],
+      "mr": [
+        "4 फूट अंतरावर मातीचे ढिगारे तयार करा",
+        "प्रथम मक्याच्या बिया पेरा - प्रत्येक ढिगाऱ्याला 4 बिया",
+        "जेव्हा मका 6 इंच उंच होईल तेव्हा मक्याभोवती बीन्सच्या बिया पेरा",
+        "ढिगाऱ्यांच्या दरम्यान स्क्वॅशच्या बिया पेरा",
+        "बीन्स नैसर्गिक जाळीप्रमाणे मक्यावर चढतील",
+        "स्क्वॅशची पाने जमिनीला सावली देतात ज्यामुळे तण कमी होतात",
+        "बीन्स मका आणि स्क्वॅशसाठी मातीत नायट्रोजन स्थिर करतात"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Corn provides natural trellis for beans",
+        "Beans fix nitrogen for heavy-feeding corn",
+        "Squash shades soil, reduces weeds and moisture loss",
+        "Spines on squash deter pests",
+        "Higher total yield from same land area",
+        "Promotes biodiversity"
+      ],
+      "hi": [
+        "मक्का बीन्स के लिए प्राकृतिक जाली प्रदान करता है",
+        "बीन्स भारी भोजन करने वाले मक्के के लिए नाइट्रोजन स्थिर करते हैं",
+        "स्क्वैश मिट्टी को छाया देता है, खरपतवार और नमी की कमी कम करता है",
+        "स्क्वैश पर कांटे कीटों को रोकते हैं",
+        "समान भूमि क्षेत्र से अधिक कुल उपज",
+        "जैव विविधता को बढ़ावा देता है"
+      ],
+      "mr": [
+        "मका बीन्ससाठी नैसर्गिक जाळी पुरवतो",
+        "बीन्स जास्त खाद्य घेणाऱ्या मक्यासाठी नायट्रोजन स्थिर करतात",
+        "स्क्वॅश मातीला सावली देतो, तण व ओलावा कमी होणे कमी करतो",
+        "स्क्वॅशवरील काटे कीटकांना दूर ठेवतात",
+        "त्याच जमिनीच्या क्षेत्रातून अधिक एकूण उत्पादन",
+        "जैवविविधतेला प्रोत्साहन"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Corn seeds (field corn variety)",
+        "Pole bean seeds",
+        "Winter squash seeds",
+        "Compost for soil preparation"
+      ],
+      "hi": [
+        "मक्का के बीज (खेत मक्का किस्म)",
+        "पोल बीन्स के बीज",
+        "शीतकालीन स्क्वैश बीज",
+        "मिट्टी की तैयारी के लिए खाद"
+      ],
+      "mr": [
+        "मक्याची बियाणे (शेत मका प्रकार)",
+        "पोल बीन्सची बियाणे",
+        "हिवाळी स्क्वॅश बियाणे",
+        "माती तयारीसाठी कंपोस्ट"
+      ]
+    },
+    "season": {
+      "en": "Kharif (Monsoon)",
+      "hi": "खरीफ (मानसून)",
+      "mr": "खरीप (पावसाळा)"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Neem-Based Pest Management",
+      "hi": "नीम-आधारित कीट प्रबंधन",
+      "mr": "निंब-आधारित कीटक व्यवस्थापन"
+    },
+    "description": {
+      "en": "Use neem oil and neem-based products for effective organic pest control against common agricultural pests.",
+      "hi": "सामान्य कृषि कीटों के खिलाफ प्रभावी जैविक कीट नियंत्रण के लिए नीम तेल और नीम-आधारित उत्पादों का उपयोग करें।",
+      "mr": "सामान्य कृषी कीटकांविरुद्ध प्रभावी सेंद्रिय कीटक नियंत्रणासाठी निंब तेल व निंब-आधारित उत्पादनांचा वापर करा."
+    },
+    "category": {
+      "en": "pestManagement",
+      "hi": "कीट प्रबंधन",
+      "mr": "कीटक व्यवस्थापन"
+    },
+    "steps": {
+      "en": [
+        "Extract neem oil from neem seeds or purchase cold-pressed oil",
+        "Mix 5ml neem oil with 1ml mild soap in 1 liter water",
+        "Emulsify by shaking vigorously",
+        "Spray early morning or late evening",
+        "Apply every 7-14 days for prevention",
+        "Focus on undersides of leaves where pests hide",
+        "Stop spraying 5 days before harvest"
+      ],
+      "hi": [
+        "नीम के बीजों से नीम तेल निकालें या कोल्ड-प्रेस्ड तेल खरीदें",
+        "1 लीटर पानी में 5ml नीम तेल और 1ml हल्का साबुन मिलाएं",
+        "जोर से हिलाकर पायस बनाएं",
+        "सुबह जल्दी या देर शाम स्प्रे करें",
+        "रोकथाम के लिए हर 7-14 दिनों में लगाएं",
+        "पत्तियों के नीचे के हिस्सों पर ध्यान दें जहाँ कीट छिपते हैं",
+        "कटाई से 5 दिन पहले स्प्रे करना बंद कर दें"
+      ],
+      "mr": [
+        "निंब बियांपासून निंब तेल काढा किंवा कोल्ड-प्रेस्ड तेल विकत घ्या",
+        "1 लिटर पाण्यात 5ml निंब तेल व 1ml हलका साबण मिसळा",
+        "जोरात हलवून इमल्शन तयार करा",
+        "पहाटे किंवा उशिरा संध्याकाळी फवारणी करा",
+        "प्रतिबंधासाठी दर 7-14 दिवसांनी लावा",
+        "पानांच्या खालच्या बाजूंवर लक्ष केंद्रित करा जिथे कीटक लपतात",
+        "कापणीच्या 5 दिवस आधी फवारणी थांबवा"
+      ]
+    },
+    "estimatedTime": 60,
+    "benefits": {
+      "en": [
+        "Controls over 200 insect species",
+        "Safe for beneficial insects when used correctly",
+        "No chemical residues on produce",
+        "Acts as anti-feedant and growth regulator",
+        "Has fungicidal properties",
+        "Biodegradable and environmentally friendly"
+      ],
+      "hi": [
+        "200 से अधिक कीट प्रजातियों को नियंत्रित करता है",
+        "सही उपयोग करने पर लाभकारी कीटों के लिए सुरक्षित",
+        "उपज पर कोई रासायनिक अवशेष नहीं",
+        "भक्षणरोधी और वृद्धि नियामक के रूप में कार्य करता है",
+        "फफूंदनाशक गुण रखता है",
+        "बायोडिग्रेडेबल और पर्यावरण के अनुकूल"
+      ],
+      "mr": [
+        "200 हून अधिक कीटक प्रजाती नियंत्रित करते",
+        "योग्य वापर केल्यास फायदेशीर कीटकांसाठी सुरक्षित",
+        "उत्पादनावर रासायनिक अवशेष नाही",
+        "अंतर्ग्रहणरोधी व वाढ नियामक म्हणून कार्य करते",
+        "बुरशीनाशक गुणधर्म आहेत",
+        "जैवविघटनशील व पर्यावरणस्नेही"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Cold-pressed neem oil",
+        "Mild liquid soap (castile soap)",
+        "Sprayer or knapsack sprayer",
+        "Water source",
+        "Mixing container"
+      ],
+      "hi": [
+        "कोल्ड-प्रेस्ड नीम तेल",
+        "हल्का तरल साबुन (कैस्टाइल साबुन)",
+        "स्प्रेयर या नैकसैक स्प्रेयर",
+        "पानी का स्रोत",
+        "मिश्रण करने का बर्तन"
+      ],
+      "mr": [
+        "कोल्ड-प्रेस्ड निंब तेल",
+        "हलका द्रव साबण (कॅस्टाइल साबण)",
+        "फवारणी यंत्र किंवा नॅकसॅक फवारणी यंत्र",
+        "पाण्याचा स्रोत",
+        "मिश्रण करण्याचे भांडे"
+      ]
+    },
+    "season": {
+      "en": "All Seasons (apply when pests present)",
+      "hi": "सभी मौसम (कीट उपस्थित होने पर लगाएं)",
+      "mr": "सर्व हंगाम (कीटक उपस्थित असताना लावा)"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "NPK Fertilizer Application Guide",
+      "hi": "NPK उर्वरक आवेदन गाइड",
+      "mr": "NPK खत वापर मार्गदर्शक"
+    },
+    "description": {
+      "en": "Learn proper timing and ratios of NPK fertilizers for different crops and growth stages to maximize yield.",
+      "hi": "उपज को अधिकतम करने के लिए विभिन्न फसलों और वृद्धि चरणों के लिए NPK उर्वरकों के सही समय और अनुपात जानें।",
+      "mr": "उत्पादन वाढवण्यासाठी विविध पिके आणि वाढीच्या अवस्थांसाठी NPK खतांचे योग्य वेळा व गुणोत्तरे जाणून घ्या."
+    },
+    "category": {
+      "en": "fertilizer",
+      "hi": "उर्वरक",
+      "mr": "खत"
+    },
+    "steps": {
+      "en": [
+        "Conduct soil test to determine nutrient deficiencies",
+        "Apply basal dose during land preparation",
+        "For cereals: Apply DAP at sowing time",
+        "For vegetables: Apply NPK 10:26:26 at transplanting",
+        "Top-dress nitrogen at critical growth stages",
+        "Apply potash during flowering and fruiting",
+        "Use split applications for sandy soils",
+        "Always water after fertilizer application"
+      ],
+      "hi": [
+        "पोषक तत्वों की कमी निर्धारित करने के लिए मृदा परीक्षण करें",
+        "भूमि की तैयारी के दौरान आधार खुराक लगाएं",
+        "अनाज के लिए: बुवाई के समय DAP लगाएं",
+        "सब्जियों के लिए: रोपाई पर NPK 10:26:26 लगाएं",
+        "महत्वपूर्ण वृद्धि चरणों में नाइट्रोजन की शीर्ष ड्रेसिंग करें",
+        "फूल आने और फल लगने के दौरान पोटाश लगाएं",
+        "रेतीली मिट्टी के लिए विभाजित खुराक का उपयोग करें",
+        "उर्वरक लगाने के बाद हमेशा पानी दें"
+      ],
+      "mr": [
+        "पोषकतत्त्वांची उणीव ठरवण्यासाठी माती चाचणी करा",
+        "जमीन तयार करताना आधार मात्रा लावा",
+        "धान्यांसाठी: पेरताना DAP लावा",
+        "भाज्यांसाठी: लागवडीच्या वेळी NPK 10:26:26 लावा",
+        "गंभीर वाढ अवस्थांमध्ये नायट्रोजनची वरची भेसळ करा",
+        "फुलोऱ्या व फळधारणेदरम्यान पोटाश लावा",
+        "वालुवा मातीसाठी विभाजित मात्रा वापरा",
+        "खत लावल्यानंतर नेहमी पाणी द्या"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Maximum crop yield and quality",
+        "Efficient nutrient use without waste",
+        "Prevents over-fertilization and runoff",
+        "Balanced nutrition for healthy plants",
+        "Cost savings through precise application"
+      ],
+      "hi": [
+        "अधिकतम फसल उपज और गुणवत्ता",
+        "बिना बर्बादी के कुशल पोषक तत्व उपयोग",
+        "अत्यधिक उर्वरक और अपवाह को रोकता है",
+        "स्वस्थ पौधों के लिए संतुलित पोषण",
+        "सटीक आवेदन के माध्यम से लागत बचत"
+      ],
+      "mr": [
+        "जास्तीत जास्त पीक उत्पादन व गुणवत्ता",
+        "अपव्यय न करता कार्यक्षम पोषकतत्त्व वापर",
+        "अति-खत आणि प्रवाह रोखते",
+        "निरोगी वनस्पतींसाठी संतुलित पोषण",
+        "अचूक वापरामुळे खर्च बचत"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Soil test kit or lab analysis",
+        "Urea (46-0-0)",
+        "DAP (18-46-0)",
+        "Potash (0-0-60)",
+        "NPK complex fertilizers",
+        "Measuring tools"
+      ],
+      "hi": [
+        "मृदा परीक्षण किट या प्रयोगशाला विश्लेषण",
+        "यूरिया (46-0-0)",
+        "डीएपी (18-46-0)",
+        "पोटाश (0-0-60)",
+        "NPK कॉम्प्लेक्स उर्वरक",
+        "मापन उपकरण"
+      ],
+      "mr": [
+        "माती चाचणी संच किंवा प्रयोगशाळा विश्लेषण",
+        "यूरिया (46-0-0)",
+        "DAP (18-46-0)",
+        "पोटाश (0-0-60)",
+        "NPK संयुक्त खते",
+        "मापन साधने"
+      ]
+    },
+    "season": {
+      "en": "Application depends on crop",
+      "hi": "आवेदन फसल पर निर्भर करता है",
+      "mr": "वापर पिकावर अवलंबून"
+    },
+    "difficulty": 4
+  },
+  {
+    "id": 7,
+    "title": {
+      "en": "Proper Harvesting Techniques",
+      "hi": "उचित कटाई तकनीक",
+      "mr": "योग्य कापणी तंत्रज्ञान"
+    },
+    "description": {
+      "en": "Learn the right timing and methods for harvesting different crops to maximize yield and post-harvest quality.",
+      "hi": "उपज और कटाई के बाद की गुणवत्ता को अधिकतम करने के लिए विभिन्न फसलों की कटाई के सही समय और विधियों को जानें।",
+      "mr": "उत्पादन आणि कापणीनंतरची गुणवत्ता वाढविण्यासाठी वेगवेगळ्या पिकांच्या कापणीच्या योग्य वेळा व पद्धती जाणून घ्या."
+    },
+    "category": {
+      "en": "harvesting",
+      "hi": "कटाई",
+      "mr": "कापणी"
+    },
+    "steps": {
+      "en": [
+        "Check crop maturity indicators (color, size, texture)",
+        "Harvest early morning when temperatures are cool",
+        "Use sharp, clean tools to prevent damage",
+        "Handle produce gently to avoid bruising",
+        "Remove field heat immediately after harvest",
+        "Sort and grade produce by quality",
+        "Store in clean, ventilated containers",
+        "Transport to market as soon as possible"
+      ],
+      "hi": [
+        "फसल के पकने के संकेतक जांचें (रंग, आकार, बनावट)",
+        "जल्दी सुबह जब तापमान ठंडा हो तब कटाई करें",
+        "क्षति से बचाने के लिए तेज, साफ उपकरणों का उपयोग करें",
+        "चोट से बचाने के लिए उपज को धीरे से संभालें",
+        "कटाई के तुरंत बाद खेत की गर्मी हटाएं",
+        "गुणवत्ता के अनुसार उपज को छाँटें और ग्रेड करें",
+        "स्वच्छ, हवादार कंटेनरों में स्टोर करें",
+        "जल्द से जल्द बाजार पहुँचाएं"
+      ],
+      "mr": [
+        "पीक शेतीची लक्षणे तपासा (रंग, आकार, पोत)",
+        "लवकर सकाळी जेव्हा तापमान थंड असेल तेव्हा कापणी करा",
+        "नुकसान टाळण्यासाठी धारदार, स्वच्छ साधने वापरा",
+        "उत्पादन हाताळताना जोर लावू नका जेणेकरून डाग येणार नाहीत",
+        "कापणीनंतर लगेच शेतातील उष्णता काढून टाका",
+        "गुणवत्तेनुसार उत्पादनाची क्रमवारी लावा",
+        "स्वच्छ, हवेशीर भांडीमध्ये साठवा",
+        "शक्य तितक्या लवकर बाजारात पोहोचवा"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Maximum nutritional value at harvest",
+        "Longer shelf life after harvest",
+        "Better market price for quality produce",
+        "Reduced post-harvest losses (15-20% saving)",
+        "Ability to store for later sale",
+        "Less damage during transport"
+      ],
+      "hi": [
+        "कटाई पर अधिकतम पौष्टिक मूल्य",
+        "कटाई के बाद लंबी शैल्फ लाइफ",
+        "गुणवत्ता उपज के लिए बेहतर बाजार मूल्य",
+        "कटाई के बाद कम नुकसान (15-20% बचत)",
+        "बाद में बिक्री के लिए स्टोर करने की क्षमता",
+        "परिवहन के दौरान कम क्षति"
+      ],
+      "mr": [
+        "कापणीवेळी जास्तीत जास्त पौष्टिक मूल्य",
+        "कापणीनंतर दीर्घ शेल्फ लाइफ",
+        "गुणवत्ता उत्पादनास चांगली बाजारभाव",
+        "कापणीनंतरचे नुकसान कमी (15-20% बचत)",
+        "नंतर विक्रीसाठी साठवण्याची क्षमता",
+        "वाहतुकीदरम्यान कमी नुकसान"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Sharp harvesting knives or scissors",
+        "Clean harvesting baskets or crates",
+        "Gloves for protection",
+        "Shading material for field collection",
+        "Storage containers"
+      ],
+      "hi": [
+        "तेज कटाई चाकू या कैंची",
+        "साफ कटाई टोकरियाँ या क्रेट",
+        "सुरक्षा के लिए दस्ताने",
+        "खेत संग्रहण के लिए छायादार सामग्री",
+        "भंडारण कंटेनर"
+      ],
+      "mr": [
+        "धारदार कापणी चाकू किंवा कात्री",
+        "स्वच्छ कापणी टोपल्या किंवा पेट्या",
+        "सुरक्षेसाठी हातमोजे",
+        "शेत संकलनासाठी सावली साहित्य",
+        "साठवण भांडी"
+      ]
+    },
+    "season": {
+      "en": "Depends on crop",
+      "hi": "फसल पर निर्भर करता है",
+      "mr": "पिकावर अवलंबून"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "title": {
+      "en": "Organic Weed Management",
+      "hi": "जैविक खरपतवार प्रबंधन",
+      "mr": "सेंद्रिय तण व्यवस्थापन"
+    },
+    "description": {
+      "en": "Control weeds naturally without herbicides using mulching, cultivation, and biological methods.",
+      "hi": "मल्चिंग, जुताई और जैविक विधियों का उपयोग करके शाकनाशी के बिना प्राकृतिक रूप से खरपतवार नियंत्रित करें।",
+      "mr": "आच्छादन, निगा आणि जैविक पद्धतींचा वापर करून तणनाशकांशिवाय नैसर्गिकरित्या तण नियंत्रित करा."
+    },
+    "category": {
+      "en": "weedControl",
+      "hi": "खरपतवार नियंत्रण",
+      "mr": "तण नियंत्रण"
+    },
+    "steps": {
+      "en": [
+        "Apply organic mulch (straw, leaves, grass) 2-3 inches thick",
+        "Use stale seedbed technique before planting",
+        "Hand-hoe or cultivate when weeds are small",
+        "Plant cover crops to suppress weeds",
+        "Use flame weeding for row crops",
+        "Practice crop rotation with smother crops",
+        "Maintain proper plant spacing to shade weeds"
+      ],
+      "hi": [
+        "जैविक मल्च (पुआल, पत्ते, घास) 2-3 इंच मोटा लगाएं",
+        "बुवाई से पहले स्टेल सीडबेड तकनीक का उपयोग करें",
+        "खरपतवार छोटे होने पर हाथ से कुदाली या जुताई करें",
+        "खरपतवारों को दबाने के लिए कवर फसलें लगाएं",
+        "पंक्ति फसलों के लिए फ्लेम वीडिंग का उपयोग करें",
+        "दबाने वाली फसलों के साथ फसल चक्र अपनाएं",
+        "खरपतवारों को छाया देने के लिए उचित पौधे अंतराल बनाए रखें"
+      ],
+      "mr": [
+        "सेंद्रिय आच्छादन (पेंढा, पाने, गवत) 2-3 इंच जाड लावा",
+        "लागवडीपूर्वी जुने बीजपात क्षेत्र तंत्र वापरा",
+        "तण लहान असताना हाताने कुदळ किंवा निगा करा",
+        "तण दाबण्यासाठी आवरण पिके लावा",
+        "रांगेतली पिके यासाठी ज्वाळा तणनाशन वापरा",
+        "दाबणाऱ्या पिकांचा समावेश असलेले पीक फेरपालट करा",
+        "तणांना सावली देण्यासाठी योग्य वनस्पती अंतर ठेवा"
+      ]
+    },
+    "estimatedTime": 150,
+    "benefits": {
+      "en": [
+        "No chemical residues in soil or produce",
+        "Safe for farm workers and environment",
+        "Weed seeds bank reduces over time",
+        "Mulch adds organic matter to soil",
+        "Conserves soil moisture",
+        "Reduces labor costs over long term"
+      ],
+      "hi": [
+        "मिट्टी या उपज में कोई रासायनिक अवशेष नहीं",
+        "खेत श्रमिकों और पर्यावरण के लिए सुरक्षित",
+        "समय के साथ खरपतवार बीज बैंक कम हो जाता है",
+        "मल्च मिट्टी में जैविक पदार्थ जोड़ता है",
+        "मिट्टी की नमी को संरक्षित करता है",
+        "लंबे समय में श्रम लागत कम करता है"
+      ],
+      "mr": [
+        "माती किंवा उत्पादनात रासायनिक अवशेष नाहीत",
+        "शेत मजूर व पर्यावरणासाठी सुरक्षित",
+        "कालांतराने तण बियाणे बँक कमी होते",
+        "आच्छादन मातीत सेंद्रिय पदार्थ जोडते",
+        "मातीची ओल टिकवून ठेवते",
+        "दीर्घकाळात मजुरीचा खर्च कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Organic mulch (straw, leaves, wood chips)",
+        "Hand hoe or wheel hoe",
+        "Flame weeder (optional)",
+        "Cover crop seeds",
+        "Row covers"
+      ],
+      "hi": [
+        "जैविक मल्च (पुआल, पत्ते, लकड़ी के चिप्स)",
+        "हैंड हो या व्हील हो",
+        "फ्लेम वीडर (वैकल्पिक)",
+        "कवर फसल बीज",
+        "पंक्ति कवर"
+      ],
+      "mr": [
+        "सेंद्रिय आच्छादन (पेंढा, पाने, लाकडाचे तुकडे)",
+        "हात कुदळ किंवा चाकी कुदळ",
+        "ज्वाळा तणनाशक (पर्यायी)",
+        "आवरण पीक बियाणे",
+        "रांगा आच्छादने"
+      ]
+    },
+    "season": {
+      "en": "All Seasons",
+      "hi": "सभी मौसम",
+      "mr": "सर्व हंगाम"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 9,
+    "title": {
+      "en": "Zero Budget Natural Farming (ZBNF)",
+      "hi": "शून्य बजट प्राकृतिक खेती (ZBNF)",
+      "mr": "शून्य अंदाजपत्रक नैसर्गिक शेती (ZBNF)"
+    },
+    "description": {
+      "en": "Adopt natural farming techniques using locally available resources without purchasing chemical inputs, based on Subhash Palekar's methods.",
+      "hi": "सुभाष पालेकर की विधियों पर आधारित, रासायनिक आदानों को खरीदे बिना स्थानीय रूप से उपलब्ध संसाधनों का उपयोग करके प्राकृतिक खेती तकनीकें अपनाएं।",
+      "mr": "सुभाष पाळेकर यांच्या पद्धतींवर आधारित, रासायनिक निविष्ठा खरेदी न करता स्थानिकरित्या उपलब्ध साधनांचा वापर करून नैसर्गिक शेतीचे तंत्र स्वीकारा."
+    },
+    "category": {
+      "en": "soilHealth",
+      "hi": "मृदा स्वास्थ्य",
+      "mr": "मृदा आरोग्य"
+    },
+    "steps": {
+      "en": [
+        "Prepare Beejamrit for seed treatment (cow dung, cow urine, water)",
+        "Apply Jeevamrit to soil (cow dung, cow urine, jaggery, pulse flour)",
+        "Use Achhadan (mulching) to conserve soil moisture",
+        "Practice Whapasa (alternate wetting and drying) for irrigation",
+        "Apply Ghan Jeevamrit as solid manure",
+        "Intercrop with legumes for natural nitrogen",
+        "Maintain soil cover year-round"
+      ],
+      "hi": [
+        "बीज उपचार के लिए बीजामृत तैयार करें (गोबर, गोमूत्र, पानी)",
+        "जीवामृत मिट्टी में लगाएं (गोबर, गोमूत्र, गुड़, बेसन)",
+        "मिट्टी की नमी संरक्षण के लिए अच्छादन (मल्चिंग) का उपयोग करें",
+        "सिंचाई के लिए व्हापसा (बारी-बारी से गीला और सूखा) अभ्यास करें",
+        "ठोस खाद के रूप में घन जीवामृत लगाएं",
+        "प्राकृतिक नाइट्रोजन के लिए फलियों के साथ मिश्रित खेती करें",
+        "पूरे वर्ष मिट्टी का आवरण बनाए रखें"
+      ],
+      "mr": [
+        "बिज प्रक्रियेसाठी बीजामृत तयार करा (गोवरी, गोमूत्र, पाणी)",
+        "जीवामृत मातीत लावा (गोवरी, गोमूत्र, गुळ, बेसन)",
+        "मातीची ओल टिकवण्यासाठी आच्छादन वापरा",
+        "सिंचनासाठी व्हापसा (पर्यायी ओले आणि कोरडे) चा सराव करा",
+        "घन जीवामृत घन खत म्हणून लावा",
+        "नैसर्गिक नायट्रोजनसाठी कडधान्यांसह आंतरपीक पद्धत",
+        "वर्षभर माती आच्छादित ठेवा"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Zero cost on chemical fertilizers and pesticides",
+        "Restores soil health and microbial activity",
+        "Increases water holding capacity of soil",
+        "Produces chemical-free healthy food",
+        "Reduces dependency on external inputs",
+        "Builds climate-resilient farming systems"
+      ],
+      "hi": [
+        "रासायनिक उर्वरकों और कीटनाशकों पर शून्य लागत",
+        "मिट्टी के स्वास्थ्य और सूक्ष्मजीव गतिविधि को पुनर्स्थापित करता है",
+        "मिट्टी की जल धारण क्षमता बढ़ाता है",
+        "रसायन-मुक्त स्वस्थ भोजन पैदा करता है",
+        "बाहरी इनपुट पर निर्भरता कम करता है",
+        "जलवायु-लचीली कृषि प्रणाली बनाता है"
+      ],
+      "mr": [
+        "रासायनिक खते व कीटकनाशके यांच्यावर शून्य खर्च",
+        "मातीचे आरोग्य व सूक्ष्मजीव क्रिया पुनर्स्थापित करते",
+        "मातीची पाणी टिकवण्याची क्षमता वाढवते",
+        "रसायनमुक्त निरोगी अन्न तयार करते",
+        "बाह्य निविष्ठांवरील अवलंबित्व कमी करते",
+        "हवामान-प्रत्यास्थ शेती प्रणाली बांधते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Local cow dung",
+        "Local cow urine",
+        "Jaggery",
+        "Pulse flour (besan)",
+        "Soil from field bund",
+        "Water source"
+      ],
+      "hi": [
+        "स्थानीय गोबर",
+        "स्थानीय गोमूत्र",
+        "गुड़",
+        "बेसन",
+        "खेत मेड़ से मिट्टी",
+        "पानी का स्रोत"
+      ],
+      "mr": [
+        "देशी गोवरी",
+        "देशी गोमूत्र",
+        "गुळ",
+        "बेसन",
+        "शेत बांधातील माती",
+        "पाण्याचा स्रोत"
+      ]
+    },
+    "season": {
+      "en": "All Seasons",
+      "hi": "सभी मौसम",
+      "mr": "सर्व हंगाम"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 10,
+    "title": {
+      "en": "Mulching Techniques for Moisture Conservation",
+      "hi": "नमी संरक्षण के लिए मल्चिंग तकनीक",
+      "mr": "ओल संरक्षणासाठी आच्छादन तंत्रे"
+    },
+    "description": {
+      "en": "Use various mulching materials to retain soil moisture, suppress weeds, and regulate soil temperature.",
+      "hi": "मिट्टी की नमी बनाए रखने, खरपतवार दबाने और मिट्टी के तापमान को नियंत्रित करने के लिए विभिन्न मल्चिंग सामग्रियों का उपयोग करें।",
+      "mr": "मातीतील ओल टिकवण्यासाठी, तण दाबण्यासाठी आणि मातीचे तापमान नियंत्रित करण्यासाठी विविध आच्छादन सामग्री वापरा."
+    },
+    "category": {
+      "en": "irrigation",
+      "hi": "सिंचाई",
+      "mr": "सिंचन"
+    },
+    "steps": {
+      "en": [
+        "Collect organic mulch material (straw, dry leaves, grass, coconut coir)",
+        "Wait for soil to warm up in spring before applying",
+        "Apply mulch 2-4 inches thick around plants",
+        "Leave space around plant stems to prevent rot",
+        "Replenish mulch as it decomposes",
+        "Use black plastic mulch for warm-season crops",
+        "Combine with drip irrigation for best results"
+      ],
+      "hi": [
+        "जैविक मल्च सामग्री इकट्ठा करें (पुआल, सूखे पत्ते, घास, नारियल का रेशा)",
+        "लगाने से पहले वसंत में मिट्टी के गर्म होने तक प्रतीक्षा करें",
+        "पौधों के चारों ओर 2-4 इंच मोटी मल्च लगाएं",
+        "सड़न रोकने के लिए पौधों के तनों के आसपास जगह छोड़ें",
+        "मल्च के विघटित होने पर उसे फिर से भरें",
+        "गर्म मौसम की फसलों के लिए काली प्लास्टिक मल्च का उपयोग करें",
+        "सर्वोत्तम परिणामों के लिए ड्रिप सिंचाई के साथ संयोजन करें"
+      ],
+      "mr": [
+        "सेंद्रिय आच्छादन साहित्य गोळा करा (पेंढा, वाळलेली पाने, गवत, नारळाचा सोल)",
+        "लावण्यापूर्वी उन्हाळ्यात माती उबदार होईपर्यंत प्रतीक्षा करा",
+        "वनस्पतींभोवती 2-4 इंच जाड आच्छादन लावा",
+        "कुजणे टाळण्यासाठी वनस्पतींच्या मुळाभोवती जागा सोडा",
+        "आच्छादन विघटित झाल्यावर ते पुन्हा भरा",
+        "उबदार हंगामातील पिकांसाठी काळे प्लास्टिक आच्छादन वापरा",
+        "सर्वोत्तम परिणामांसाठी ठिबक सिंचनासह एकत्र करा"
+      ]
+    },
+    "estimatedTime": 90,
+    "benefits": {
+      "en": [
+        "Reduces soil moisture evaporation by 70%",
+        "Suppresses weed growth effectively",
+        "Moderates soil temperature (cooler in summer, warmer in winter)",
+        "Prevents soil erosion from wind and rain",
+        "Adds organic matter to soil as it decomposes",
+        "Reduces irrigation frequency and labor"
+      ],
+      "hi": [
+        "मिट्टी की नमी के वाष्पीकरण को 70% तक कम करता है",
+        "खरपतवार वृद्धि को प्रभावी ढंग से दबाता है",
+        "मिट्टी के तापमान को नियंत्रित करता है (गर्मियों में ठंडा, सर्दियों में गर्म)",
+        "हवा और बारिश से मिट्टी के कटाव को रोकता है",
+        "विघटित होने पर मिट्टी में जैविक पदार्थ जोड़ता है",
+        "सिंचाई आवृत्ति और श्रम कम करता है"
+      ],
+      "mr": [
+        "मातीतील ओलाव्याचे बाष्पीभवन 70% ने कमी करते",
+        "तणांची वाढ प्रभावीपणे दाबते",
+        "मातीचे तापमान नियंत्रित करते (उन्हाळ्यात थंड, हिवाळ्यात उबदार)",
+        "वारा व पावसापासून मातीची धूप रोखते",
+        "विघटित होताना मातीत सेंद्रिय पदार्थ जोडते",
+        "सिंचनाची वारंवारता व मजुरी कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Organic mulch (straw, leaves, grass clippings)",
+        "Plastic mulch sheets (optional)",
+        "Mulch pins or weights to hold in place",
+        "Wheelbarrow for transport"
+      ],
+      "hi": [
+        "जैविक मल्च (पुआल, पत्ते, घास की कतरन)",
+        "प्लास्टिक मल्च शीट (वैकल्पिक)",
+        "जगह पर रखने के लिए मल्च पिन या वजन",
+        "परिवहन के लिए ठेला"
+      ],
+      "mr": [
+        "सेंद्रिय आच्छादन (पेंढा, पाने, गवत कापलेले)",
+        "प्लास्टिक आच्छादन पत्रके (पर्यायी)",
+        "जागी ठेवण्यासाठी आच्छादन पिन किंवा वजने",
+        "वाहतुकीसाठी चाकाची गाडी"
+      ]
+    },
+    "season": {
+      "en": "All Seasons (preferably before summer)",
+      "hi": "सभी मौसम (अधिमानतः गर्मियों से पहले)",
+      "mr": "सर्व हंगाम (प्राधान्याने उन्हाळ्यापूर्वी)"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "title": {
+      "en": "Green Manuring for Soil Fertility",
+      "hi": "मृदा उर्वरता के लिए हरित खाद",
+      "mr": "मृदा सुपीकतेसाठी हिरवळीचे खत"
+    },
+    "description": {
+      "en": "Grow and incorporate green manure crops to add organic matter and nitrogen to soil naturally.",
+      "hi": "हरी खाद फसलें उगाएं और मिट्टी में शामिल करें ताकि प्राकृतिक रूप से कार्बनिक पदार्थ और नाइट्रोजन मिलें।",
+      "mr": "हिरवळीची पिके घेऊन ती मातीत मिसळा जेणेकरून नैसर्गिकरित्या सेंद्रिय पदार्थ व नायट्रोजन मिळेल."
+    },
+    "category": {
+      "en": "soilHealth",
+      "hi": "मृदा स्वास्थ्य",
+      "mr": "मृदा आरोग्य"
+    },
+    "steps": {
+      "en": [
+        "Select green manure crop (Sunhemp, Dhaincha, Sesbania, Cowpea)",
+        "Broadcast seeds at 40-60 kg per hectare",
+        "Irrigate for good germination",
+        "Allow crop to grow for 40-60 days",
+        "Harvest when plants are at flowering stage for maximum biomass",
+        "Chop plants into small pieces",
+        "Incorporate into soil by plowing",
+        "Allow 15-20 days for decomposition before planting main crop"
+      ],
+      "hi": [
+        "हरी खाद की फसल चुनें (सनहेम्प, ढैंचा, सेस्बेनिया, काउपी)",
+        "बीज 40-60 किलोग्राम प्रति हेक्टर की दर से छिड़कें",
+        "अच्छे अंकुरण के लिए सिंचाई करें",
+        "फसल को 40-60 दिनों तक बढ़ने दें",
+        "अधिकतम बायोमास के लिए फसल की कटाई फूल आने की अवस्था पर करें",
+        "पौधों को छोटे टुकड़ों में काटें",
+        "हल चलाकर मिट्टी में मिलाएं",
+        "मुख्य फसल लगाने से पहले विघटन के लिए 15-20 दिन दें"
+      ],
+      "mr": [
+        "हिरवळीचे खत पीक निवडा (सनहेम्प, ढैंचा, सेस्बेनिया, काउपी)",
+        "बियाणे 40-60 किलोग्राम प्रति हेक्टर दराने पेरा",
+        "चांगल्या उगवणीसाठी सिंचन करा",
+        "पीक 40-60 दिवस वाढू द्या",
+        "जास्तीत जास्त बायोमाससाठी फुलोऱ्याच्या अवस्थेत कापणी करा",
+        "वनस्पती छोट्या तुकड्यांत चिरून घ्या",
+        "नांगरणी करून मातीत मिसळा",
+        "मुख्य पीक लावण्यापूर्वी विघटनासाठी 15-20 दिवस द्या"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Adds 40-80 kg nitrogen per hectare",
+        "Improves soil structure and aeration",
+        "Increases water holding capacity",
+        "Suppresses soil-borne diseases and nematodes",
+        "Recycles leached nutrients",
+        "Reduces need for chemical nitrogen fertilizers"
+      ],
+      "hi": [
+        "प्रति हेक्टर 40-80 किलोग्राम नाइट्रोजन जोड़ता है",
+        "मिट्टी की संरचना और वातन में सुधार करता है",
+        "जल धारण क्षमता बढ़ाता है",
+        "मृदा जनित रोगों और नेमाटोड को दबाता है",
+        "लीच्ड पोषक तत्वों को पुनर्चक्रित करता है",
+        "रासायनिक नाइट्रोजन उर्वरकों की आवश्यकता कम करता है"
+      ],
+      "mr": [
+        "प्रति हेक्टर 40-80 किलो नायट्रोजन जोडते",
+        "मातीची रचना व हवा खेळती सुधारते",
+        "पाणी टिकवण्याची क्षमता वाढवते",
+        "मातीजन्य रोग व नेमाटोड दाबते",
+        "स्रावित पोषकतत्त्वे पुनर्वापरते",
+        "रासायनिक नायट्रोजन खतांची गरज कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Green manure seeds (Sunhemp, Dhaincha, Cowpea)",
+        "Plow or tiller for incorporation",
+        "Water source for irrigation",
+        "Crop chopper or sickle"
+      ],
+      "hi": [
+        "हरी खाद के बीज (सनहेम्प, ढैंचा, काउपी)",
+        "शामिल करने के लिए हल या टिलर",
+        "सिंचाई के लिए पानी का स्रोत",
+        "फसल काटने का उपकरण या दरांती"
+      ],
+      "mr": [
+        "हिरवळीच्या खताची बियाणे (सनहेम्प, ढैंचा, काउपी)",
+        "मिसळण्यासाठी नांगर किंवा टिलर",
+        "सिंचनासाठी पाण्याचा स्रोत",
+        "पीक कापणीचे साधन किंवा विळी"
+      ]
+    },
+    "season": {
+      "en": "Spring or Monsoon (pre-season)",
+      "hi": "वसंत या मानसून (पूर्व-मौसम)",
+      "mr": "उन्हाळा किंवा पावसाळा (हंगामपूर्व)"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "title": {
+      "en": "Integrated Pest Management (IPM)",
+      "hi": "एकीकृत कीट प्रबंधन (IPM)",
+      "mr": "समन्वित कीटक व्यवस्थापन (IPM)"
+    },
+    "description": {
+      "en": "Combine biological, cultural, physical, and chemical methods for sustainable pest control with minimal environmental impact.",
+      "hi": "न्यूनतम पर्यावरणीय प्रभाव के साथ सतत कीट नियंत्रण के लिए जैविक, सांस्कृतिक, भौतिक और रासायनिक विधियों को मिलाएं।",
+      "mr": "कमीतकमी पर्यावरणीय परिणामांसह शाश्वत कीटक नियंत्रणासाठी जैविक, सांस्कृतिक, भौतिक व रासायनिक पद्धती एकत्र करा."
+    },
+    "category": {
+      "en": "pestManagement",
+      "hi": "कीट प्रबंधन",
+      "mr": "कीटक व्यवस्थापन"
+    },
+    "steps": {
+      "en": [
+        "Regular field scouting and pest monitoring",
+        "Identify pests and beneficial insects correctly",
+        "Set economic threshold levels for each pest",
+        "Use resistant crop varieties when available",
+        "Apply cultural controls (crop rotation, sanitation)",
+        "Release biological control agents (Trichogramma, ladybugs)",
+        "Install pheromone and light traps",
+        "Use chemical controls only when thresholds exceeded",
+        "Rotate pesticides to prevent resistance"
+      ],
+      "hi": [
+        "नियमित खेत का निरीक्षण और कीट निगरानी",
+        "कीटों और लाभकारी कीटों की सही पहचान करें",
+        "प्रत्येक कीट के लिए आर्थिक सीमा स्तर निर्धारित करें",
+        "उपलब्ध होने पर प्रतिरोधी फसल किस्मों का उपयोग करें",
+        "सांस्कृतिक नियंत्रण लागू करें (फसल चक्र, स्वच्छता)",
+        "जैविक नियंत्रण एजेंट छोड़ें (ट्राइकोग्रामा, गुबरैला)",
+        "फेरोमोन और लाइट ट्रैप स्थापित करें",
+        "रासायनिक नियंत्रण का उपयोग केवल सीमा पार होने पर करें",
+        "प्रतिरोध रोकने के लिए कीटनाशक बदलें"
+      ],
+      "mr": [
+        "नियमित शेत पाहणी व कीटक निरीक्षण",
+        "कीटक आणि फायदेशीर कीटकांची अचूक ओळख करा",
+        "प्रत्येक कीटकासाठी आर्थिक आऊत पातळी निश्चित करा",
+        "उपलब्ध असल्यास प्रतिकारशील पीक प्रकार वापरा",
+        "सांस्कृतिक नियंत्रणे लागू करा (पीक फेरपालट, स्वच्छता)",
+        "जैविक नियंत्रण घटक सोडा (ट्रायकोग्रामा, सोनपावरे)",
+        "फेरोमोन व लाईट सापळे बसवा",
+        "आऊत पातळी ओलांडल्यावरच रासायनिक नियंत्रण वापरा",
+        "प्रतिकार टाळण्यासाठी कीटकनाशके फिरवा"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Reduces pesticide use by 40-60%",
+        "Preserves beneficial insects and pollinators",
+        "Slows development of pesticide resistance",
+        "Reduces environmental contamination",
+        "Lower production costs over time",
+        "Produces safer food with fewer residues"
+      ],
+      "hi": [
+        "कीटनाशक उपयोग 40-60% कम करता है",
+        "लाभकारी कीटों और परागणकों को संरक्षित करता है",
+        "कीटनाशक प्रतिरोध के विकास को धीमा करता है",
+        "पर्यावरणीय संदूषण कम करता है",
+        "समय के साथ उत्पादन लागत कम करता है",
+        "कम अवशेषों वाला सुरक्षित भोजन पैदा करता है"
+      ],
+      "mr": [
+        "कीटनाशक वापर 40-60% कमी करते",
+        "फायदेशीर कीटक आणि परागकांचे संरक्षण करते",
+        "कीटनाशक प्रतिकाराचा विकास मंदावते",
+        "पर्यावरणीय प्रदूषण कमी करते",
+        "कालांतराने उत्पादन खर्च कमी करते",
+        "कमी अवशेषांसह सुरक्षित अन्न तयार करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Magnifying glass or hand lens",
+        "Pheromone traps",
+        "Yellow sticky traps",
+        "Light traps",
+        "Beneficial insects (for release)",
+        "Pest identification guide",
+        "Spray equipment (for needed applications)"
+      ],
+      "hi": [
+        "आवर्धक कांच या हात लेंस",
+        "फेरोमोन ट्रैप",
+        "पीले चिपचिपे ट्रैप",
+        "लाइट ट्रैप",
+        "लाभकारी कीट (छोड़ने के लिए)",
+        "कीट पहचान गाइड",
+        "स्प्रे उपकरण (आवश्यक अनुप्रयोगों के लिए)"
+      ],
+      "mr": [
+        "भिंग किंवा हात लेन्स",
+        "फेरोमोन सापळे",
+        "पिवळे चिकट सापळे",
+        "लाईट सापळे",
+        "फायदेशीर कीटक (सोडण्यासाठी)",
+        "कीटक ओळख मार्गदर्शक",
+        "फवारणी उपकरणे (आवश्यक फवारण्यांसाठी)"
+      ]
+    },
+    "season": {
+      "en": "All Seasons (ongoing)",
+      "hi": "सभी मौसम (निरंतर)",
+      "mr": "सर्व हंगाम (सतत)"
+    },
+    "difficulty": 4
+  },
+  {
+    "id": 13,
+    "title": {
+      "en": "Vertical Gardening for Limited Space",
+      "hi": "सीमित स्थान के लिए वर्टिकल गार्डनिंग",
+      "mr": "मर्यादित जागेसाठी उभी बागकाम"
+    },
+    "description": {
+      "en": "Maximize growing area by training crops to grow vertically using trellises, cages, and climbing structures.",
+      "hi": "ट्रेलिस, पिंजरे और चढ़ाई संरचनाओं का उपयोग करके फसलों को लंबवत बढ़ाने के लिए प्रशिक्षित करके बढ़ते क्षेत्र को अधिकतम करें।",
+      "mr": "ट्रेलीस, पिंजरे आणि चढाई संरचना वापरून पिकांना उभे वाढण्यासाठी प्रशिक्षित करून वाढणारे क्षेत्र अधिकतम करा."
+    },
+    "category": {
+      "en": "companionPlanting",
+      "hi": "सहचर रोपण",
+      "mr": "सहचर लागवड"
+    },
+    "steps": {
+      "en": [
+        "Assess available space and sunlight",
+        "Build or install trellis, arbor, or wire mesh structure",
+        "Select suitable climbing crops (beans, peas, cucumber, tomato)",
+        "Plant seeds or seedlings at base of support",
+        "Gently tie young plants to support",
+        "Prune side shoots for single-stem training (for tomatoes)",
+        "Harvest regularly to encourage continued production",
+        "Take down and store structures after season"
+      ],
+      "hi": [
+        "उपलब्ध स्थान और सूर्य के प्रकाश का आकलन करें",
+        "ट्रेलिस, आर्बर या तार की जाली संरचना बनाएं या स्थापित करें",
+        "उपयुक्त चढ़ाई वाली फसलें चुनें (बीन्स, मटर, खीरा, टमाटर)",
+        "सहारे के आधार पर बीज या पौधे रोपें",
+        "युवा पौधों को सहारे से हल्के से बांधें",
+        "एकल-तने प्रशिक्षण के लिए साइड शूट्स काटें (टमाटर के लिए)",
+        "नियमित रूप से कटाई करें ताकि निरंतर उत्पादन प्रोत्साहित हो",
+        "मौसम के बाद संरचनाओं को हटा कर स्टोर करें"
+      ],
+      "mr": [
+        "उपलब्ध जागा व सूर्यप्रकाशाचे मूल्यांकन करा",
+        "ट्रेलीस, आर्बर किंवा वायरजाळी रचना बांधा किंवा बसवा",
+        "योग्य चढाई पिके निवडा (बीन्स, मटार, काकडी, टोमॅटो)",
+        "आधाराच्या पायथ्याशी बिया किंवा रोपे लावा",
+        "तरुण रोपांना आधाराशी हलके बांधा",
+        "एकच स्टेम प्रशिक्षणासाठी बाजूच्या फांद्या कापून टाका (टोमॅटोसाठी)",
+        "नियमित कापणी करा जेणेकरून सतत उत्पादनाला प्रोत्साहन मिळेल",
+        "हंगामानंतर रचना उद्ध्वस्त करून साठवा"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Increases growing area by 3-4 times",
+        "Better air circulation reduces fungal diseases",
+        "Easier harvesting at standing height",
+        "Fruits are cleaner and less prone to rot",
+        "Creates microclimate shade for other plants",
+        "Aesthetic and space-efficient"
+      ],
+      "hi": [
+        "बढ़ते क्षेत्र को 3-4 गुना बढ़ाता है",
+        "बेहतर वायु संचार से फंगल रोग कम होते हैं",
+        "खड़े होने की ऊंचाई पर आसान कटाई",
+        "फल साफ होते हैं और सड़ने की संभावना कम होती है",
+        "अन्य पौधों के लिए माइक्रॉक्लाइमेट छाया बनाता है",
+        "सुंदर और स्थान-कुशल"
+      ],
+      "mr": [
+        "वाढणारे क्षेत्र 3-4 पट वाढवते",
+        "चांगल्या हवा खेळतीमुळे बुरशीजन्य रोग कमी होतात",
+        "उभे असताना सहज कापणी",
+        "फळे स्वच्छ असतात व कुजण्याची शक्यता कमी असते",
+        "इतर वनस्पतींसाठी सूक्ष्महवामानाची सावली तयार करते",
+        "सौंदर्यपूर्ण आणि जागा-कार्यक्षम"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Wooden stakes or bamboo poles",
+        "Wire mesh or netting",
+        "Twine or soft plant ties",
+        "Trellis structure (wood/metal)",
+        "Climbing crop seeds"
+      ],
+      "hi": [
+        "लकड़ी के खंभे या बांस के डंडे",
+        "तार की जाली या जाल",
+        "सुतली या मुलायम पौधे बांधने की डोरी",
+        "ट्रेलिस संरचना (लकड़ी/धातु)",
+        "चढ़ाई वाली फसलों के बीज"
+      ],
+      "mr": [
+        "लाकडी खांब किंवा बांबूचे डांगे",
+        "तारेची जाळी किंवा नेटिंग",
+        "दोरी किंवा मऊ बांधण्याची दोरी",
+        "ट्रेलीस रचना (लाकूड/धातू)",
+        "चढाई पिकांची बियाणे"
+      ]
+    },
+    "season": {
+      "en": "Spring to Fall",
+      "hi": "वसंत से पतझड़",
+      "mr": "उन्हाळा ते शरद"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 14,
+    "title": {
+      "en": "Rainwater Harvesting for Agriculture",
+      "hi": "कृषि के लिए वर्षा जल संचयन",
+      "mr": "शेतीसाठी पावसाचे पाणी संचयन"
+    },
+    "description": {
+      "en": "Collect and store rainwater for irrigation during dry spells, reducing dependency on groundwater and municipal supply.",
+      "hi": "सूखे की अवधि के दौरान सिंचाई के लिए वर्षा जल एकत्र करें और संग्रहीत करें, जिससे भूजल और नगरपालिका आपूर्ति पर निर्भरता कम हो।",
+      "mr": "कोरड्या काळात सिंचनासाठी पावसाचे पाणी गोळा व साठवा, ज्यामुळे भूजल व नगरपालिका पुरवठ्यावरील अवलंबित्व कमी होईल."
+    },
+    "category": {
+      "en": "irrigation",
+      "hi": "सिंचाई",
+      "mr": "सिंचन"
+    },
+    "steps": {
+      "en": [
+        "Calculate roof and catchment area for potential collection",
+        "Install gutters and downspouts on collection surfaces",
+        "Direct water to storage tank or pond",
+        "Install first-flush diverter to reject initial dirty water",
+        "Add mesh screen to prevent debris and mosquito entry",
+        "Cover tank to prevent algae growth and evaporation",
+        "Connect to drip irrigation or gravity feed system",
+        "Treat stored water if used for foliar spray"
+      ],
+      "hi": [
+        "संभावित संग्रह के लिए छत और जलग्रहण क्षेत्र की गणना करें",
+        "संग्रह सतहों पर गटर और डाउनस्पाउट स्थापित करें",
+        "पानी को भंडारण टैंक या तालाब की ओर निर्देशित करें",
+        "प्रारंभिक गंदे पानी को अस्वीकार करने के लिए फर्स्ट-फ्लश डायवर्टर लगाएं",
+        "मलबे और मच्छरों के प्रवेश को रोकने के लिए जाली डालें",
+        "शैवाल वृद्धि और वाष्पीकरण रोकने के लिए टैंक को ढकें",
+        "ड्रिप सिंचाई या गुरुत्वाकर्षण प्रणाली से जोड़ें",
+        "पर्ण स्प्रे के लिए उपयोग करने पर संग्रहीत पानी का उपचार करें"
+      ],
+      "mr": [
+        "संभावित संकलनासाठी छत व पाणलोट क्षेत्राची गणना करा",
+        "संकलन सपाट्यांवर गटर व डाउनस्पाउट बसवा",
+        "पाणी साठवण टाकी किंवा तलावाकडे वळवा",
+        "प्रारंभिक घाण पाणी नाकारण्यासाठी फर्स्ट-फ्लश डायवर्टर बसवा",
+        "कचरा व डास येण्यासाठी जाळी लावा",
+        "शेवाळ वाढ व बाष्पीभवन टाळण्यासाठी टाकी झाकून ठेवा",
+        "ठिबक सिंचन किंवा गुरुत्वाकर्षण प्रणालीला जोडा",
+        "पर्ण फवारणीसाठी वापरताना साठवलेल्या पाण्यावर प्रक्रिया करा"
+      ]
+    },
+    "estimatedTime": 240,
+    "benefits": {
+      "en": [
+        "Free water source for irrigation",
+        "Reduces groundwater extraction",
+        "Provides water during drought periods",
+        "Prevents soil erosion from runoff",
+        "Recharges local water table",
+        "Reduces water bills and energy costs"
+      ],
+      "hi": [
+        "सिंचाई के लिए मुफ्त पानी का स्रोत",
+        "भूजल निकासी कम करता है",
+        "सूखे की अवधि के दौरान पानी प्रदान करता है",
+        "अपवाह से मिट्टी के कटाव को रोकता है",
+        "स्थानीय जल स्तर को पुनर्भरित करता है",
+        "पानी के बिल और ऊर्जा लागत कम करता है"
+      ],
+      "mr": [
+        "सिंचनासाठी मोफत पाण्याचा स्रोत",
+        "भूजल उपसा कमी करते",
+        "दुष्काळ काळात पाणी पुरवते",
+        "प्रवाहामुळे मातीची धूप रोखते",
+        "स्थानिक जलपातळी पुनर्भरण करते",
+        "पाणी बिले व उर्जा खर्च कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Collection surface (roof, tarpaulin)",
+        "Gutters and downspouts",
+        "Storage tank or farm pond",
+        "First-flush diverter",
+        "Mesh screen and filter",
+        "PVC pipes and connectors"
+      ],
+      "hi": [
+        "संग्रह सतह (छत, तिरपाल)",
+        "गटर और डाउनस्पाउट",
+        "भंडारण टैंक या खेत तालाब",
+        "फर्स्ट-फ्लश डायवर्टर",
+        "जाली और फिल्टर",
+        "पीवीसी पाइप और कनेक्टर"
+      ],
+      "mr": [
+        "संकलन सपाट (छत, तारपॉलिन)",
+        "गटर व डाउनस्पाउट",
+        "साठवण टाकी किंवा शेत तलाव",
+        "फर्स्ट-फ्लश डायवर्टर",
+        "जाळी आणि फिल्टर",
+        "पीव्हीसी पाईप्स व कनेक्टर"
+      ]
+    },
+    "season": {
+      "en": "Before Monsoon",
+      "hi": "मानसून से पहले",
+      "mr": "पावसाळ्यापूर्वी"
+    },
+    "difficulty": 4
+  },
+  {
+    "id": 15,
+    "title": {
+      "en": "Seed Saving and Storage Techniques",
+      "hi": "बीज बचत और भंडारण तकनीक",
+      "mr": "बियाणे बचत व साठवण तंत्रे"
+    },
+    "description": {
+      "en": "Learn proper methods to harvest, process, and store seeds from open-pollinated varieties for next season's planting.",
+      "hi": "अगले मौसम की बुवाई के लिए खुले-परागण वाली किस्मों से बीज कटाई, प्रसंस्करण और भंडारण के उचित तरीके जानें।",
+      "mr": "पुढील हंगामाच्या लागवडीसाठी मुक्त-परागकण प्रकारांमधून बियाणे कापणी, प्रक्रिया आणि साठवणीच्या योग्य पद्धती जाणून घ्या."
+    },
+    "category": {
+      "en": "harvesting",
+      "hi": "कटाई",
+      "mr": "कापणी"
+    },
+    "steps": {
+      "en": [
+        "Select healthy, vigorous plants for seed saving",
+        "Allow fruits/pods to fully mature on plant",
+        "Harvest at correct stage (dry pods for beans, fully ripe for tomatoes)",
+        "Extract seeds by fermentation (for tomatoes, cucumbers)",
+        "Clean seeds by winnowing or water separation",
+        "Dry seeds thoroughly (moisture below 8%)",
+        "Store in airtight containers with silica gel",
+        "Label with crop name, variety, and date",
+        "Keep in cool, dark, dry location",
+        "Test germination rate before next planting"
+      ],
+      "hi": [
+        "बीज बचत के लिए स्वस्थ, जोरदार पौधों का चयन करें",
+        "फलों/फलियों को पौधे पर पूरी तरह पकने दें",
+        "सही अवस्था में कटाई करें (बीन्स के लिए सूखी फलियाँ, टमाटर के लिए पूरी तरह पके)",
+        "किण्वन द्वारा बीज निकालें (टमाटर, खीरे के लिए)",
+        "बीजों को ओसाने या पानी पृथक्करण द्वारा साफ करें",
+        "बीजों को अच्छी तरह सुखाएं (नमी 8% से कम)",
+        "सिलिका जेल के साथ एयरटाइट कंटेनरों में स्टोर करें",
+        "फसल का नाम, किस्म और तारीख लेबल करें",
+        "ठंडे, अंधेरे, सूखे स्थान पर रखें",
+        "अगली बुवाई से पहले अंकुरण दर का परीक्षण करें"
+      ],
+      "mr": [
+        "बियाणे बचतीसाठी निरोगी, जोमदार वनस्पती निवडा",
+        "फळे/शिंगा वनस्पतीवर पूर्णतः पिकू द्या",
+        "योग्य अवस्थेत कापणी करा (बीन्ससाठी वाळलेल्या शेंगा, टोमॅटोसाठी पूर्ण पिकलेले)",
+        "आंबायला ठेवून बियाणे काढा (टोमॅटो, काकडीसाठी)",
+        "बियाणे पाखाडी किंवा पाणी विलगीकरणाने स्वच्छ करा",
+        "बियाणे पूर्णपणे वाळवा (आर्द्रता 8% पेक्षा कमी)",
+        "सिलिका जेलसह हवाबंद भांड्यात साठवा",
+        "पीक नाव, प्रकार व तारीख लेबल करा",
+        "थंड, गडद, कोरड्या जागी ठेवा",
+        "पुढील लागवडीपूर्वी उगवण दर तपासा"
+      ]
+    },
+    "estimatedTime": 150,
+    "benefits": {
+      "en": [
+        "Saves money on seed purchases",
+        "Preserves local and heirloom varieties",
+        "Seeds adapt to your local conditions over time",
+        "Builds seed self-sufficiency",
+        "Biodiversity conservation",
+        "Can share or trade with other farmers"
+      ],
+      "hi": [
+        "बीज खरीद पर पैसे बचाता है",
+        "स्थानीय और विरासत किस्मों को संरक्षित करता है",
+        "बीज समय के साथ आपकी स्थानीय परिस्थितियों के अनुकूल हो जाते हैं",
+        "बीज आत्मनिर्भरता बनाता है",
+        "जैव विविधता संरक्षण",
+        "अन्य किसानों के साथ साझा या व्यापार कर सकते हैं"
+      ],
+      "mr": [
+        "बियाणे खरेदीवर पैसे वाचवते",
+        "स्थानिक व वारसा प्रकारांचे संरक्षण करते",
+        "कालांतराने बियाणे तुमच्या स्थानिक परिस्थितीशी जुळवून घेतात",
+        "बियाणे स्वयंपूर्णता निर्माण करते",
+        "जैवविविधता संवर्धन",
+        "इतर शेतकऱ्यांशी सामायिक किंवा विनिमय करू शकता"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Clean containers for collection",
+        "Sieves and strainers",
+        "Airtight storage jars",
+        "Silica gel or rice for humidity control",
+        "Labels and markers",
+        "Drying screens or paper"
+      ],
+      "hi": [
+        "संग्रह के लिए साफ कंटेनर",
+        "छलनी और स्ट्रेनर",
+        "एयरटाइट भंडारण जार",
+        "नमी नियंत्रण के लिए सिलिका जेल या चावल",
+        "लेबल और मार्कर",
+        "सुखाने की स्क्रीन या कागज"
+      ],
+      "mr": [
+        "संकलनासाठी स्वच्छ भांडी",
+        "गाळण्या व स्ट्रेनर",
+        "हवाबंद साठवण भांडी",
+        "आर्द्रता नियंत्रणासाठी सिलिका जेल किंवा तांदूळ",
+        "लेबल आणि मार्कर",
+        "वाळवण्याच्या पडद्या किंवा कागद"
+      ]
+    },
+    "season": {
+      "en": "At harvest time for each crop",
+      "hi": "प्रत्येक फसल की कटाई के समय",
+      "mr": "प्रत्येक पिकाच्या कापणी वेळी"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 16,
+    "title": {
+      "en": "Polyhouse and Protected Cultivation",
+      "hi": "पॉलीहाउस और संरक्षित खेती",
+      "mr": "पॉलीहाउस आणि संरक्षित लागवड"
+    },
+    "description": {
+      "en": "Grow off-season crops with higher yields using polyhouse structures that protect from extreme weather and pests.",
+      "hi": "अत्यधिक मौसम और कीटों से बचाने वाली पॉलीहाउस संरचनाओं का उपयोग करके ऑफ-सीजन फसलें उगाएं और अधिक उपज प्राप्त करें।",
+      "mr": "अति हवामान आणि कीटकांपासून संरक्षण करणाऱ्या पॉलीहाउस रचनांचा वापर करून ऑफ-हंगामात पिके वाढवा व अधिक उत्पादन मिळवा."
+    },
+    "category": {
+      "en": "protectiveCultivation",
+      "hi": "संरक्षित खेती",
+      "mr": "संरक्षित लागवड"
+    },
+    "steps": {
+      "en": [
+        "Select flat, well-drained site with sunlight",
+        "Construct frame using galvanized iron pipes or bamboo",
+        "Cover with UV-stabilized polyethylene film (200 micron)",
+        "Install proper ventilation (roll-up sides, roof vents)",
+        "Set up drip irrigation system inside",
+        "Prepare raised beds with enriched soil or cocopeat",
+        "Install insect netting on openings",
+        "Monitor temperature and humidity regularly",
+        "Grow high-value crops (capsicum, tomato, cucumber, strawberry)",
+        "Practice trellising for vine crops"
+      ],
+      "hi": [
+        "समतल, अच्छी जल निकास वाली और धूप वाली जगह चुनें",
+        "गैल्वेनाइज्ड लोहे के पाइप या बांस का उपयोग करके फ्रेम बनाएं",
+        "यूवी-स्थिर पॉलीथीन फिल्म (200 माइक्रोन) से ढकें",
+        "उचित वेंटिलेशन स्थापित करें (रोल-अप साइड, छत के वेंट)",
+        "अंदर ड्रिप सिंचाई प्रणाली स्थापित करें",
+        "समृद्ध मिट्टी या कोकोपीट के साथ ऊंचे बेड तैयार करें",
+        "खुलने पर कीट जाली स्थापित करें",
+        "नियमित रूप से तापमान और आर्द्रता की निगरानी करें",
+        "उच्च मूल्य वाली फसलें उगाएं (शिमला मिर्च, टमाटर, खीरा, स्ट्रॉबेरी)",
+        "बेल फसलों के लिए ट्रेलिसिंग करें"
+      ],
+      "mr": [
+        "सपाट, चांगला निचरा असलेले व सूर्यप्रकाशित स्थान निवडा",
+        "गॅल्वनाइज्ड लोखंडी पाईप्स किंवा बांबूपासून आराखडा बांधा",
+        "यूव्ही-स्थिर पॉलिथिलीन फिल्म (200 मायक्रॉन) ने झाकून टाका",
+        "योग्य वायुवीजन बसवा (रोल-अप बाजू, छत व्हेंट)",
+        "आत ठिबक सिंचन प्रणाली स्थापित करा",
+        "समृद्ध माती किंवा कोकोपीटसह उंचावलेले बेड तयार करा",
+        "प्रवेशद्वारांवर कीटक जाळी बसवा",
+        "नियमितपणे तापमान व आर्द्रता तपासा",
+        "उच्च मूल्याची पिके घ्या (शिमला मिरची, टोमॅटो, काकडी, स्ट्रॉबेरी)",
+        "वेल पिकांसाठी ट्रेलीसिंग करा"
+      ]
+    },
+    "estimatedTime": 360,
+    "benefits": {
+      "en": [
+        "Year-round cultivation possible",
+        "5-10 times higher yield than open field",
+        "Protection from birds, insects, and animals",
+        "Reduced pest and disease pressure",
+        "Better quality produce with premium price",
+        "Protection from rain, hail, and wind damage",
+        "Water saving of 70-80%"
+      ],
+      "hi": [
+        "साल भर खेती संभव",
+        "खुले मैदान की तुलना में 5-10 गुना अधिक उपज",
+        "पक्षियों, कीटों और जानवरों से सुरक्षा",
+        "कीट और रोग दबाव में कमी",
+        "प्रीमियम मूल्य पर बेहतर गुणवत्ता वाली उपज",
+        "बारिश, ओलावृष्टि और हवा से सुरक्षा",
+        "70-80% पानी की बचत"
+      ],
+      "mr": [
+        "वर्षभर लागवड शक्य",
+        "खुल्या मैदानापेक्षा 5-10 पट अधिक उत्पादन",
+        "पक्षी, कीटक व प्राण्यांपासून संरक्षण",
+        "कीटक व रोगांचा दाब कमी",
+        "प्रीमियम किमतीत चांगल्या गुणवत्तेचे उत्पादन",
+        "पाऊस, गारपीट व वाऱ्यापासून संरक्षण",
+        "70-80% पाणी बचत"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "GI pipes or bamboo",
+        "UV-stabilized polyfilm",
+        "Insect netting (40-50 mesh)",
+        "Drip irrigation system",
+        "Raised bed materials",
+        "Thermometer and hygrometer",
+        "Shade net (if needed)"
+      ],
+      "hi": [
+        "जीआई पाइप या बांस",
+        "यूवी-स्थिर पॉलीफिल्म",
+        "कीट जाली (40-50 मेश)",
+        "ड्रिप सिंचाई प्रणाली",
+        "ऊंचे बेड सामग्री",
+        "थर्मामीटर और हाइग्रोमीटर",
+        "शेड नेट (यदि आवश्यक हो)"
+      ],
+      "mr": [
+        "जीआय पाईप्स किंवा बांबू",
+        "यूव्ही-स्थिर पॉलिफिल्म",
+        "कीटक जाळी (40-50 मेश)",
+        "ठिबक सिंचन प्रणाली",
+        "उंचावलेल्या बेडसाठी साहित्य",
+        "थर्मामीटर व हायग्रोमीटर",
+        "सावली जाळी (गरज असल्यास)"
+      ]
+    },
+    "season": {
+      "en": "Anytime (structure-dependent)",
+      "hi": "कभी भी (संरचना पर निर्भर)",
+      "mr": "कधीही (रचनेवर अवलंबून)"
+    },
+    "difficulty": 5
+  },
+  {
+    "id": 17,
+    "title": {
+      "en": "Companion Planting for Pest Repellent",
+      "hi": "कीट विकर्षक के लिए सहचर रोपण",
+      "mr": "कीटक रोकण्यासाठी सहचर लागवड"
+    },
+    "description": {
+      "en": "Use aromatic and flowering plants to naturally repel pests and attract beneficial insects to your farm.",
+      "hi": "सुगंधित और फूल वाले पौधों का उपयोग करके प्राकृतिक रूप से कीटों को दूर भगाएं और अपने खेत में लाभकारी कीटों को आकर्षित करें।",
+      "mr": "सुगंधित व फुलझाडांचा वापर करून नैसर्गिकरित्या कीटकांना दूर राखा आणि फायदेशीर कीटकांना तुमच्या शेतात आकर्षित करा."
+    },
+    "category": {
+      "en": "companionPlanting",
+      "hi": "सहचर रोपण",
+      "mr": "सहचर लागवड"
+    },
+    "steps": {
+      "en": [
+        "Plant marigold around vegetable beds to repel nematodes and whiteflies",
+        "Grow basil near tomatoes to repel hornworms and mosquitoes",
+        "Interplant mint with cabbage to deter cabbage moths",
+        "Plant nasturtium as trap crop for aphids",
+        "Grow coriander and dill to attract beneficial wasps",
+        "Use garlic and chives around fruit trees to repel borers",
+        "Plant sunflowers to attract pollinators and predatory insects",
+        "Place rosemary and sage as border plants",
+        "Rotate companion plants each season"
+      ],
+      "hi": [
+        "नेमाटोड और सफेद मक्खियों को दूर भगाने के लिए सब्जी की क्यारियों के चारों ओर गेंदा लगाएं",
+        "हॉर्नवर्म और मच्छरों को दूर रखने के लिए टमाटर के पास तुलसी उगाएं",
+        "गोभी के कीटों को रोकने के लिए पुदीना गोभी के साथ मिश्रित रोपें",
+        "एफिड्स के लिए ट्रैप फसल के रूप में नास्टर्टियम लगाएं",
+        "लाभकारी ततैया को आकर्षित करने के लिए धनिया और सौंफ उगाएं",
+        "बोरर्स को दूर भगाने के लिए फलों के पेड़ों के आसपास लहसुन और चाइव्स का उपयोग करें",
+        "परागणकों और परभक्षी कीटों को आकर्षित करने के लिए सूरजमुखी लगाएं",
+        "बॉर्डर पौधों के रूप में रोजमेरी और सेज रखें",
+        "प्रत्येक मौसम में सहचर पौधों को बदलें"
+      ],
+      "mr": [
+        "नेमाटोड व श्वेत माशी दूर ठेवण्यासाठी भाजीपाला बेड्सभोवती झेंडू फुले लावा",
+        "हॉर्नवर्म आणि डास टाळण्यासाठी टोमॅटोजवळ तुळस घ्या",
+        "कोबीचे कीटक रोखण्यासाठी पुदिना कोबीबरोबर आंतरपीक करा",
+        "ऍफिडसाठी सापळा पीक म्हणून नास्टर्टियम लावा",
+        "फायदेशीर गांधीलमाशांना आकर्षित करण्यासाठी कोथिंबीर व सोवा घ्या",
+        "बोरर दूर ठेवण्यासाठी फळझाडांभोवती लसूण व चाइव्स वापरा",
+        "परागक व भक्षी कीटक आकर्षित करण्यासाठी सूर्यफुले लावा",
+        "बार्डर वनस्पती म्हणून रोझमेरी व सेज ठेवा",
+        "प्रत्येक हंगामात सहचर वनस्पती बदला"
+      ]
+    },
+    "estimatedTime": 120,
+    "benefits": {
+      "en": [
+        "Reduces need for chemical pesticides",
+        "Attracts pollinators for better yield",
+        "Improves flavor of companion vegetables",
+        "Increases overall farm biodiversity",
+        "Creates natural pest management system",
+        "Low cost and easy to implement"
+      ],
+      "hi": [
+        "रासायनिक कीटनाशकों की आवश्यकता कम करता है",
+        "बेहतर उपज के लिए परागणकों को आकर्षित करता है",
+        "सहचर सब्जियों के स्वाद में सुधार करता है",
+        "कुल खेत जैव विविधता बढ़ाता है",
+        "प्राकृतिक कीट प्रबंधन प्रणाली बनाता है",
+        "कम लागत और लागू करने में आसान"
+      ],
+      "mr": [
+        "रासायनिक कीटनाशकांची गरज कमी करते",
+        "चांगल्या उत्पादनासाठी परागकांना आकर्षित करते",
+        "सहचर भाज्यांची चव सुधारते",
+        "एकूण शेत जैवविविधता वाढवते",
+        "नैसर्गिक कीटक व्यवस्थापन प्रणाली निर्माण करते",
+        "कमी खर्च व अंमलबजावणीस सोपे"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Companion plant seeds (marigold, basil, mint, nasturtium)",
+        "Garden layout plan",
+        "Basic gardening tools",
+        "Seed starting trays (if needed)"
+      ],
+      "hi": [
+        "सहचर पौधों के बीज (गेंदा, तुलसी, पुदीना, नास्टर्टियम)",
+        "बगीचे के लेआउट की योजना",
+        "बुनियादी बागवानी उपकरण",
+        "बीज शुरू करने के ट्रे (यदि आवश्यक हो)"
+      ],
+      "mr": [
+        "सहचर वनस्पती बियाणे (झेंडू, तुळस, पुदिना, नास्टर्टियम)",
+        "बाग प्लॅन नकाशा",
+        "मूलभूत बागकाम साधने",
+        "बियाणी उगवण्याचे ट्रे (गरज असल्यास)"
+      ]
+    },
+    "season": {
+      "en": "Spring to Fall",
+      "hi": "वसंत से पतझड़",
+      "mr": "उन्हाळा ते शरद"
+    },
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "title": {
+      "en": "Intermittent Drying for Rice Quality",
+      "hi": "चावल की गुणवत्ता के लिए अंतरालीय सुखाने",
+      "mr": "तांदळाच्या गुणवत्तेसाठी सांधिक वाळवणे"
+    },
+    "description": {
+      "en": "Use controlled intermittent drying technique for paddy to reduce cracking and improve milling quality.",
+      "hi": "धान को क्रैकिंग कम करने और मिलिंग गुणवत्ता में सुधार करने के लिए नियंत्रित अंतरालीय सुखाने की तकनीक का उपयोग करें।",
+      "mr": "भाताचे तुकडे होणे कमी व मिलिंग गुणवत्ता सुधारण्यासाठी नियंत्रित सांधिक वाळवण्याचे तंत्र वापरा."
+    },
+    "category": {
+      "en": "harvesting",
+      "hi": "कटाई",
+      "mr": "कापणी"
+    },
+    "steps": {
+      "en": [
+        "Harvest rice at 20-25% moisture content",
+        "Initial drying in sun for 2-3 hours to reduce moisture",
+        "Pile or bag paddy for 8-12 hours (tempering period)",
+        "Repeat drying to bring moisture to 18-20%",
+        "Second tempering for 8-12 hours",
+        "Final drying to 14% moisture for safe storage",
+        "Avoid rapid drying which causes cracking",
+        "Use moisture meter to check frequently"
+      ],
+      "hi": [
+        "20-25% नमी सामग्री पर चावल की कटाई करें",
+        "नमी कम करने के लिए धूप में 2-3 घंटे प्रारंभिक सुखाने",
+        "8-12 घंटे के लिए धान को ढेर या बैग करें (तड़का अवधि)",
+        "नमी 18-20% लाने के लिए सुखाने को दोहराएं",
+        "8-12 घंटे के लिए दूसरा तड़का",
+        "सुरक्षित भंडारण के लिए अंतिम सुखाने 14% नमी तक",
+        "तेजी से सुखाने से बचें जिससे दरारें पड़ती हैं",
+        "बार-बार जांचने के लिए नमी मीटर का उपयोग करें"
+      ],
+      "mr": [
+        "20-25% आर्द्रता असताना तांदूळ कापणी करा",
+        "आर्द्रता कमी करण्यासाठी सुरुवातीला उन्हात 2-3 तास वाळवा",
+        "8-12 तासांसाठी धान्याचा ढीग किंवा पोती करा (तापमान स्थिरीकरण कालावधी)",
+        "आर्द्रता 18-20% वर आणण्यासाठी पुन्हा वाळवा",
+        "दुसरे तापमान स्थिरीकरण 8-12 तास",
+        "सुरक्षित साठवणीसाठी अंतिम वाळवणे 14% आर्द्रतेपर्यंत",
+        "जलद वाळवण्याला टाळा ज्यामुळे तडे जातात",
+        "वारंवार तपासण्यासाठी आर्द्रतामापक वापरा"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Reduces grain cracking by 60%",
+        "Improves head rice recovery by 10-15%",
+        "Better milling quality and higher market price",
+        "Prevents breakage during milling",
+        "More uniform moisture throughout grain",
+        "Reduces post-harvest losses"
+      ],
+      "hi": [
+        "अनाज के दरार को 60% कम करता है",
+        "हेड राइस रिकवरी में 10-15% सुधार करता है",
+        "बेहतर मिलिंग गुणवत्ता और उच्च बाजार मूल्य",
+        "मिलिंग के दौरान टूटने से रोकता है",
+        "पूरे अनाज में अधिक समान नमी",
+        "कटाई के बाद के नुकसान कम करता है"
+      ],
+      "mr": [
+        "धान्य तडे होणे 60% ने कमी करते",
+        "हेड राईस रिकव्हरीमध्ये 10-15% सुधार देते",
+        "चांगली मिलिंग गुणवत्ता व उच्च बाजारभाव",
+        "मिलिंग दरम्यान तुटणे प्रतिबंधित करते",
+        "संपूर्ण धान्यात अधिक एकसारखी आर्द्रता",
+        "कापणीनंतरचे नुकसान कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Drying mats or concrete floor",
+        "Moisture meter",
+        "Tarpaulin sheets for covering",
+        "Grain bags for tempering",
+        "Rakes for turning grain"
+      ],
+      "hi": [
+        "सुखाने की चटाई या कंक्रीट फर्श",
+        "नमी मीटर",
+        "ढकने के लिए तिरपाल शीट",
+        "तड़का के लिए अनाज बैग",
+        "अनाज पलटने के लिए रेक"
+      ],
+      "mr": [
+        "वाळवण्याच्या पाट किंवा सिमेंटचे काँक्रीट क्षेत्र",
+        "आर्द्रतामापक",
+        "झाकण्यासाठी तारपॉलिन पत्रे",
+        "तापमान स्थिरीकरणासाठी धान्य पोती",
+        "धान्य उलटण्यासाठी रेक"
+      ]
+    },
+    "season": {
+      "en": "Post-harvest (Rabi harvesting time)",
+      "hi": "कटाई के बाद (रबी कटाई का समय)",
+      "mr": "कापणीनंतर (रब्बी कापणीचा काळ)"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 19,
+    "title": {
+      "en": "Biochar Production and Application",
+      "hi": "बायोचार उत्पादन और अनुप्रयोग",
+      "mr": "बायोचार उत्पादन व वापर"
+    },
+    "description": {
+      "en": "Produce biochar from crop residues and apply to soil for long-term carbon sequestration and improved fertility.",
+      "hi": "फसल अवशेषों से बायोचार उत्पादन करें और दीर्घकालिक कार्बन पृथक्करण और बेहतर उर्वरता के लिए मिट्टी में लगाएं।",
+      "mr": "पीक अवशेषांपासून बायोचार तयार करा आणि दीर्घकालीन कार्बन स्थिरीकरण व सुपीकता सुधारण्यासाठी मातीत लावा."
+    },
+    "category": {
+      "en": "soilHealth",
+      "hi": "मृदा स्वास्थ्य",
+      "mr": "मृदा आरोग्य"
+    },
+    "steps": {
+      "en": [
+        "Collect dry crop residues (stalks, straw, woody material)",
+        "Build simple kiln or use pit method for pyrolysis",
+        "Burn residues with limited oxygen (low temperature)",
+        "Quench biochar with water when smoking stops",
+        "Crush biochar to smaller pieces (1-2 cm)",
+        "Charge biochar by mixing with compost, manure, or urine",
+        "Let mixture sit for 2-3 weeks to absorb nutrients",
+        "Apply charged biochar to soil at 1-5 tons/hectare",
+        "Mix into top 15-20 cm of soil"
+      ],
+      "hi": [
+        "सूखी फसल अवशेष (तना, पुआल, लकड़ी सामग्री) इकट्ठा करें",
+        "पायरोलिसिस के लिए साधा भट्टा या गड्ढा विधि बनाएं",
+        "सीमित ऑक्सीजन में अवशेष जलाएं (कम तापमान)",
+        "धुआँ बंद होने पर पानी से बायोचार बुझाएं",
+        "बायोचार को छोटे टुकड़ों में क्रश करें (1-2 सें.मी.)",
+        "खाद, गोबर या मूत्र के साथ मिलाकर बायोचार चार्ज करें",
+        "पोषक तत्वों को सोखने के लिए 2-3 सप्ताह छोड़ दें",
+        "चार्ज किए गए बायोचार को 1-5 टन/हेक्टेयर की दर से मिट्टी में लगाएं",
+        "मिट्टी की ऊपरी 15-20 सें.मी. में मिलाएं"
+      ],
+      "mr": [
+        "वाळलेले पीक अवशेष (देठ, पेंढा, वुडी साहित्य) गोळा करा",
+        "पायरोलिसिससाठी साधा भट्टा किंवा खड्डा पद्धत तयार करा",
+        "मर्यादित ऑक्सिजनमध्ये अवशेष जाळा (कमी तापमान)",
+        "धूर बंद झाल्यावर पाण्याने बायोचार विझवा",
+        "बायोचार लहान तुकड्यांत (1-2 सें.मी.) क्रश करा",
+        "कंपोस्ट, खत किंवा मूत्रात मिसळून बायोचार चार्ज करा",
+        "पोषकतत्त्वे शोषण्यासाठी मिश्रण 2-3 आठवडे ठेवा",
+        "चार्ज केलेला बायोचार 1-5 टन/हेक्टर दराने मातीत लावा",
+        "वरच्या 15-20 सें.मी. मातीत मिसळा"
+      ]
+    },
+    "estimatedTime": 300,
+    "benefits": {
+      "en": [
+        "Improves soil fertility for hundreds of years",
+        "Reduces need for chemical fertilizers",
+        "Increases water holding capacity",
+        "Sequester carbon and combats climate change",
+        "Provides habitat for beneficial soil microbes",
+        "Reduces nutrient leaching",
+        "Uses agricultural waste productively"
+      ],
+      "hi": [
+        "सैकड़ों वर्षों के लिए मिट्टी की उर्वरता में सुधार करता है",
+        "रासायनिक उर्वरकों की आवश्यकता कम करता है",
+        "जल धारण क्षमता बढ़ाता है",
+        "कार्बन को अलग करता है और जलवायु परिवर्तन से लड़ता है",
+        "लाभकारी मृदा सूक्ष्मजीवों के लिए आवास प्रदान करता है",
+        "पोषक तत्वों के रिसाव को कम करता है",
+        "कृषि अपशिष्ट का उत्पादक उपयोग करता है"
+      ],
+      "mr": [
+        "शेकडो वर्षांसाठी मातीची सुपीकता सुधारते",
+        "रासायनिक खतांची गरज कमी करते",
+        "पाणी टिकवण्याची क्षमता वाढवते",
+        "कार्बन स्थिर करते आणि हवामान बदलाशी लढते",
+        "फायदेशीर माती सूक्ष्मजीवांसाठी निवासस्थान देते",
+        "पोषकतत्त्वांची स्रावण कमी करते",
+        "कृषी कचर्याचा उत्पादक वापर करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Crop residues (dry)",
+        "Metal barrel or pit (for kiln)",
+        "Water source for quenching",
+        "Shovel and rake",
+        "Compost or manure for charging",
+        "Safety equipment (gloves, mask)"
+      ],
+      "hi": [
+        "फसल अवशेष (सूखी)",
+        "धातु बैरल या गड्ढा (भट्टा के लिए)",
+        "बुझाने के लिए पानी का स्रोत",
+        "फावड़ा और रेक",
+        "चार्ज करने के लिए खाद या गोबर",
+        "सुरक्षा उपकरण (दस्ताने, मास्क)"
+      ],
+      "mr": [
+        "पीक अवशेष (वाळलेले)",
+        "धातूची बॅरल किंवा खड्डा (भट्टयासाठी)",
+        "विझवण्यासाठी पाण्याचा स्रोत",
+        "फावडे व रेक",
+        "चार्जिंसाठी कंपोस्ट किंवा खत",
+        "सुरक्षा उपकरणे (हातमोजे, मास्क)"
+      ]
+    },
+    "season": {
+      "en": "Post-harvest",
+      "hi": "कटाई के बाद",
+      "mr": "कापणीनंतर"
+    },
+    "difficulty": 4
+  },
+  {
+    "id": 20,
+    "title": {
+      "en": "Laser Land Leveling",
+      "hi": "लेजर भूमि समतलन",
+      "mr": "लेझर जमीन समतलीकरण"
+    },
+    "description": {
+      "en": "Use laser-guided equipment to level fields for uniform water distribution, better crop stand, and water savings.",
+      "hi": "समान जल वितरण, बेहतर फसल स्टैंड और पानी की बचत के लिए खेतों को समतल करने के लिए लेजर-निर्देशित उपकरण का उपयोग करें।",
+      "mr": "एकसारखे पाणी वितरण, चांगली पीक उभवणी व पाणी बचतीसाठी लेझर-मार्गदर्शित उपकरणाने शेत समतल करा."
+    },
+    "category": {
+      "en": "irrigation",
+      "hi": "सिंचाई",
+      "mr": "सिंचन"
+    },
+    "steps": {
+      "en": [
+        "Hire laser land leveling service or equipment",
+        "Roughly level field with conventional equipment first",
+        "Set up laser transmitter at reference point",
+        "Mount laser receiver on scraper or leveler blade",
+        "Scrape high spots and fill low spots automatically",
+        "Complete leveling within 0-2 cm precision",
+        "Check leveled surface with water or precise measurement",
+        "Plan field layout for irrigation channels"
+      ],
+      "hi": [
+        "लेजर भूमि समतलन सेवा या उपकरण किराए पर लें",
+        "पहले पारंपरिक उपकरणों से खेत को मोटे तौर पर समतल करें",
+        "संदर्भ बिंदु पर लेजर ट्रांसमीटर स्थापित करें",
+        "लेजर रिसीवर को स्क्रेपर या समतल ब्लेड पर लगाएं",
+        "ऊँचे स्थानों को हटाएं और नीचे स्थानों को स्वचालित रूप से भरें",
+        "0-2 सेमी परिशुद्धता के भीतर समतलन पूरा करें",
+        "पानी या सटीक माप से समतल सतह की जांच करें",
+        "सिंचाई चैनलों के लिए खेत का लेआउट बनाएं"
+      ],
+      "mr": [
+        "लेझर जमीन समतलीकरण सेवा किंवा उपकरण भाड्याने घ्या",
+        "प्रथम पारंपरिक उपकरणांनी शेताचे स्थूल समतलीकरण करा",
+        "संदर्भ बिंदूवर लेझर ट्रान्समीटर बसवा",
+        "लेझर रिसीव्हर स्क्रॅपर किंवा समतलीकरण ब्लेडवर लावा",
+        "उंच भाग कुरतडून खालचे भाग स्वयंचलितपणे भरा",
+        "0-2 सें.मी. अचूकतेत समतलीकरण पूर्ण करा",
+        "पाण्याने किंवा अचूक मापनाने समतल पृष्ठभाग तपासा",
+        "सिंचन वाहिन्यांसाठी शेताची रचना करा"
+      ]
+    },
+    "estimatedTime": 240,
+    "benefits": {
+      "en": [
+        "Saves 20-30% irrigation water",
+        "Increases crop yield by 15-25%",
+        "Uniform crop germination and growth",
+        "Reduces weed problems",
+        "Increases fertilizer use efficiency",
+        "Reduces labor for irrigation management",
+        "Increases cultivable area by up to 6%"
+      ],
+      "hi": [
+        "20-30% सिंचाई जल बचाता है",
+        "फसल उपज में 15-25% की वृद्धि करता है",
+        "समान फसल अंकुरण और वृद्धि",
+        "खरपतवार की समस्याओं को कम करता है",
+        "उर्वरक उपयोग दक्षता बढ़ाता है",
+        "सिंचाई प्रबंधन के लिए श्रम कम करता है",
+        "कृषि योग्य क्षेत्र में 6% तक की वृद्धि करता है"
+      ],
+      "mr": [
+        "20-30% सिंचन पाणी वाचवते",
+        "पीक उत्पादन 15-25% ने वाढवते",
+        "एकसारखे पीक उगवण आणि वाढ",
+        "तण समस्या कमी करते",
+        "खत वापर कार्यक्षमता वाढवते",
+        "सिंचन व्यवस्थापनासाठी मजुरी कमी करते",
+        "लागवडक्षेत्र 6% पर्यंत वाढवते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Laser transmitter and receiver",
+        "Hydraulic scraper or leveler",
+        "Tractor with GPS capability",
+        "Reference benchmarks",
+        "Measurements for slope design"
+      ],
+      "hi": [
+        "लेजर ट्रांसमीटर और रिसीवर",
+        "हाइड्रोलिक स्क्रेपर या समतलक",
+        "जीपीएस क्षमता वाला ट्रैक्टर",
+        "संदर्भ बेंचमार्क",
+        "ढलान डिजाइन के लिए माप"
+      ],
+      "mr": [
+        "लेझर ट्रान्समीटर व रिसीव्हर",
+        "हायड्रॉलिक स्क्रॅपर किंवा समतलक",
+        "जीपीएस क्षमता असलेले ट्रॅक्टर",
+        "संदर्भ बेंचमार्क",
+        "उतार रचनेसाठी मापने"
+      ]
+    },
+    "season": {
+      "en": "Before planting season",
+      "hi": "बुवाई के मौसम से पहले",
+      "mr": "लागवड हंगामापूर्वी"
+    },
+    "difficulty": 4
+  },
+  {
+    "id": 21,
+    "title": {
+      "en": "Hydroponics for Soil-less Farming",
+      "hi": "मिट्टी रहित खेती के लिए हाइड्रोपोनिक्स",
+      "mr": "मातीविरहित शेतीसाठी हायड्रोपोनिक्स"
+    },
+    "description": {
+      "en": "Grow plants without soil using nutrient-rich water solutions for faster growth and higher density production.",
+      "hi": "तेजी से विकास और उच्च घनत्व उत्पादन के लिए पोषक तत्वों से भरपूर पानी के घोल का उपयोग करके बिना मिट्टी के पौधे उगाएं।",
+      "mr": "जलद वाढ आणि अधिक घनता उत्पादनासाठी पोषक-समृद्ध पाण्याच्या द्रावणाचा वापर करून वनस्पती मातीशिवाय वाढवा."
+    },
+    "category": {
+      "en": "protectiveCultivation",
+      "hi": "संरक्षित खेती",
+      "mr": "संरक्षित लागवड"
+    },
+    "steps": {
+      "en": [
+        "Choose system type (NFT, Deep Water Culture, vertical towers)",
+        "Build or purchase growing channels and reservoir",
+        "Install water pump and timer system",
+        "Mix hydroponic nutrients according to crop needs",
+        "Use inert growing media (cocopeat, perlite, clay pebbles)",
+        "Start seedlings in rockwool or cocopeat plugs",
+        "Transfer seedlings to hydroponic system",
+        "Monitor pH (5.5-6.5) and EC regularly",
+        "Change nutrient solution every 2-3 weeks",
+        "Harvest and clean system between crops"
+      ],
+      "hi": [
+        "प्रणाली का प्रकार चुनें (NFT, डीप वॉटर कल्चर, वर्टिकल टॉवर)",
+        "ग्रोइंग चैनल और रिजर्वायर बनाएं या खरीदें",
+        "पानी पंप और टाइमर प्रणाली स्थापित करें",
+        "फसल की आवश्यकता के अनुसार हाइड्रोपोनिक पोषक तत्व मिलाएं",
+        "भूसम विकास माध्यम का उपयोग करें (कोकोपीट, पर्लाइट, क्ले पेबल)",
+        "रॉकवूल या कोकोपीट प्लग में पौधे शुरू करें",
+        "पौधों को हाइड्रोपोनिक प्रणाली में स्थानांतरित करें",
+        "नियमित रूप से pH (5.5-6.5) और EC की निगरानी करें",
+        "हर 2-3 सप्ताह में पोषक घोल बदलें",
+        "फसलों के बीच प्रणाली की कटाई और सफाई करें"
+      ],
+      "mr": [
+        "प्रणालीचा प्रकार निवडा (NFT, डीप वॉटर कल्चर, उभे बुरूज)",
+        "वाढ वाहिन्या व रिझर्व्हायर बांधा किंवा विकत घ्या",
+        "पाणी पंप व टायमर प्रणाली बसवा",
+        "पीक गरजेनुसार हायड्रोपोनिक पोषक मिसळा",
+        "निष्क्रिय वाढ माध्यम वापरा (कोकोपीट, पर्लाइट, चिकणमातीचे तुकडे)",
+        "रॉकवूल किंवा कोकोपीट प्लगमध्ये रोपे सुरू करा",
+        "रोपे हायड्रोपोनिक प्रणालीत हलवा",
+        "नियमितपणे pH (5.5-6.5) व EC तपासा",
+        "दर 2-3 आठवड्यांनी पोषक द्रावण बदला",
+        "पिकांदरम्यान प्रणालीची कापणी व स्वच्छता करा"
+      ]
+    },
+    "estimatedTime": 360,
+    "benefits": {
+      "en": [
+        "Grows 30-50% faster than soil",
+        "Higher density planting possible",
+        "Uses 90% less water than soil farming",
+        "No soil-borne diseases or weeds",
+        "Can farm anywhere (including rooftops)",
+        "Predictable yields year-round",
+        "Less labor for weeding and soil preparation"
+      ],
+      "hi": [
+        "मिट्टी की तुलना में 30-50% तेजी से बढ़ता है",
+        "उच्च घनत्व रोपण संभव",
+        "मिट्टी की खेती की तुलना में 90% कम पानी का उपयोग करता है",
+        "कोई मृदा जनित रोग या खरपतवार नहीं",
+        "कहीं भी खेती कर सकते हैं (छतों सहित)",
+        "साल भर पूर्वानुमानित उपज",
+        "खरपतवार और मिट्टी की तैयारी के लिए कम श्रम"
+      ],
+      "mr": [
+        "मातीपेक्षा 30-50% जलद वाढते",
+        "अधिक घनता लागवड शक्य",
+        "माती शेतीपेक्षा 90% कम पाणी वापरते",
+        "मातीजन्य रोग किंवा तण नाहीत",
+        "कुठेही शेती करू शकता (छतांसह)",
+        "वर्षभर अंदाजित उत्पादन",
+        "तण व माती तयारीसाठी कमी मजुरी"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Growing channels or pipes",
+        "Nutrient reservoir tank",
+        "Water pump and timer",
+        "pH and EC meters",
+        "Hydroponic nutrients",
+        "Growing media (cocopeat, clay pebbles)",
+        "Net pots and starter plugs"
+      ],
+      "hi": [
+        "बढ़ते चैनल या पाइप",
+        "पोषक टैंक",
+        "पानी पंप और टाइमर",
+        "pH और ईसी मीटर",
+        "हाइड्रोपोनिक पोषक तत्व",
+        "बढ़ते माध्यम (कोकोपीट, मिट्टी के कंकड़)",
+        "नेट पॉट और स्टार्टर प्लग"
+      ],
+      "mr": [
+        "वाढ वाहिन्या किंवा पाईप्स",
+        "पोषक साठवण टाकी",
+        "पाणी पंप व टायमर",
+        "pH आणि EC मीटर",
+        "हायड्रोपोनिक पोषक",
+        "वाढ माध्यम (कोकोपीट, चिकणमातीचे तुकडे)",
+        "नेट कुंडी व स्टार्टर प्लग"
+      ]
+    },
+    "season": {
+      "en": "Year-round (indoor or protected)",
+      "hi": "साल भर (घर के अंदर या संरक्षित)",
+      "mr": "वर्षभर (घरातील किंवा संरक्षित)"
+    },
+    "difficulty": 5
+  },
+  {
+    "id": 22,
+    "title": {
+      "en": "Vermicomposting for High-Quality Manure",
+      "hi": "उच्च गुणवत्ता वाली खाद के लिए वर्मीकम्पोस्टिंग",
+      "mr": "उच्च दर्जाच्या खतासाठी वर्मीकंपोस्टिंग"
+    },
+    "description": {
+      "en": "Use earthworms to convert organic waste into nutrient-rich vermicompost for superior organic fertilizer.",
+      "hi": "कार्बनिक अपशिष्ट को पोषक तत्वों से भरपूर वर्मीकम्पोस्ट में बदलने के लिए केंचुओं का उपयोग करें।",
+      "mr": "सेंद्रिय कचर्याचे पोषक-समृद्ध वर्मीकंपोस्टमध्ये रूपांतर करण्यासाठी गांडुळांचा वापर करा."
+    },
+    "category": {
+      "en": "soilHealth",
+      "hi": "मृदा स्वास्थ्य",
+      "mr": "मृदा आरोग्य"
+    },
+    "steps": {
+      "en": [
+        "Select suitable location (shaded, well-drained)",
+        "Build vermibeds or use containers (2x1x0.5 ft size)",
+        "Prepare bedding material (coconut coir, dry leaves)",
+        "Introduce composting worms (Eisenia fetida - 500 worms/bed)",
+        "Feed organic waste regularly (vegetable scraps, cow dung)",
+        "Maintain moisture (60-70%) and temperature (20-30°C)",
+        "Cover bed with gunny bags to maintain darkness",
+        "Harvest vermicompost every 2-3 months",
+        "Separate worms using screen or heap method",
+        "Use vermicompost for seed beds and top dressing"
+      ],
+      "hi": [
+        "उपयुक्त स्थान चुनें (छायादार, अच्छी जल निकास)",
+        "वर्मीबेड बनाएं या कंटेनर का उपयोग करें (2x1x0.5 फीट आकार)",
+        "बेडिंग सामग्री तैयार करें (नारियल का रेशा, सूखे पत्ते)",
+        "कम्पोस्टिंग केंचुए डालें (आइसेनिया फेटिडा - 500 केंचुए/बेड)",
+        "नियमित रूप से जैविक कचरा खिलाएं (सब्जी के छिलके, गोबर)",
+        "नमी (60-70%) और तापमान (20-30°C) बनाए रखें",
+        "अंधेरा बनाए रखने के लिए बोरी से ढकें",
+        "हर 2-3 महीने में वर्मीकम्पोस्ट की कटाई करें",
+        "छलनी या ढेर विधि से केंचुए अलग करें",
+        "बीज क्यारियों और टॉप ड्रेसिंग के लिए वर्मीकम्पोस्ट का उपयोग करें"
+      ],
+      "mr": [
+        "योग्य स्थान निवडा (सावलीचे, चांगला निचरा)",
+        "वर्मीबेड तयार करा किंवा भांडी वापरा (2x1x0.5 फूट)",
+        "बेडिंग साहित्य तयार करा (नारळाचा सोल, वाळलेली पाने)",
+        "गांडुळे घाला (आयसेनिया फेटिडा - 500 गांडुळे/बेड)",
+        "नियमितपणे सेंद्रिय कचरा द्या (भाजीपाल्याचे वाया गेलेले भाग, गोवरी)",
+        "आर्द्रता (60-70%) व तापमान (20-30°C) राखा",
+        "अंधार राखण्यासाठी गोणीने झाका",
+        "दर 2-3 महिन्यांनी वर्मीकंपोस्ट काढा",
+        "गाळणी किंवा ढीग पद्धतीने गांडुळे वेगळे करा",
+        "बियाणे क्यार्या व वरच्या भेसळीसाठी वर्मीकंपोस्ट वापरा"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Produces highest quality organic manure",
+        "5-7 times more nutrients than regular compost",
+        "Contains beneficial microbes and enzymes",
+        "Improves soil structure and aeration",
+        "Increases water holding capacity",
+        "Suppresses soil-borne diseases",
+        "Fast processing of organic waste"
+      ],
+      "hi": [
+        "उच्चतम गुणवत्ता वाली जैविक खाद पैदा करता है",
+        "नियमित खाद की तुलना में 5-7 गुना अधिक पोषक तत्व",
+        "लाभकारी रोगाणुओं और एंजाइमों से युक्त",
+        "मिट्टी की संरचना और वातन में सुधार करता है",
+        "जल धारण क्षमता बढ़ाता है",
+        "मृदा जनित रोगों को दबाता है",
+        "जैविक कचरे का त्वरित प्रसंस्करण"
+      ],
+      "mr": [
+        "सर्वोच्च गुणवत्तेचे सेंद्रिय खत तयार करते",
+        "सामान्य कंपोस्टपेक्षा 5-7 पट अधिक पोषकतत्त्वे",
+        "फायदेशीर सूक्ष्मजीव व एंजाइम असतात",
+        "मातीची रचना व हवा खेळती सुधारते",
+        "पाणी टिकवण्याची क्षमता वाढवते",
+        "मातीजन्य रोग दाबते",
+        "सेंद्रिय कचऱ्याची जलद प्रक्रिया"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Composting worms (Eisenia fetida)",
+        "Vermibeds or containers",
+        "Bedding material (coir, leaves)",
+        "Organic waste (cow dung, vegetable waste)",
+        "Gunny bags for covering",
+        "Water source"
+      ],
+      "hi": [
+        "कम्पोस्टिंग केंचुए (आइसेनिया फेटिडा)",
+        "वर्मीबेड या कंटेनर",
+        "बेडिंग सामग्री (कोइर, पत्ते)",
+        "जैविक कचरा (गोबर, सब्जी कचरा)",
+        "ढकने के लिए बोरियाँ",
+        "पानी का स्रोत"
+      ],
+      "mr": [
+        "गांडुळे (आयसेनिया फेटिडा)",
+        "वर्मीबेड किंवा भांडी",
+        "बेडिंग साहित्य (सोल, पाने)",
+        "सेंद्रिय कचरा (गोवरी, भाजी कचरा)",
+        "झाकण्यासाठी गोण्या",
+        "पाण्याचा स्रोत"
+      ]
+    },
+    "season": {
+      "en": "All Seasons (shade required in summer)",
+      "hi": "सभी मौसम (गर्मियों में छाया आवश्यक)",
+      "mr": "सर्व हंगाम (उन्हाळ्यात सावली आवश्यक)"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 23,
+    "title": {
+      "en": "Weather-Based Crop Advisory",
+      "hi": "मौसम-आधारित फसल सलाह",
+      "mr": "हवामान-आधारित पीक सल्ला"
+    },
+    "description": {
+      "en": "Use weather forecasts and climate data to make timely decisions about planting, irrigation, and pest management.",
+      "hi": "बुवाई, सिंचाई और कीट प्रबंधन के बारे में समय पर निर्णय लेने के लिए मौसम पूर्वानुमान और जलवायु डेटा का उपयोग करें।",
+      "mr": "पेरणी, सिंचन व कीटक व्यवस्थापनासंबंधी वेळेवर निर्णय घेण्यासाठी हवामान अंदाज व वातावरणीय डेटा वापरा."
+    },
+    "category": {
+      "en": "pestManagement",
+      "hi": "कीट प्रबंधन",
+      "mr": "कीटक व्यवस्थापन"
+    },
+    "steps": {
+      "en": [
+        "Subscribe to local weather forecast services",
+        "Install farm-level rain gauge and thermometer",
+        "Monitor weather forecast for upcoming 7-10 days",
+        "Delay planting if heavy rain or frost is predicted",
+        "Schedule irrigation based on rainfall probability",
+        "Apply preemptive fungicide before extended wet period",
+        "Harvest before forecasted heavy wind or rain",
+        "Use wind forecasts for spray timing",
+        "Maintain weather log for seasonal pattern analysis",
+        "Share alerts with neighboring farmers"
+      ],
+      "hi": [
+        "स्थानीय मौसम पूर्वानुमान सेवाओं की सदस्यता लें",
+        "खेत स्तर पर वर्षा मापक और थर्मामीटर स्थापित करें",
+        "आगामी 7-10 दिनों के मौसम पूर्वानुमान की निगरानी करें",
+        "यदि भारी बारिश या पाले की भविष्यवाणी हो तो बुवाई स्थगित करें",
+        "वर्षा संभावना के आधार पर सिंचाई का कार्यक्रम बनाएं",
+        "लंबी गीली अवधि से पहले निवारक कवकनाशी लगाएं",
+        "पूर्वानुमानित भारी हवा या बारिश से पहले कटाई करें",
+        "स्प्रे समय के लिए हवा के पूर्वानुमान का उपयोग करें",
+        "मौसमी पैटर्न विश्लेषण के लिए मौसम लॉग बनाए रखें",
+        "पड़ोसी किसानों के साथ अलर्ट साझा करें"
+      ],
+      "mr": [
+        "स्थानिक हवामान अंदाज सेवांची सदस्यता घ्या",
+        "शेत पातळीवर पाऊसमापक व थर्मामीटर बसवा",
+        "पुढील 7-10 दिवसांचा हवामान अंदाज तपासा",
+        "जोराचा पाऊस किंवा दंवाचा अंदाज असल्यास पेरणी पुढे ढकला",
+        "पावसाच्या शक्यतेवर आधारित सिंचनाचे वेळापत्रक करा",
+        "दीर्घ ओलसर काळापूर्वी प्रतिबंधात्मक बुरशीनाशक लावा",
+        "अंदाजित जोराचा वारा किंवा पाऊस यापूर्वी कापणी करा",
+        "फवारणीच्या वेळेसाठी वारा अंदाज वापरा",
+        "हंगामी पद्धती विश्लेषणासाठी हवामान नोंद ठेवा",
+        "शेजारील शेतकऱ्यांसोबत सूचना सामायिक करा"
+      ]
+    },
+    "estimatedTime": 90,
+    "benefits": {
+      "en": [
+        "Reduces crop loss from adverse weather",
+        "Optimizes planting and harvest timing",
+        "Prevents pesticide wastage from rain wash-off",
+        "Reduces disease risk during critical periods",
+        "Improves water use efficiency",
+        "Increases preparedness for extreme events",
+        "Better long-term farm planning"
+      ],
+      "hi": [
+        "प्रतिकूल मौसम से फसल हानि कम करता है",
+        "बुवाई और कटाई के समय को अनुकूलित करता है",
+        "बारिश से बहने से कीटनाशक की बर्बादी रोकता है",
+        "महत्वपूर्ण अवधियों के दौरान रोग जोखिम कम करता है",
+        "जल उपयोग दक्षता में सुधार करता है",
+        "चरम घटनाओं के लिए तैयारी बढ़ाता है",
+        "बेहतर दीर्घकालिक खेत योजना"
+      ],
+      "mr": [
+        "प्रतिकूल हवामानामुळे पीक नुकसान कमी करते",
+        "पेरणी व कापणीची वेळ अनुकूल करते",
+        "पावसामुळे कीटकनाशकाचा अपव्यय रोखते",
+        "गंभीर काळात रोग जोखीम कमी करते",
+        "पाणी वापर कार्यक्षमता सुधारते",
+        "अत्यंत घटनांसाठी तयारी वाढवते",
+        "चांगले दीर्घकालीन शेत नियोजन"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Smartphone with internet access",
+        "Rain gauge",
+        "Maximum-minimum thermometer",
+        "Wind speed indicator (optional)",
+        "Weather alert apps",
+        "Notebook for records"
+      ],
+      "hi": [
+        "इंटरनेट एक्सेस वाला स्मार्टफोन",
+        "वर्षा मापक",
+        "अधिकतम-न्यूनतम थर्मामीटर",
+        "हवा की गति संकेतक (वैकल्पिक)",
+        "मौसम अलर्ट ऐप्स",
+        "रिकॉर्ड के लिए नोटबुक"
+      ],
+      "mr": [
+        "इंटरनेट प्रवेश असलेले स्मार्टफोन",
+        "पाऊसमापक",
+        "कमाल-किमान थर्मामीटर",
+        "वाऱ्याचा वेग निर्देशक (पर्यायी)",
+        "हवामान सूचना ॲप्स",
+        "नोंदींसाठी वही"
+      ]
+    },
+    "season": {
+      "en": "All Seasons (ongoing)",
+      "hi": "सभी मौसम (निरंतर)",
+      "mr": "सर्व हंगाम (सतत)"
+    },
+    "difficulty": 2
+  },
+  {
+    "id": 24,
+    "title": {
+      "en": "Intercropping for Risk Management",
+      "hi": "जोखिम प्रबंधन के लिए अंतरफसल",
+      "mr": "जोखीम व्यवस्थापनासाठी आंतरपीक"
+    },
+    "description": {
+      "en": "Grow two or more crops simultaneously on same land to diversify income and reduce risk of complete crop failure.",
+      "hi": "आय विविधीकरण और पूर्ण फसल विफलता के जोखिम को कम करने के लिए एक ही भूमि पर दो या अधिक फसलें एक साथ उगाएं।",
+      "mr": "उत्पन्न विविधीकरण आणि पीक पूर्ण अपयशाचा धोका कमी करण्यासाठी एकाच जमिनीवर दोन किंवा अधिक पिके एकाच वेळी घ्या."
+    },
+    "category": {
+      "en": "companionPlanting",
+      "hi": "सहचर रोपण",
+      "mr": "सहचर लागवड"
+    },
+    "steps": {
+      "en": [
+        "Select main crop (primary income earner)",
+        "Choose compatible intercrop with different growth pattern",
+        "Common combinations: Maize + soybean, Cotton + pigeonpea",
+        "Determine appropriate plant populations for both",
+        "Plant intercrop in spaces between main crop rows",
+        "Ensure intercrop matures earlier or later than main crop",
+        "Balance fertilizer for both crops (use legumes with heavy feeders)",
+        "Adjust irrigation for crop needs",
+        "Harvest each crop at its maturity",
+        "Plan rotation including both crop families"
+      ],
+      "hi": [
+        "मुख्य फसल चुनें (प्राथमिक आय स्रोत)",
+        "भिन्न वृद्धि पैटर्न वाली संगत अंतरफसल चुनें",
+        "सामान्य संयोजन: मक्का + सोयाबीन, कपास + अरहर",
+        "दोनों के लिए उचित पौधों की आबादी निर्धारित करें",
+        "मुख्य फसल की पंक्तियों के बीच अंतरफसल लगाएं",
+        "सुनिश्चित करें कि अंतरफसल मुख्य फसल से पहले या बाद में पकती है",
+        "दोनों फसलों के लिए उर्वरक संतुलित करें (भारी फीडर के साथ फलियाँ)",
+        "फसल आवश्यकताओं के लिए सिंचाई समायोजित करें",
+        "प्रत्येक फसल की कटाई उसकी परिपक्वता पर करें",
+        "दोनों फसल परिवारों सहित चक्र की योजना बनाएं"
+      ],
+      "mr": [
+        "मुख्य पीक निवडा (प्राथमिक उत्पन्न स्त्रोत)",
+        "वेगळ्या वाढ पॅटर्नसह सुसंगत आंतरपीक निवडा",
+        "सामान्य संयोजने: मका + सोयाबीन, कापूस + तूर",
+        "दोन्हीसाठी योग्य वनस्पती घनता ठरवा",
+        "मुख्य पिकाच्या रांगांमध्ये आंतरपीक लावा",
+        "खात्री करा की आंतरपीक मुख्य पिकापूर्वी किंवा नंतर पिकते",
+        "दोन्ही पिकांसाठी खत संतुलित करा (जास्त खाद्य घेणाऱ्यांसोबत कडधान्ये)",
+        "पीक गरजांनुसार सिंचन समायोजित करा",
+        "प्रत्येक पिकाची त्याच्या परिपक्वतेवर कापणी करा",
+        "दोन्ही पीक कुळांचा समावेश असलेली फेरपालट योजना करा"
+      ]
+    },
+    "estimatedTime": 180,
+    "benefits": {
+      "en": [
+        "Risk diversification (if one crop fails)",
+        "Higher total yield per unit area (30-50% more)",
+        "Better weed suppression through canopy cover",
+        "Reduced pest and disease pressure",
+        "Improved soil health through diverse root systems",
+        "Efficient use of resources (light, water, nutrients)",
+        "Steady income stream over longer period"
+      ],
+      "hi": [
+        "जोखिम विविधीकरण (यदि एक फसल विफल होती है)",
+        "प्रति इकाई क्षेत्र में अधिक कुल उपज (30-50% अधिक)",
+        "कैनोपी कवर के माध्यम से बेहतर खरपतवार दमन",
+        "कीट और रोग दबाव में कमी",
+        "विविध जड़ प्रणालियों के माध्यम से मिट्टी के स्वास्थ्य में सुधार",
+        "संसाधनों का कुशल उपयोग (प्रकाश, पानी, पोषक तत्व)",
+        "लंबी अवधि में स्थिर आय प्रवाह"
+      ],
+      "mr": [
+        "जोखीम विविधीकरण (एक पीक नापास झाल्यास)",
+        "प्रति एकक क्षेत्र अधिक एकूण उत्पादन (30-50% अधिक)",
+        "वृक्षरचना आवरणातून चांगले तण दमन",
+        "कीटक व रोग दाब कमी",
+        "वैविध्यपूर्ण मूळ प्रणाल्यांमुळे मातीचे आरोग्य सुधारणे",
+        "साधनांचा कार्यक्षम वापर (प्रकाश, पाणी, पोषकतत्त्वे)",
+        "दीर्घ काळात स्थिर उत्पन्न प्रवाह"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Seeds of main and intercrop",
+        "Farm layout plan",
+        "Fertilizers (balanced for both crops)",
+        "Row markers",
+        "Harvesting tools (may differ per crop)"
+      ],
+      "hi": [
+        "मुख्य और अंतरफसल के बीज",
+        "खेत लेआउट योजना",
+        "उर्वरक (दोनों फसलों के लिए संतुलित)",
+        "पंक्ति चिह्नक",
+        "कटाई उपकरण (प्रति फसल भिन्न हो सकते हैं)"
+      ],
+      "mr": [
+        "मुख्य व आंतरपीक बियाणे",
+        "शेत लेआउट योजना",
+        "खते (दोन्ही पिकांसाठी संतुलित)",
+        "रांग चिन्हक",
+        "कापणी साधने (प्रति पीक भिन्न असू शकतात)"
+      ]
+    },
+    "season": {
+      "en": "Depends on selected crops",
+      "hi": "चयनित फसलों पर निर्भर करता है",
+      "mr": "निवडलेल्या पिकांवर अवलंबून"
+    },
+    "difficulty": 3
+  },
+  {
+    "id": 25,
+    "title": {
+      "en": "Post-Harvest Cold Storage Management",
+      "hi": "कटाई के बाद शीत भंडारण प्रबंधन",
+      "mr": "कापणीनंतर थंड साठवण व्यवस्थापन"
+    },
+    "description": {
+      "en": "Properly store perishable produce in cold storage to extend shelf life and sell during off-season for better prices.",
+      "hi": "शेल्फ लाइफ बढ़ाने और ऑफ-सीजन में बेहतर कीमतों पर बेचने के लिए खराब होने वाली उपज को कोल्ड स्टोरेज में उचित रूप से स्टोर करें।",
+      "mr": "शेल्फ लाइफ वाढविण्यासाठी आणि ऑफ-हंगामात चांगल्या किमतींना विकण्यासाठी नाशवंत उत्पादन थंड साठवणीत योग्यरित्या साठवा."
+    },
+    "category": {
+      "en": "harvesting",
+      "hi": "कटाई",
+      "mr": "कापणी"
+    },
+    "steps": {
+      "en": [
+        "Pre-cool produce immediately after harvest",
+        "Sort and remove damaged or diseased items",
+        "Store only dry produce (condensation causes rot)",
+        "Maintain optimal temperature per crop (0-13°C range)",
+        "Monitor relative humidity (85-95% for most produce)",
+        "Stack containers with air circulation space",
+        "Separate ethylene-producing fruits (apples, bananas)",
+        "Rotate stock - first in, first out",
+        "Check stored produce regularly for spoilage",
+        "Clean and sanitize storage between uses"
+      ],
+      "hi": [
+        "कटाई के तुरंत बाद उपज को पूर्व-ठंडा करें",
+        "क्षतिग्रस्त या रोगग्रस्त वस्तुओं को छाँटें और हटाएँ",
+        "केवल सूखी उपज स्टोर करें (संघनन से सड़न होती है)",
+        "प्रति फसल इष्टतम तापमान बनाए रखें (0-13°C रेंज)",
+        "सापेक्ष आर्द्रता की निगरानी करें (अधिकांश उपज के लिए 85-95%)",
+        "वायु परिसंचरण स्थान के साथ कंटेनरों को स्टैक करें",
+        "एथिलीन उत्पादक फलों को अलग करें (सेब, केले)",
+        "स्टॉक रोटेट करें - पहले आओ, पहले जाओ",
+        "खराब होने के लिए नियमित रूप से संग्रहीत उपज की जाँच करें",
+        "उपयोगों के बीच भंडारण की सफाई और सैनिटाइज़ करें"
+      ],
+      "mr": [
+        "कापणीनंतर लगेच उत्पादन प्री-कूल करा",
+        "नुकसान झालेल्या किंवा रोगट वस्तू वेगळ्या काढून टाका",
+        "फक्त कोरडे उत्पादन साठवा (कंडेन्सेशनमुळे कुजते)",
+        "प्रति पीक इष्टतम तापमान राखा (0-13°C श्रेणी)",
+        "सापेक्ष आर्द्रता नियंत्रित करा (बहुतेक उत्पादनांसाठी 85-95%)",
+        "हवा परिसंचरण जागा ठेवून भांडी रचून ठेवा",
+        "इथिलीन तयार करणारी फळे (सफरचंद, केळी) वेगळी ठेवा",
+        "प्रथम आलेले प्रथम वापरा",
+        "खराब होण्यासाठी नियमितपणे साठवलेल्या उत्पादनाची तपासणी करा",
+        "प्रत्येक वापरादरम्यान साठवण स्वच्छ व निर्जंतुक करा"
+      ]
+    },
+    "estimatedTime": 210,
+    "benefits": {
+      "en": [
+        "Extends shelf life by 2-4 weeks",
+        "Sell during off-season for premium prices (30-50% higher)",
+        "Reduces post-harvest losses (currently 20-30% in India)",
+        "Maintains nutritional quality and freshness",
+        "Enables long-distance transport",
+        "Steady supply to processing industries",
+        "Reduces distress sales at harvest time"
+      ],
+      "hi": [
+        "शेल्फ लाइफ 2-4 सप्ताह बढ़ाता है",
+        "ऑफ-सीजन में प्रीमियम कीमतों पर बेचें (30-50% अधिक)",
+        "कटाई के बाद के नुकसान को कम करता है (वर्तमान में भारत में 20-30%)",
+        "पौष्टिक गुणवत्ता और ताजगी बनाए रखता है",
+        "लंबी दूरी के परिवहन को सक्षम करता है",
+        "प्रसंस्करण उद्योगों को स्थिर आपूर्ति",
+        "कटाई के समय दबाव में बिक्री कम करता है"
+      ],
+      "mr": [
+        "शेल्फ लाइफ 2-4 आठवड्यांनी वाढवते",
+        "ऑफ-हंगामात प्रीमियम किमतींना (30-50% अधिक) विका",
+        "कापणीनंतरचे नुकसान कमी करते (सध्या भारतात 20-30%)",
+        "पौष्टिक गुणवत्ता व ताजेपणा राखते",
+        "दीर्घ-अंतर वाहतूक सक्षम करते",
+        "प्रोसेसिंग उद्योगांना स्थिर पुरवठा",
+        "कापणीच्या वेळी ताणाखाली विक्री कमी करते"
+      ]
+    },
+    "requiredMaterials": {
+      "en": [
+        "Cold storage unit or walk-in cooler",
+        "Temperature and humidity monitors",
+        "Ventilated crates or containers",
+        "Pallet racks for air circulation",
+        "Thermometer and hygrometer",
+        "Cleaning supplies"
+      ],
+      "hi": [
+        "कोल्ड स्टोरेज यूनिट या वॉक-इन कूलर",
+        "तापमान और आर्द्रता मॉनिटर",
+        "हवादार क्रेट या कंटेनर",
+        "वायु परिसंचरण के लिए पैलेट रैक",
+        "थर्मामीटर और हाइग्रोमीटर",
+        "सफाई की आपूर्ति"
+      ],
+      "mr": [
+        "थंड साठवण युनिट किंवा वॉक-इन कूलर",
+        "तापमान व आर्द्रता मॉनिटर्स",
+        "हवेशीर पेट्या किंवा भांडी",
+        "हवा परिसंचरणासाठी पॅलेट रॅक",
+        "थर्मामीटर व हायग्रोमीटर",
+        "स्वच्छता पुरवठा"
+      ]
+    },
+    "season": {
+      "en": "Post-harvest (ongoing storage)",
+      "hi": "कटाई के बाद (निरंतर भंडारण)",
+      "mr": "कापणीनंतर (सतत साठवण)"
+    },
+    "difficulty": 4
+  }
+]

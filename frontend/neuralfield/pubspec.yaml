@@ -1,0 +1,52 @@
+name: NeuralField
+description: A farming assistant app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.1.0
+#  intl: ^0.18.0  # For date formatting
+  intl: any
+  provider: any
+  geolocator: ^10.1.0  # For GPS (optional)
+  shared_preferences: ^2.2.2
+  geocoding: ^2.1.0  # Add this line
+  url_launcher: ^6.2.1
+  permission_handler: ^11.0.1
+  speech_to_text: 7.3.0
+  flutter_tts: ^3.8.5
+  image_picker: ^1.0.5
+  cached_network_image: ^3.3.1
+  share_plus: ^13.1.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.14.3"
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icon/NeuralField.jpg
+    - assets/icon/icon.png
+    - assets/icon/lc_icon.png
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/lc_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/lc_icon.png"

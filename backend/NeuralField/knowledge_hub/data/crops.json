@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Rice",
+      "hi": "चावल",
+      "mr": "तांदूळ"
+    },
+    "scientificName": "Oryza sativa",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Kharif (Monsoon)",
+      "hi": "खरीफ (मानसून)",
+      "mr": "खरीप (पावसाळा)"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["October", "November", "December"],
+    "growingDays": 120,
+    "waterRequirement": {
+      "en": "High (Flooded fields)",
+      "hi": "अधिक (बाढ़ वाले खेत)",
+      "mr": "उच्च (पुराची शेती)"
+    },
+    "soilType": {
+      "en": "Clay or Clay loam",
+      "hi": "चिकणमाती या चिकणमाती दोमट",
+      "mr": "चिकणमाती किंवा चिकणमाती सांद्र"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 37,
+    "commonVarieties": ["Basmati", "Pusa 1121", "IR-64", "Swarna", "Sona Masoori"],
+    "benefits": {
+      "en": ["Rich in carbohydrates", "Gluten-free", "Easy to digest"],
+      "hi": ["कार्बोहाइड्रेट से भरपूर", "ग्लूटेन-मुक्त", "पचाने में आसान"],
+      "mr": ["कर्बोदकांनी समृद्ध", "ग्लूटेन-मुक्त", "पचायला सोपे"]
+    },
+    "imageAsset": "media/crops/c1.jpg",
+    "yieldPerAcre": 22.0,
+    "description": {
+      "en": "Rice is the most important staple food crop of India, grown extensively in the eastern and southern parts of the country. It requires high temperature and abundant water.",
+      "hi": "चावल भारत की सबसे महत्वपूर्ण मुख्य खाद्य फसल है, जो देश के पूर्वी और दक्षिणी भागों में बड़े पैमाने पर उगाई जाती है। इसके लिए उच्च तापमान और प्रचुर मात्रा में पानी की आवश्यकता होती है।",
+      "mr": "तांदूळ हे भारतातील सर्वात महत्त्वाचे मुख्य अन्नधान्य पीक आहे, जे देशाच्या पूर्व आणि दक्षिण भागात मोठ्या प्रमाणावर घेतले जाते. यासाठी उच्च तापमान आणि विपुल पाण्याची आवश्यकता असते."
+    },
+    "companionCrops": ["Legumes", "Pulses", "Greengram"],
+    "avoidCrops": ["Brinjal", "Tomato"]
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Wheat",
+      "hi": "गेहूं",
+      "mr": "गहू"
+    },
+    "scientificName": "Triticum aestivum",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Rabi (Winter)",
+      "hi": "रबी (सर्दी)",
+      "mr": "रब्बी (हिवाळा)"
+    },
+    "sowingMonths": ["October", "November"],
+    "harvestingMonths": ["March", "April"],
+    "growingDays": 120,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Loamy",
+      "hi": "दोमट",
+      "mr": "सांद्र"
+    },
+    "minTemperature": 10,
+    "maxTemperature": 25,
+    "commonVarieties": ["HD-2967", "GW-322", "K-1006", "Lok-1", "PBW-550"],
+    "benefits": {
+      "en": ["Rich in protein and fiber", "Good source of B vitamins"],
+      "hi": ["प्रोटीन और फाइबर से भरपूर", "बी विटामिन का अच्छा स्रोत"],
+      "mr": ["प्रथिने आणि फायबरने समृद्ध", "ब जीवनसत्त्वांचा चांगला स्रोत"]
+    },
+    "imageAsset": "media/crops/c2.jpg",
+    "yieldPerAcre": 18.0,
+    "description": {
+      "en": "Wheat is the second most important cereal crop in India, mainly grown in the northern plains during the winter season. It requires cool temperatures during growth and bright sunshine at maturity.",
+      "hi": "गेहूं भारत की दूसरी सबसे महत्वपूर्ण अनाज फसल है, जो मुख्य रूप से सर्दियों के मौसम में उत्तरी मैदानों में उगाई जाती है। विकास के लिए ठंडे तापमान और पकने के लिए तेज धूप की आवश्यकता होती है।",
+      "mr": "गहू हे भारतातील दुसरे सर्वात महत्त्वाचे धान्य पीक आहे, जे प्रामुख्याने हिवाळ्यात उत्तरेकडील मैदानी भागात घेतले जाते. वाढीसाठी थंड तापमान आणि शेती पिकण्यासाठी तेज सूर्यप्रकाश आवश्यक असतो."
+    },
+    "companionCrops": ["Mustard", "Chickpea", "Lentil"],
+    "avoidCrops": ["Sunflower", "Sugarcane"]
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Cotton",
+      "hi": "कपास",
+      "mr": "कापूस"
+    },
+    "scientificName": "Gossypium spp.",
+    "family": "Malvaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["April", "May", "June"],
+    "harvestingMonths": ["October", "November", "December"],
+    "growingDays": 180,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Black (Regur) soil",
+      "hi": "काली (रेगुर) मिट्टी",
+      "mr": "काळी (रेगुर) माती"
+    },
+    "minTemperature": 25,
+    "maxTemperature": 35,
+    "commonVarieties": ["BT Cotton varieties", "NHH-44", "Suvarna", "LRA-5166"],
+    "benefits": {
+      "en": ["Natural fiber", "Cottonseed oil production", "Animal feed from seed cake"],
+      "hi": ["प्राकृतिक रेशा", "कपास बीज तेल उत्पादन", "खली से पशु आहार"],
+      "mr": ["नैसर्गिक तंतू", "कापूसबिया तेल उत्पादन", "खोपरीपासून पशुखाद्य"]
+    },
+    "imageAsset": "media/crops/c3.jpg",
+    "yieldPerAcre": 5.0,
+    "description": {
+      "en": "Cotton is a major commercial crop grown for fiber. India is one of the largest cotton producers in the world. It requires black soil and warm temperatures.",
+      "hi": "कपास एक प्रमुख व्यावसायिक फसल है जो रेशे के लिए उगाई जाती है। भारत दुनिया के सबसे बड़े कपास उत्पादकों में से एक है। इसके लिए काली मिट्टी और गर्म तापमान की आवश्यकता होती है।",
+      "mr": "कापूस हे तंतूंसाठी घेतले जाणारे एक प्रमुख व्यापारी पीक आहे. भारत जगातील सर्वात मोठ्या कापूस उत्पादकांपैकी एक आहे. यासाठी काळी माती आणि उबदार तापमान आवश्यक आहे."
+    },
+    "companionCrops": ["Groundnut", "Pulses", "Onion"],
+    "avoidCrops": ["Brinjal", "Okra"]
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Maize",
+      "hi": "मक्का",
+      "mr": "मका"
+    },
+    "scientificName": "Zea mays",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Kharif (also grown in Rabi and Spring)",
+      "hi": "खरीफ (रबी और वसंत में भी उगाया जाता है)",
+      "mr": "खरीप (रब्बी आणि उन्हाळ्यातही घेतले जाते)"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["September", "October"],
+    "growingDays": 100,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 18,
+    "maxTemperature": 32,
+    "commonVarieties": ["HQPM-1", "Vivek QPM-9", "Pioneer 3396", "NK-6240"],
+    "benefits": {
+      "en": ["Good source of starch", "Used for animal feed", "Gluten-free"],
+      "hi": ["स्टार्च का अच्छा स्रोत", "पशु आहार के लिए उपयोगी", "ग्लूटेन-मुक्त"],
+      "mr": ["स्टार्चचा चांगला स्रोत", "पशुखाद्यासाठी वापर", "ग्लूटेन-मुक्त"]
+    },
+    "imageAsset": "media/crops/c4.jpg",
+    "yieldPerAcre": 25.0,
+    "description": {
+      "en": "Maize is an important cereal crop used for both human consumption and animal feed. It is also used for industrial products like starch and ethanol.",
+      "hi": "मक्का एक महत्वपूर्ण अनाज फसल है जिसका उपयोग मानव उपभोग और पशु आहार दोनों के लिए किया जाता है। इसका उपयोग स्टार्च और इथेनॉल जैसे औद्योगिक उत्पादों के लिए भी किया जाता है।",
+      "mr": "मका हे मानव उपभोग आणि पशुखाद्य या दोहींसाठी वापरले जाणारे महत्त्वाचे धान्य पीक आहे. याचा वापर स्टार्च आणि इथेनॉल सारख्या औद्योगिक उत्पादनांसाठीही केला जातो."
+    },
+    "companionCrops": ["Soybean", "Pulses", "Cucurbits"],
+    "avoidCrops": ["Tomato", "Brinjal"]
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Sugarcane",
+      "hi": "गन्ना",
+      "mr": "ऊस"
+    },
+    "scientificName": "Saccharum officinarum",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Long duration (12-18 months)",
+      "hi": "लंबी अवधि (12-18 महीने)",
+      "mr": "दीर्घ कालावधी (12-18 महिने)"
+    },
+    "sowingMonths": ["January", "February", "September", "October"],
+    "harvestingMonths": ["December", "January", "February", "March"],
+    "growingDays": 365,
+    "waterRequirement": {
+      "en": "High",
+      "hi": "अधिक",
+      "mr": "उच्च"
+    },
+    "soilType": {
+      "en": "Deep loamy soil",
+      "hi": "गहरी दोमट मिट्टी",
+      "mr": "खोल सांद्र माती"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 35,
+    "commonVarieties": ["Co-0238", "Co-86032", "CoM-0265", "Co-419"],
+    "benefits": {
+      "en": ["Sugar production", "Jaggery", "Ethanol for biofuel"],
+      "hi": ["चीनी उत्पादन", "गुड़", "जैव ईंधन के लिए इथेनॉल"],
+      "mr": ["साखर उत्पादन", "गुळ", "जैवइंधनासाठी इथेनॉल"]
+    },
+    "imageAsset": "media/crops/c5.jpg",
+    "yieldPerAcre": 40.0,
+    "description": {
+      "en": "Sugarcane is the main source of sugar worldwide. It is a long-duration grass that requires abundant water and warm temperatures throughout its growth period.",
+      "hi": "गन्ना दुनिया भर में चीनी का मुख्य स्रोत है। यह एक लंबी अवधि की घास है जिसे अपनी वृद्धि अवधि के दौरान प्रचुर मात्रा में पानी और गर्म तापमान की आवश्यकता होती है।",
+      "mr": "ऊस हा जगभरात साखरेचा मुख्य स्रोत आहे. हे एक दीर्घकालीन गवत आहे ज्याला त्याच्या वाढीच्या काळात विपुल पाणी आणि उबदार तापमान आवश्यक असते."
+    },
+    "companionCrops": ["Pulses", "Vegetables (early season)"],
+    "avoidCrops": ["Other grasses"]
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Soybean",
+      "hi": "सोयाबीन",
+      "mr": "सोयाबीन"
+    },
+    "scientificName": "Glycine max",
+    "family": "Fabaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["October", "November"],
+    "growingDays": 110,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 30,
+    "commonVarieties": ["JS-335", "MAUS-71", "PS-1042", "DS-228"],
+    "benefits": {
+      "en": ["High protein content", "Oil production", "Good for soil health (nitrogen-fixing)"],
+      "hi": ["उच्च प्रोटीन सामग्री", "तेल उत्पादन", "मिट्टी के स्वास्थ्य के लिए अच्छा (नाइट्रोजन स्थिरीकरण)"],
+      "mr": ["उच्च प्रथिने सामग्री", "तेल उत्पादन", "मातीच्या आरोग्यासाठी चांगले (नायट्रोजन स्थिरीकरण)"]
+    },
+    "imageAsset": "media/crops/c6.jpg",
+    "yieldPerAcre": 12.0,
+    "description": {
+      "en": "Soybean is an important oilseed and pulse crop. It is rich in protein and oil, making it valuable for both food and industrial purposes.",
+      "hi": "सोयाबीन एक महत्वपूर्ण तिलहन और दलहन फसल है। यह प्रोटीन और तेल से भरपूर है, जो इसे खाद्य और औद्योगिक दोनों उद्देश्यों के लिए मूल्यवान बनाता है।",
+      "mr": "सोयाबीन हे एक महत्त्वाचे तेलबिया व डाळींचे पीक आहे. हे प्रथिने व तेलाने समृद्ध असल्यामुळे अन्न व औद्योगिक दोन्ही हेतूंसाठी मौल्यवान आहे."
+    },
+    "companionCrops": ["Maize", "Sorghum", "Pigeonpea"],
+    "avoidCrops": ["Sunflower"]
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "Groundnut",
+      "hi": "मूंगफली",
+      "mr": "शेंगदाणा"
+    },
+    "scientificName": "Arachis hypogaea",
+    "family": "Fabaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["May", "June"],
+    "harvestingMonths": ["October", "November"],
+    "growingDays": 120,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Sandy loam",
+      "hi": "बलुई दोमट",
+      "mr": "वालुवा सांद्र"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 30,
+    "commonVarieties": ["TG-37A", "JL-24", "GG-20", "Kadiri-6"],
+    "benefits": {
+      "en": ["Rich in healthy fats and protein", "Edible oil production", "Nitrogen-fixing"],
+      "hi": ["स्वस्थ वसा और प्रोटीन से भरपूर", "खाद्य तेल उत्पादन", "नाइट्रोजन स्थिरीकरण"],
+      "mr": ["निरोगी चरबी व प्रथिने समृद्ध", "खाद्य तेल उत्पादन", "नायट्रोजन स्थिरीकरण"]
+    },
+    "imageAsset": "media/crops/c7.jpg",
+    "yieldPerAcre": 15.0,
+    "description": {
+      "en": "Groundnut is a major oilseed crop in India. Its pods mature underground, requiring light sandy soil for easy penetration and harvest.",
+      "hi": "मूंगफली भारत में एक प्रमुख तिलहन फसल है। इसकी फलियाँ भूमिगत पकती हैं, जिसके लिए आसान प्रवेश और कटाई हेतु हल्की बलुई मिट्टी की आवश्यकता होती है।",
+      "mr": "शेंगदाणा हे भारतातील एक प्रमुख तेलबिया पीक आहे. याच्या शेंगा जमिनीखाली पिकतात, ज्यासाठी सहज प्रवेश व काढणीसाठी हलकी वालुवा माती आवश्यक असते."
+    },
+    "companionCrops": ["Sunflower", "Pulses", "Castor"],
+    "avoidCrops": ["Tomato", "Potato"]
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "Tur",
+      "hi": "अरहर (तूर)",
+      "mr": "तूर"
+    },
+    "scientificName": "Cajanus cajan",
+    "family": "Fabaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["November", "December", "January"],
+    "growingDays": 180,
+    "waterRequirement": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 35,
+    "commonVarieties": ["ICP-8863", "BSMR-736", "Bahar", "Pusa-9"],
+    "benefits": {
+      "en": ["Rich in protein", "Improves soil fertility", "Drought tolerant"],
+      "hi": ["प्रोटीन से भरपूर", "मिट्टी की उर्वरता बढ़ाता है", "सूखा सहनशील"],
+      "mr": ["प्रथिने समृद्ध", "मातीची सुपीकता वाढवते", "दुष्काळसहिष्णु"]
+    },
+    "imageAsset": "media/crops/c8.jpg",
+    "yieldPerAcre": 8.0,
+    "description": {
+      "en": "Tur (Pigeonpea) is an important pulse crop grown mainly for its protein-rich seeds. It is highly drought-tolerant and improves soil health through nitrogen fixation.",
+      "hi": "अरहर (तूर) एक महत्वपूर्ण दलहन फसल है जो मुख्य रूप से अपने प्रोटीन युक्त बीजों के लिए उगाई जाती है। यह अत्यधिक सूखा सहनशील है और नाइट्रोजन स्थिरीकरण के माध्यम से मिट्टी के स्वास्थ्य में सुधार करती है।",
+      "mr": "तूर हे एक महत्त्वाचे डाळींचे पीक आहे जे प्रामुख्याने त्याच्या प्रथिनेयुक्त बियांसाठी घेतले जाते. हे अत्यंत दुष्काळसहिष्णु आहे आणि नायट्रोजन स्थिरीकरणाद्वारे मातीचे आरोग्य सुधारते."
+    },
+    "companionCrops": ["Sorghum", "Cotton", "Soybean"],
+    "avoidCrops": ["Brinjal", "Chili"]
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Chickpea",
+      "hi": "चना",
+      "mr": "हरभरा"
+    },
+    "scientificName": "Cicer arietinum",
+    "family": "Fabaceae",
+    "growingSeason": {
+      "en": "Rabi",
+      "hi": "रबी",
+      "mr": "रब्बी"
+    },
+    "sowingMonths": ["October", "November"],
+    "harvestingMonths": ["February", "March"],
+    "growingDays": 120,
+    "waterRequirement": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "soilType": {
+      "en": "Loamy to black soil",
+      "hi": "दोमट से काली मिट्टी",
+      "mr": "सांद्र ते काळी माती"
+    },
+    "minTemperature": 15,
+    "maxTemperature": 25,
+    "commonVarieties": ["Desi", "Kabuli", "Pusa-256", "JG-11"],
+    "benefits": {
+      "en": ["High protein content", "Good source of dietary fiber", "Improves soil fertility"],
+      "hi": ["उच्च प्रोटीन सामग्री", "आहार फाइबर का अच्छा स्रोत", "मिट्टी की उर्वरता बढ़ाता है"],
+      "mr": ["उच्च प्रथिने सामग्री", "आहारातील फायबरचा चांगला स्रोत", "मातीची सुपीकता वाढवते"]
+    },
+    "imageAsset": "media/crops/c9.jpg",
+    "yieldPerAcre": 10.0,
+    "description": {
+      "en": "Chickpea (Bengal gram) is a major pulse crop grown in the winter season. It is rich in protein and fiber and is consumed worldwide as a staple food.",
+      "hi": "चना (बंगाल चना) एक प्रमुख दलहन फसल है जो सर्दियों के मौसम में उगाई जाती है। यह प्रोटीन और फाइबर से भरपूर है और दुनिया भर में मुख्य भोजन के रूप में खाया जाता है।",
+      "mr": "हरभरा (बंगाल चना) हे हिवाळ्यात घेतले जाणारे एक प्रमुख डाळींचे पीक आहे. हे प्रथिने व फायबरने समृद्ध आहे आणि जगभरात मुख्य अन्न म्हणून वापरले जाते."
+    },
+    "companionCrops": ["Wheat", "Barley", "Mustard"],
+    "avoidCrops": ["Fenugreek", "Onion"]
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "Jowar",
+      "hi": "ज्वार",
+      "mr": "ज्वारी"
+    },
+    "scientificName": "Sorghum bicolor",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Kharif (also in Rabi in some areas)",
+      "hi": "खरीफ (कुछ क्षेत्रों में रबी में भी)",
+      "mr": "खरीप (काही भागात रब्बीमध्येही)"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["October", "November"],
+    "growingDays": 120,
+    "waterRequirement": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "soilType": {
+      "en": "Well-drained black soil",
+      "hi": "अच्छी जल निकास वाली काली मिट्टी",
+      "mr": "चांगला निचरा होणारी काळी माती"
+    },
+    "minTemperature": 25,
+    "maxTemperature": 35,
+    "commonVarieties": ["CSH-9", "CSV-15", "M-35-1", "SPV-462"],
+    "benefits": {
+      "en": ["Gluten-free grain", "Rich in fiber and antioxidants", "Used for animal feed and fodder"],
+      "hi": ["ग्लूटेन-मुक्त अनाज", "फाइबर और एंटीऑक्सीडेंट से भरपूर", "पशु आहार और चारे के लिए उपयोगी"],
+      "mr": ["ग्लूटेन-मुक्त धान्य", "फायबर व अँटिऑक्सिडंट्सने समृद्ध", "पशुखाद्य व चाऱ्यासाठी वापर"]
+    },
+    "imageAsset": "media/crops/c10.jpg",
+    "yieldPerAcre": 12.0,
+    "description": {
+      "en": "Jowar (Sorghum) is a drought-tolerant cereal crop grown for both human consumption and animal feed. It is an important millet in semi-arid regions.",
+      "hi": "ज्वार एक सूखा सहनशील अनाज फसल है जो मानव उपभोग और पशु आहार दोनों के लिए उगाई जाती है। यह अर्ध-शुष्क क्षेत्रों में एक महत्वपूर्ण मिलेट है।",
+      "mr": "ज्वारी हे दुष्काळसहिष्णु धान्य पीक आहे जे मानव उपभोग आणि पशुखाद्य दोन्हीसाठी घेतले जाते. हे अर्ध-कोरड्या भागातील एक महत्त्वाचे मिलेट आहे."
+    },
+    "companionCrops": ["Pulses", "Groundnut", "Cotton"],
+    "avoidCrops": ["Sugarcane"]
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Bajra",
+      "hi": "बाजरा",
+      "mr": "बाजरी"
+    },
+    "scientificName": "Pennisetum glaucum",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["June", "July", "August"],
+    "harvestingMonths": ["September", "October"],
+    "growingDays": 90,
+    "waterRequirement": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "soilType": {
+      "en": "Sandy loam to light black soil",
+      "hi": "बलुई दोमट से हल्की काली मिट्टी",
+      "mr": "वालुवा सांद्र ते हलकी काळी माती"
+    },
+    "minTemperature": 25,
+    "maxTemperature": 35,
+    "commonVarieties": ["HHB-67", "HB-3", "MH-169", "Pusa-605"],
+    "benefits": {
+      "en": ["Gluten-free", "Rich in iron and calcium", "Good for diabetic patients"],
+      "hi": ["ग्लूटेन-मुक्त", "आयरन और कैल्शियम से भरपूर", "मधुमेह के रोगियों के लिए अच्छा"],
+      "mr": ["ग्लूटेन-मुक्त", "लोह व कॅल्शियमने समृद्ध", "मधुमेह रूग्णांसाठी चांगले"]
+    },
+    "imageAsset": "media/crops/c11.jpg",
+    "yieldPerAcre": 10.0,
+    "description": {
+      "en": "Bajra (Pearl Millet) is a heat-tolerant millet grown in arid and semi-arid regions. It is highly nutritious and can withstand drought conditions.",
+      "hi": "बाजरा (पर्ल मिलेट) एक गर्मी सहनशील मिलेट है जो शुष्क और अर्ध-शुष्क क्षेत्रों में उगाया जाता है। यह अत्यधिक पौष्टिक है और सूखे की स्थितियों का सामना कर सकता है।",
+      "mr": "बाजरी हे कोरड्या व अर्ध-कोरड्या भागात घेतले जाणारे उष्णतासहिष्णु मिलेट आहे. हे अत्यंत पौष्टिक आहे आणि दुष्काळाची स्थिती सहन करू शकते."
+    },
+    "companionCrops": ["Pulses", "Green gram", "Cowpea"],
+    "avoidCrops": ["Tomato", "Brinjal"]
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Onion",
+      "hi": "प्याज",
+      "mr": "कांदा"
+    },
+    "scientificName": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "growingSeason": {
+      "en": "Rabi (also Kharif and late Kharif)",
+      "hi": "रबी (खरीफ और अंतिम खरीफ में भी)",
+      "mr": "रब्बी (खरीप आणि उशीरा खरीपमध्येही)"
+    },
+    "sowingMonths": ["October", "November", "December"],
+    "harvestingMonths": ["March", "April", "May"],
+    "growingDays": 130,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 13,
+    "maxTemperature": 24,
+    "commonVarieties": ["Pusa Red", "Nasik Red", "Bellary Red", "Agrifound Dark Red"],
+    "benefits": {
+      "en": ["Rich in antioxidants", "Adds flavor to food", "Medicinal properties"],
+      "hi": ["एंटीऑक्सीडेंट से भरपूर", "भोजन में स्वाद बढ़ाता है", "औषधीय गुण"],
+      "mr": ["अँटिऑक्सिडंट्सने समृद्ध", "अन्नाला चव आणते", "औषधीय गुणधर्म"]
+    },
+    "imageAsset": "media/crops/c12.jpg",
+    "yieldPerAcre": 18.0,
+    "description": {
+      "en": "Onion is an important vegetable crop grown for its bulbs. It is a key ingredient in Indian cooking and has various health benefits.",
+      "hi": "प्याज एक महत्वपूर्ण सब्जी फसल है जो इसके कंदों के लिए उगाई जाती है। यह भारतीय खाना पकाने में एक प्रमुख सामग्री है और इसके विभिन्न स्वास्थ्य लाभ हैं।",
+      "mr": "कांदा हे त्याच्या कंदांसाठी घेतले जाणारे एक महत्त्वाचे भाजीपाला पीक आहे. हे भारतीय स्वयंपाकातील एक प्रमुख घटक आहे आणि त्याचे विविध आरोग्य फायदे आहेत."
+    },
+    "companionCrops": ["Carrot", "Cabbage", "Tomato"],
+    "avoidCrops": ["Beans", "Peas"]
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Tomato",
+      "hi": "टमाटर",
+      "mr": "टोमॅटो"
+    },
+    "scientificName": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "growingSeason": {
+      "en": "Rabi and Summer",
+      "hi": "रबी और ग्रीष्म",
+      "mr": "रब्बी आणि उन्हाळा"
+    },
+    "sowingMonths": ["June", "July", "October", "November"],
+    "harvestingMonths": ["March", "April", "May", "September", "October"],
+    "growingDays": 80,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 18,
+    "maxTemperature": 27,
+    "commonVarieties": ["Pusa Ruby", "Arka Vikas", "Vaishali", "Shivaji"],
+    "benefits": {
+      "en": ["Rich in Vitamin C and lycopene", "Used in cooking worldwide", "Good for heart health"],
+      "hi": ["विटामिन सी और लाइकोपीन से भरपूर", "दुनिया भर में खाना पकाने में उपयोगी", "हृदय स्वास्थ्य के लिए अच्छा"],
+      "mr": ["व्हिटॅमिन सी व लायकोपीनने समृद्ध", "जगभरात स्वयंपाकात वापरले जाते", "हृदयाच्या आरोग्यासाठी चांगले"]
+    },
+    "imageAsset": "media/crops/c13.jpg",
+    "yieldPerAcre": 25.0,
+    "description": {
+      "en": "Tomato is one of the most widely cultivated vegetables. It is a warm-season crop that requires moderate temperatures and is rich in antioxidants.",
+      "hi": "टमाटर सबसे व्यापक रूप से उगाई जाने वाली सब्जियों में से एक है। यह एक गर्म मौसम की फसल है जिसके लिए मध्यम तापमान की आवश्यकता होती है और यह एंटीऑक्सीडेंट से भरपूर होती है।",
+      "mr": "टोमॅटो ही सर्वाधिक मोठ्या प्रमाणावर घेतल्या जाणाऱ्या भाज्यांपैकी एक आहे. हे एक उबदार हंगामाचे पीक आहे ज्यासाठी मध्यम तापमान आवश्यक आहे आणि ते अँटिऑक्सिडंट्सने समृद्ध आहे."
+    },
+    "companionCrops": ["Basil", "Onion", "Carrot"],
+    "avoidCrops": ["Potato", "Brinjal", "Fennel"]
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Potato",
+      "hi": "आलू",
+      "mr": "बटाटा"
+    },
+    "scientificName": "Solanum tuberosum",
+    "family": "Solanaceae",
+    "growingSeason": {
+      "en": "Rabi",
+      "hi": "रबी",
+      "mr": "रब्बी"
+    },
+    "sowingMonths": ["October", "November"],
+    "harvestingMonths": ["January", "February", "March"],
+    "growingDays": 100,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Sandy loam, well-drained",
+      "hi": "बलुई दोमट, अच्छी जल निकास",
+      "mr": "वालुवा सांद्र, चांगला निचरा"
+    },
+    "minTemperature": 15,
+    "maxTemperature": 25,
+    "commonVarieties": ["Kufri Jyoti", "Kufri Chandramukhi", "Kufri Pukhraj", "Kufri Badshah"],
+    "benefits": {
+      "en": ["Rich in starch and carbohydrates", "Good source of Vitamin C and B6", "Versatile cooking ingredient"],
+      "hi": ["स्टार्च और कार्बोहाइड्रेट से भरपूर", "विटामिन सी और बी6 का अच्छा स्रोत", "बहुमुखी खाना पकाने की सामग्री"],
+      "mr": ["स्टार्च व कर्बोदकांनी समृद्ध", "व्हिटॅमिन सी आणि बी6 चा चांगला स्रोत", "बहुमुखी स्वयंपाक घटक"]
+    },
+    "imageAsset": "media/crops/c14.jpg",
+    "yieldPerAcre": 20.0,
+    "description": {
+      "en": "Potato is a starchy tuber crop and a staple food in many parts of the world. It requires cool temperatures for tuber formation.",
+      "hi": "आलू एक स्टार्चयुक्त कंद फसल है और दुनिया के कई हिस्सों में एक मुख्य भोजन है। कंद निर्माण के लिए ठंडे तापमान की आवश्यकता होती है।",
+      "mr": "बटाटा हे स्टार्चयुक्त कंद पीक आहे आणि जगाच्या अनेक भागांत एक मुख्य अन्न आहे. कंद निर्मितीसाठी थंड तापमान आवश्यक असते."
+    },
+    "companionCrops": ["Cabbage", "Cauliflower", "Peas"],
+    "avoidCrops": ["Tomato", "Brinjal", "Sunflower"]
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Sunflower",
+      "hi": "सूरजमुखी",
+      "mr": "सूर्यफूल"
+    },
+    "scientificName": "Helianthus annuus",
+    "family": "Asteraceae",
+    "growingSeason": {
+      "en": "Kharif (also Rabi in some regions)",
+      "hi": "खरीफ (कुछ क्षेत्रों में रबी भी)",
+      "mr": "खरीप (काही भागात रब्बीही)"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["September", "October"],
+    "growingDays": 100,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy soil",
+      "hi": "अच्छी जल निकास वाली दोमट मिट्टी",
+      "mr": "चांगला निचरा होणारी सांद्र माती"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 30,
+    "commonVarieties": ["KBSH-44", "RSB-1", "Morden", "Sunrich"],
+    "benefits": {
+      "en": ["High quality edible oil", "Rich in Vitamin E", "Used as birdseed"],
+      "hi": ["उच्च गुणवत्ता वाला खाद्य तेल", "विटामिन ई से भरपूर", "पक्षी चारे के रूप में उपयोग"],
+      "mr": ["उच्च दर्जाचे खाद्य तेल", "व्हिटॅमिन ई ने समृद्ध", "पक्षीखाद्य म्हणून वापर"]
+    },
+    "imageAsset": "media/crops/c15.jpg",
+    "yieldPerAcre": 8.0,
+    "description": {
+      "en": "Sunflower is an important oilseed crop known for its bright yellow flowers. It produces a high-quality oil that is heart-healthy.",
+      "hi": "सूरजमुखी एक महत्वपूर्ण तिलहन फसल है जो अपने चमकीले पीले फूलों के लिए जानी जाती है। यह उच्च गुणवत्ता वाला तेल पैदा करता है जो हृदय के लिए स्वस्थ होता है।",
+      "mr": "सूर्यफूल हे त्याच्या चमकदार पिवळ्या फुलांसाठी ओळखले जाणारे एक महत्त्वाचे तेलबिया पीक आहे. हे उच्च दर्जाचे तेल तयार करते जे हृदयासाठी निरोगी आहे."
+    },
+    "companionCrops": ["Soybean", "Pulses", "Corn"],
+    "avoidCrops": ["Potato", "Tomato"]
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Millet",
+      "hi": "रागी (मांडुआ)",
+      "mr": "नाचणी (रागी)"
+    },
+    "scientificName": "Eleusine coracana",
+    "family": "Poaceae",
+    "growingSeason": {
+      "en": "Kharif",
+      "hi": "खरीफ",
+      "mr": "खरीप"
+    },
+    "sowingMonths": ["June", "July"],
+    "harvestingMonths": ["September", "October"],
+    "growingDays": 90,
+    "waterRequirement": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "soilType": {
+      "en": "Light to medium soil",
+      "hi": "हल्की से मध्यम मिट्टी",
+      "mr": "हलकी ते मध्यम माती"
+    },
+    "minTemperature": 20,
+    "maxTemperature": 35,
+    "commonVarieties": ["GPU-28", "GPU-48", "Ragi", "VL-149"],
+    "benefits": {
+      "en": ["Rich in calcium and iron", "Gluten-free", "Good for bone health"],
+      "hi": ["कैल्शियम और आयरन से भरपूर", "ग्लूटेन-मुक्त", "हड्डियों के स्वास्थ्य के लिए अच्छा"],
+      "mr": ["कॅल्शियम व लोहाने समृद्ध", "ग्लूटेन-मुक्त", "हाडांच्या आरोग्यासाठी चांगले"]
+    },
+    "imageAsset": "media/crops/c16.jpg",
+    "yieldPerAcre": 8.0,
+    "description": {
+      "en": "Millet (Finger Millet) is a nutritious, drought-tolerant grain grown in semi-arid regions. It is especially rich in calcium and iron.",
+      "hi": "रागी (फिंगर मिलेट) एक पौष्टिक, सूखा सहनशील अनाज है जो अर्ध-शुष्क क्षेत्रों में उगाया जाता है। यह विशेष रूप से कैल्शियम और आयरन से भरपूर होता है।",
+      "mr": "नाचणी (फिंगर मिलेट) हे अर्ध-कोरड्या भागात घेतले जाणारे पौष्टिक, दुष्काळसहिष्णु धान्य आहे. हे विशेषतः कॅल्शियम व लोहाने समृद्ध आहे."
+    },
+    "companionCrops": ["Pulses", "Groundnut", "Cowpea"],
+    "avoidCrops": ["Tomato", "Brinjal"]
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Pomegranate",
+      "hi": "अनार",
+      "mr": "डाळिंब"
+    },
+    "scientificName": "Punica granatum",
+    "family": "Lythraceae",
+    "growingSeason": {
+      "en": "Perennial",
+      "hi": "बारहमासी",
+      "mr": "बारमाही"
+    },
+    "sowingMonths": ["June", "July", "December", "January"],
+    "harvestingMonths": ["August", "September", "February", "March"],
+    "growingDays": 365,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Deep loamy or black soil",
+      "hi": "गहरी दोमट या काली मिट्टी",
+      "mr": "खोल सांद्र किंवा काळी माती"
+    },
+    "minTemperature": 25,
+    "maxTemperature": 35,
+    "commonVarieties": ["Bhagwa", "Ganesh", "Ruby", "Kesar"],
+    "benefits": {
+      "en": ["Rich in antioxidants", "Good for heart health", "High in Vitamin C and K"],
+      "hi": ["एंटीऑक्सीडेंट से भरपूर", "हृदय स्वास्थ्य के लिए अच्छा", "विटामिन सी और के में उच्च"],
+      "mr": ["अँटिऑक्सिडंट्सने समृद्ध", "हृदयाच्या आरोग्यासाठी चांगले", "व्हिटॅमिन सी व के मध्ये उच्च"]
+    },
+    "imageAsset": "media/crops/c17.jpg",
+    "yieldPerAcre": 12.0,
+    "description": {
+      "en": "Pomegranate is a fruit crop grown for its juicy, nutrient-rich seeds. It thrives in hot, dry climates and requires well-drained soil.",
+      "hi": "अनार एक फल फसल है जो इसके रसदार, पोषक तत्वों से भरपूर बीजों के लिए उगाई जाती है। यह गर्म, शुष्क जलवायु में पनपता है और इसे अच्छी जल निकास वाली मिट्टी की आवश्यकता होती है।",
+      "mr": "डाळिंब हे त्याच्या रसाळ, पोषक तत्वांनी समृद्ध बियांसाठी घेतले जाणारे फळ पीक आहे. हे उष्ण, कोरड्या हवामानात भरभराट होते आणि त्यासाठी चांगला निचरा होणारी माती आवश्यक असते."
+    },
+    "companionCrops": ["Cowpea", "Green gram", "Fenugreek"],
+    "avoidCrops": ["Brinjal", "Tomato"]
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Grapes",
+      "hi": "अंगूर",
+      "mr": "द्राक्षे"
+    },
+    "scientificName": "Vitis vinifera",
+    "family": "Vitaceae",
+    "growingSeason": {
+      "en": "Perennial",
+      "hi": "बारहमासी",
+      "mr": "बारमाही"
+    },
+    "sowingMonths": ["December", "January"],
+    "harvestingMonths": ["March", "April", "May", "June"],
+    "growingDays": 365,
+    "waterRequirement": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "soilType": {
+      "en": "Well-drained loamy or sandy loam",
+      "hi": "अच्छी जल निकास वाली दोमट या बलुई दोमट",
+      "mr": "चांगला निचरा होणारी सांद्र किंवा वालुवा सांद्र"
+    },
+    "minTemperature": 15,
+    "maxTemperature": 35,
+    "commonVarieties": ["Thompson Seedless", "Bangalore Blue", "Sharad Seedless", "Anab-e-Shahi"],
+    "benefits": {
+      "en": ["Rich in antioxidants (resveratrol)", "Used for wine and raisins", "Good for heart health"],
+      "hi": ["एंटीऑक्सीडेंट (रिस्वेराट्रोल) से भरपूर", "शराब और किशमिश के लिए उपयोग", "हृदय स्वास्थ्य के लिए अच्छा"],
+      "mr": ["अँटिऑक्सिडंट्स (रेस्वेराट्रोल) ने समृद्ध", "वाइन आणि मनुकेसाठी वापर", "हृदयाच्या आरोग्यासाठी चांगले"]
+    },
+    "imageAsset": "media/crops/c18.jpg",
+    "yieldPerAcre": 15.0,
+    "description": {
+      "en": "Grapes are a popular fruit crop grown for table consumption, raisin production, and winemaking. They require pruning and training for optimal yield.",
+      "hi": "अंगूर एक लोकप्रिय फल फसल है जो टेबल उपभोग, किशमिश उत्पादन और शराब बनाने के लिए उगाया जाता है। इष्टतम उपज के लिए इन्हें छंटाई और प्रशिक्षण की आवश्यकता होती है।",
+      "mr": "द्राक्षे हे टेबल वापर, मनुका उत्पादन आणि दारू बनविण्यासाठी घेतले जाणारे लोकप्रिय फळ पीक आहे. इष्टतम उत्पादनासाठी त्यांना छाटणी आणि प्रशिक्षणाची आवश्यकता असते."
+    },
+    "companionCrops": ["Pulses", "Vegetables (early stage)"],
+    "avoidCrops": ["Cabbage", "Cauliflower"]
+  }
+]

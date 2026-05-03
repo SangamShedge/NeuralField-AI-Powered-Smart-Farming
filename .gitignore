@@ -1,0 +1,53 @@
+# ======================
+# PYTHON / DJANGO
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+venv/
+env/
+venv310/
+.env
+
+# Django
+db.sqlite3
+media/
+
+# ML models
+*.pkl
+*.h5
+
+# ML datasets
+backend/NeuralField/ml_models/crop_recommendation/dataset/
+backend/NeuralField/ml_models/fertilizer/dataset/
+backend/NeuralField/ml_models/pest_detection/dataset/
+
+# ======================
+# FLUTTER
+# ======================
+frontend/build/
+frontend/.dart_tool/
+frontend/.packages
+frontend/pubspec.lock
+
+# ======================
+# ANDROID / APK
+# ======================
+*.apk
+
+# ======================
+# DATABASE FILES
+# ======================
+*.sql
+
+# ======================
+# OS / EDITOR
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

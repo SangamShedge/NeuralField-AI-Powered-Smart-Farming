@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- ========== PERMISSION USAGE DESCRIPTIONS ========== -->
+
+    <!-- Camera -->
+    <key>NSCameraUsageDescription</key>
+    <string>NeuralField needs camera access to take photos of your crops for disease detection.</string>
+
+    <!-- Microphone (RECORD_AUDIO) -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>NeuralField uses microphone for voice input to help you ask questions hands‑free.</string>
+
+    <!-- Photo Library (READ_MEDIA_IMAGES) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>NeuralField needs access to your photo library to upload crop images for analysis.</string>
+
+    <!-- Location (when in use) – required for iOS 11+ -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>NeuralField needs your location to show nearby farming resources and weather.</string>
+
+    <!-- Location (always + background) – modern replacement for deprecated NSLocationAlwaysUsageDescription -->
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>NeuralField uses your location to provide local weather and crop advice even when the app is in background.</string>
+
+    <!-- ========== BACKGROUND MODES (requires Xcode capability) ========== -->
+    <!-- IMPORTANT: You must also enable "Background Modes" capability in Xcode:
+         Open ios/Runner.xcworkspace → Select Runner target → Signing & Capabilities
+         → + Capability → Background Modes → tick "Location updates"
+    -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+
+    <!-- ========== ORIGINAL FLUTTER SETTINGS (unchanged) ========== -->
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>NeuralField</string>   <!-- Fixed capital F -->
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>NeuralField</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+        <key>UISceneConfigurations</key>
+        <dict>
+            <key>UIWindowSceneSessionRoleApplication</key>
+            <array>
+                <dict>
+                    <key>UISceneClassName</key>
+                    <string>UIWindowScene</string>
+                    <key>UISceneConfigurationName</key>
+                    <string>flutter</string>
+                    <key>UISceneDelegateClassName</key>
+                    <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                    <key>UISceneStoryboardFile</key>
+                    <string>Main</string>
+                </dict>
+            </array>
+        </dict>
+    </dict>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+</dict>
+</plist>

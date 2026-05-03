@@ -1,0 +1,1910 @@
+[
+  {
+    "id": "1",
+    "name": {
+      "en": "Aphids",
+      "hi": "एफिड्स (माहू)",
+      "mr": "एफिड्स (मावा)"
+    },
+    "scientificName": "Aphidoidea",
+    "type": {
+      "en": "sucking_pest",
+      "hi": "रस चूसने वाला कीट",
+      "mr": "रस शोषण करणारा कीटक"
+    },
+    "severity": {
+      "en": "medium",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "affectedCrops": {
+      "en": ["Wheat", "Cotton", "Vegetables", "Fruits", "Ornamentals"],
+      "hi": ["गेहूं", "कपास", "सब्जियां", "फल", "सजावटी पौधे"],
+      "mr": ["गहू", "कापूस", "भाज्या", "फळे", "सजावटी वनस्पती"]
+    },
+    "symptoms": {
+      "en": [
+        "Curled and yellowing leaves",
+        "Stunted plant growth",
+        "Honeydew secretion on leaves",
+        "Sooty mold growth",
+        "Presence of small green/black insects on undersides of leaves"
+      ],
+      "hi": [
+        "पत्तियों का मुड़ना और पीला पड़ना",
+        "पौधे की वृद्धि रुक जाना",
+        "पत्तियों पर हनीड्यू (चिपचिपा पदार्थ) स्राव",
+        "कालिखी फफूंद की वृद्धि",
+        "पत्तियों के नीचे छोटे हरे/काले कीटों की उपस्थिति"
+      ],
+      "mr": [
+        "पानांचे कुरळे होणे व पिवळे पडणे",
+        "वनस्पतींची वाढ खुंटणे",
+        "पानांवर हनीड्यू (चिकट पदार्थ) स्राव",
+        "काजळी सारखी बुरशी वाढणे",
+        "पानांच्या खालील बाजूला हिरवे/काळे कीटक असणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Neem oil spray (5ml/L water)",
+        "Garlic and chili extract",
+        "Release ladybugs (natural predator)",
+        "Soap water spray (2ml/L)",
+        "Plant marigold as trap crop"
+      ],
+      "hi": [
+        "नीम तेल का छिड़काव (5ml/लीटर पानी)",
+        "लहसुन और मिर्च का अर्क",
+        "लेडीबग (प्राकृतिक परभक्षी) छोड़ें",
+        "साबुन के पानी का छिड़काव (2ml/लीटर)",
+        "ट्रैप फसल के रूप में गेंदा लगाएं"
+      ],
+      "mr": [
+        "निंब तेल फवारणी (5ml/लीटर पाणी)",
+        "लसूण व मिरची अर्क",
+        "लेडीबग (नैसर्गिक भक्षक) सोडा",
+        "साबणाच्या पाण्याची फवारणी (2ml/लीटर)",
+        "सापळा पीक म्हणून झेंडू लावा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Imidacloprid (0.5ml/L)",
+        "Dimethoate (1ml/L)",
+        "Malathion (2ml/L)",
+        "Thiamethoxam (0.5g/L)"
+      ],
+      "hi": [
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "डाइमेथोएट (1ml/लीटर)",
+        "मैलाथियान (2ml/लीटर)",
+        "थायमेथोक्साम (0.5g/लीटर)"
+      ],
+      "mr": [
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "डायमेथोएट (1ml/लीटर)",
+        "मॅलाथियान (2ml/लीटर)",
+        "थायमेथोक्साम (0.5g/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Regular crop monitoring",
+        "Avoid excess nitrogen fertilizer",
+        "Remove weed hosts",
+        "Use reflective mulches",
+        "Encourage natural predators"
+      ],
+      "hi": [
+        "नियमित फसल निगरानी",
+        "अत्यधिक नाइट्रोजन उर्वरक से बचें",
+        "खरपतवार मेजबान हटाएं",
+        "परावर्तक मल्च का उपयोग करें",
+        "प्राकृतिक परभक्षियों को प्रोत्साहित करें"
+      ],
+      "mr": [
+        "नियमित पीक निरीक्षण",
+        "जास्त नायट्रोजन खत टाळा",
+        "तण यजमान काढून टाका",
+        "परावर्तक आच्छादन वापरा",
+        "नैसर्गिक भक्षकांना प्रोत्साहन द्या"
+      ]
+    },
+    "description": {
+      "en": "Aphids are small sap-sucking insects that weaken plants and transmit viral diseases. They reproduce rapidly in favorable conditions.",
+      "hi": "एफिड्स छोटे रस चूसने वाले कीट हैं जो पौधों को कमजोर करते हैं और विषाणु रोग फैलाते हैं। अनुकूल परिस्थितियों में ये तेजी से प्रजनन करते हैं।",
+      "mr": "एफिड्स हे छोटे रस शोषण करणारे कीटक आहेत जे वनस्पती कमकुवत करतात व विषाणूजन्य रोग पसरवतात. अनुकूल परिस्थितीत हे जलद पुनरुत्पादन करतात."
+    },
+    "imageAsset": "media/crops/c1.jpg",
+    "favorableConditions": {
+      "en": "Cool to warm temperatures (15-25°C), dry weather, new plant growth",
+      "hi": "ठंडे से गर्म तापमान (15-25°C), शुष्क मौसम, नई पौध वृद्धि",
+      "mr": "थंड ते उबदार तापमान (15-25°C), कोरडे हवामान, नवीन वनस्पती वाढ"
+    },
+    "transmissionMethod": {
+      "en": "Flying, wind dispersal, ant farming",
+      "hi": "उड़ान, हवा द्वारा फैलाव, चींटी पालन",
+      "mr": "उड्डाण, वायु प्रसरण, मुंगी शेती (प्रतिपालन)"
+    },
+    "lifeCycle": {
+      "en": "7-10 days per generation",
+      "hi": "प्रति पीढ़ी 7-10 दिन",
+      "mr": "प्रति पिढी 7-10 दिवस"
+    },
+    "economicImpact": {
+      "en": "Moderate to high - reduces yield, transmits viruses",
+      "hi": "मध्यम से उच्च - उपज घटाता है, विषाणु फैलाता है",
+      "mr": "मध्यम ते उच्च - उत्पादन कमी करतो, विषाणू पसरवतो"
+    },
+    "globalDistribution": {
+      "en": "Worldwide",
+      "hi": "दुनिया भर में",
+      "mr": "जगभर"
+    },
+    "commonName": {
+      "en": "Plant lice, greenfly, blackfly",
+      "hi": "पौधों की जूँ, हरी मक्खी, काली मक्खी",
+      "mr": "वनस्पती उवा, हिरवी माशी, काळी माशी"
+    },
+    "hostRange": {
+      "en": "Extremely wide - most cultivated plants",
+      "hi": "अत्यंत व्यापक - अधिकांश खेती वाले पौधे",
+      "mr": "अत्यंत विस्तृत - बहुतेक लागवडीखालील वनस्पती"
+    },
+    "pesticideResistance": {
+      "en": "Yes, widespread resistance to organophosphates and carbamates",
+      "hi": "हाँ, ऑर्गनोफॉस्फेट और कार्बामेट के लिए व्यापक प्रतिरोध",
+      "mr": "होय, ऑर्गनोफॉस्फेट व कार्बामेटला व्यापक प्रतिकार"
+    }
+  },
+  {
+    "id": "2",
+    "name": {
+      "en": "Whitefly",
+      "hi": "सफेद मक्खी",
+      "mr": "श्वेत माशी"
+    },
+    "scientificName": "Bemisia tabaci",
+    "type": {
+      "en": "sucking_pest",
+      "hi": "रस चूसने वाला कीट",
+      "mr": "रस शोषण करणारा कीटक"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["Cotton", "Tomato", "Okra", "Pulses", "Soybean"],
+      "hi": ["कपास", "टमाटर", "भिंडी", "दलहन", "सोयाबीन"],
+      "mr": ["कापूस", "टोमॅटो", "भेंडी", "कडधान्ये", "सोयाबीन"]
+    },
+    "symptoms": {
+      "en": [
+        "Yellowing and wilting of leaves",
+        "Sticky honeydew on leaf surface",
+        "Sooty mold growth",
+        "Leaf curling and distortion",
+        "Transmission of viral diseases"
+      ],
+      "hi": [
+        "पत्तियों का पीला पड़ना और मुरझाना",
+        "पत्ती की सतह पर चिपचिपा हनीड्यू",
+        "कालिखी फफूंद की वृद्धि",
+        "पत्तियों का मुड़ना और विकृति",
+        "विषाणु रोगों का संचरण"
+      ],
+      "mr": [
+        "पानांचे पिवळे पडणे व मुरझाणे",
+        "पानांच्या पृष्ठभागावर चिकट हनीड्यू",
+        "काजळी बुरशी वाढणे",
+        "पानांचे कुरळे होणे व विकृती",
+        "विषाणूजन्य रोगांचे संक्रमण"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Yellow sticky traps (8-10 per acre)",
+        "Neem oil spray (5ml/L)",
+        "Release Encarsia wasps (parasitoid)",
+        "Garlic extract spray",
+        "Reflective silver mulch"
+      ],
+      "hi": [
+        "पीले चिपचिपे ट्रैप (8-10 प्रति एकड़)",
+        "नीम तेल का छिड़काव (5ml/लीटर)",
+        "एनकार्सिया ततैया (परजीवी) छोड़ें",
+        "लहसुन अर्क का छिड़काव",
+        "परावर्तक चांदी मल्च"
+      ],
+      "mr": [
+        "पिवळे चिकट सापळे (8-10 प्रति एकर)",
+        "निंब तेल फवारणी (5ml/लीटर)",
+        "एनकार्सिया गांधीलमाशी (परजीवी) सोडा",
+        "लसूण अर्क फवारणी",
+        "परावर्तक रुपेरी आच्छादन"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Imidacloprid (0.5ml/L)",
+        "Buprofezin (1ml/L)",
+        "Diafenthiuron (1g/L)",
+        "Pymetrozine (0.5g/L)"
+      ],
+      "hi": [
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "ब्यूप्रोफेज़िन (1ml/लीटर)",
+        "डायफेन्थिउरॉन (1g/लीटर)",
+        "पाइमेट्रोज़ीन (0.5g/लीटर)"
+      ],
+      "mr": [
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "ब्यूप्रोफेझिन (1ml/लीटर)",
+        "डायफेन्थिउरॉन (1g/लीटर)",
+        "पायमेट्रोझिन (0.5g/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Use virus-free seedlings",
+        "Remove weed hosts (especially Parthenium)",
+        "Avoid dense planting",
+        "Monitor with yellow traps",
+        "Crop rotation with non-host crops"
+      ],
+      "hi": [
+        "विषाणु-मुक्त पौधों का उपयोग करें",
+        "खरपतवार मेजबान हटाएं (विशेषकर पार्थेनियम)",
+        "सघन रोपण से बचें",
+        "पीले ट्रैप से निगरानी करें",
+        "गैर-मेजबान फसलों के साथ फसल चक्र"
+      ],
+      "mr": [
+        "विषाणूमुक्त रोपे वापरा",
+        "तण यजमान काढून टाका (विशेषतः पार्थेनियम)",
+        "गर्द लागवड टाळा",
+        "पिवळ्या सापळ्यांनी निरीक्षण करा",
+        "अयजमान पिकांसह पीक फेरपालट"
+      ]
+    },
+    "description": {
+      "en": "Whitefly is a major pest that directly damages plants by sucking sap and indirectly by transmitting over 100 plant viruses, especially begomoviruses.",
+      "hi": "सफेद मक्खी एक प्रमुख कीट है जो रस चूसकर पौधों को प्रत्यक्ष नुकसान पहुंचाती है और 100 से अधिक पौध विषाणुओं, विशेषकर बेगोमोवायरस, का अप्रत्यक्ष संचरण करती है।",
+      "mr": "श्वेत माशी हा एक प्रमुख कीटक आहे जो रस शोषण करून वनस्पतींचे थेट नुकसान करतो व अप्रत्यक्षपणे 100 हून अधिक वनस्पती विषाणू, विशेषतः बेगोमोव्हायरस, संक्रमित करतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Warm, dry conditions (25-35°C), low rainfall",
+      "hi": "गर्म, शुष्क स्थितियाँ (25-35°C), कम वर्षा",
+      "mr": "उबदार, कोरडी परिस्थिती (25-35°C), कमी पाऊस"
+    },
+    "transmissionMethod": {
+      "en": "Flying, wind, infested plant material",
+      "hi": "उड़ान, हवा, संक्रमित पौध सामग्री",
+      "mr": "उड्डाण, वारा, संक्रमित वनस्पती साहित्य"
+    },
+    "lifeCycle": {
+      "en": "20-30 days (egg to adult)",
+      "hi": "20-30 दिन (अंडे से वयस्क)",
+      "mr": "20-30 दिवस (अंड्यापासून प्रौढापर्यंत)"
+    },
+    "economicImpact": {
+      "en": "Very high - causes huge losses in cotton and vegetables",
+      "hi": "बहुत उच्च - कपास और सब्जियों में भारी नुकसान करता है",
+      "mr": "अत्यंत उच्च - कापूस व भाज्यांमध्ये प्रचंड नुकसान करतो"
+    },
+    "globalDistribution": {
+      "en": "Tropical and subtropical regions worldwide",
+      "hi": "दुनिया भर के उष्णकटिबंधीय और उपोष्णकटिबंधीय क्षेत्र",
+      "mr": "जगभरातील उष्णकटिबंधीय व उपोष्णकटिबंधीय प्रदेश"
+    },
+    "commonName": {
+      "en": "Sweet potato whitefly, cotton whitefly",
+      "hi": "शकरकंद सफेद मक्खी, कपास सफेद मक्खी",
+      "mr": "गोड बटाटा श्वेत माशी, कापूस श्वेत माशी"
+    },
+    "hostRange": {
+      "en": "Over 500 plant species",
+      "hi": "500 से अधिक पौधों की प्रजातियाँ",
+      "mr": "500 हून अधिक वनस्पती प्रजाती"
+    },
+    "pesticideResistance": {
+      "en": "Yes, resistance to many insecticides including pyrethroids and organophosphates",
+      "hi": "हाँ, पाइरेथ्रोयड और ऑर्गनोफॉस्फेट सहित कई कीटनाशकों के लिए प्रतिरोध",
+      "mr": "होय, पायरेथ्रॉइड व ऑर्गनोफॉस्फेटसह अनेक कीटकनाशकांना प्रतिकार"
+    }
+  },
+  {
+    "id": "3",
+    "name": {
+      "en": "Stem Borer",
+      "hi": "तना छेदक",
+      "mr": "खोड छेदक"
+    },
+    "scientificName": "Scirpophaga incertulas",
+    "type": {
+      "en": "boring_pest",
+      "hi": "बेधक कीट",
+      "mr": "भेदक कीटक"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Rice", "Sugarcane", "Maize", "Sorghum"],
+      "hi": ["धान", "गन्ना", "मक्का", "ज्वार"],
+      "mr": ["तांदूळ", "ऊस", "मका", "ज्वारी"]
+    },
+    "symptoms": {
+      "en": [
+        "Dead heart (central shoot drying)",
+        "White ears (panicles with empty grains)",
+        "Small holes on stem",
+        "Frass (insect excrement) near holes",
+        "Wilting and lodging of plants"
+      ],
+      "hi": [
+        "सूखा केंद्र (केंद्रीय प्ररोह सूखना)",
+        "सफेद बालियां (खाली दानों वाली शाखाएं)",
+        "तने पर छोटे छेद",
+        "छेदों के पास फ्रैस (कीट मल)",
+        "पौधों का मुरझाना और झुकना"
+      ],
+      "mr": [
+        "मृत केंद्र (मध्यवर्ती प्ररोह कोरडे होणे)",
+        "पांढरे कणीस (रिक्त दाण्यांचे कणीस)",
+        "देठावर छोटी छिद्रे",
+        "छिद्रांजवळ फ्रेस (कीटक विष्ठा)",
+        "वनस्पतींचे मुरझाणे व वाकणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Release Trichogramma eggs (parasitoid wasps)",
+        "Install pheromone traps (5 per acre)",
+        "Apply neem cake (250kg/ha)",
+        "Use light traps to attract adults",
+        "Egg parasitoid release (Telenomus)"
+      ],
+      "hi": [
+        "ट्राइकोग्रामा अंडे (परजीवी ततैया) छोड़ें",
+        "फेरोमोन ट्रैप स्थापित करें (5 प्रति एकड़)",
+        "नीम केक (250kg/हे) लगाएं",
+        "वयस्कों को आकर्षित करने के लिए लाइट ट्रैप का उपयोग करें",
+        "अंड परजीवी टेलेनोमस छोड़ें"
+      ],
+      "mr": [
+        "ट्रायकोग्रामा अंडी (परजीवी गांधीलमाशी) सोडा",
+        "फेरोमोन सापळे बसवा (5 प्रति एकर)",
+        "निंब केक लावा (250kg/हे)",
+        "प्रौढाकर्षणासाठी लाईट सापळे वापरा",
+        "अंड परजीवी टेलेनोमस सोडा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Cartap hydrochloride (1g/L)",
+        "Chlorantraniliprole (0.4ml/L)",
+        "Fipronil (1ml/L)",
+        "Monocrotophos (1.5ml/L)"
+      ],
+      "hi": [
+        "कार्टाप हाइड्रोक्लोराइड (1g/लीटर)",
+        "क्लोरैंट्रानिलीप्रोल (0.4ml/लीटर)",
+        "फिप्रोनिल (1ml/लीटर)",
+        "मोनोक्रोटोफोस (1.5ml/लीटर)"
+      ],
+      "mr": [
+        "कार्टाप हायड्रोक्लोराइड (1g/लीटर)",
+        "क्लोरँट्रॅनिलिप्रोल (0.4ml/लीटर)",
+        "फायप्रोनिल (1ml/लीटर)",
+        "मोनोक्रोटोफोस (1.5ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Destroy crop residues after harvest",
+        "Use resistant varieties",
+        "Clipping of seedling tips before transplanting",
+        "Synchronous planting in an area",
+        "Summer plowing to expose pupae"
+      ],
+      "hi": [
+        "कटाई के बाद फसल अवशेष नष्ट करें",
+        "प्रतिरोधी किस्मों का उपयोग करें",
+        "रोपाई से पहले पौधों के सिरे काटें",
+        "एक क्षेत्र में समकालीन रोपण",
+        "ग्रीष्मकालीन जुताई से कोषों को बाहर निकालें"
+      ],
+      "mr": [
+        "कापणीनंतर पीक अवशेष नष्ट करा",
+        "प्रतिरोधक प्रकार वापरा",
+        "लागवडीपूर्वी रोपांचे टोक कापा",
+        "भागात एकाच वेळी लागवड करा",
+        "उन्हाळी नांगरणीने कोष बाहेर काढा"
+      ]
+    },
+    "description": {
+      "en": "Stem borer larvae bore into plant stems, causing dead hearts and white ears, leading to severe yield loss in cereal crops.",
+      "hi": "तना छेदक के लार्वा पौधों के तनों में छेद करते हैं, जिससे सूखा केंद्र और सफेद बालियां बनती हैं, जिससे अनाज फसलों में गंभीर उपज हानि होती है।",
+      "mr": "खोड छेदकाची अळी वनस्पतींच्या देठांमध्ये छिद्रे करतात, ज्यामुळे मृत केंद्र व पांढरे कणीस तयार होते, धान्य पिकांमध्ये गंभीर उत्पादन हानी करते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Humid conditions, high temperature (25-30°C), dense planting",
+      "hi": "आर्द्र स्थितियाँ, उच्च तापमान (25-30°C), सघन रोपण",
+      "mr": "आर्द्र परिस्थिती, उच्च तापमान (25-30°C), गर्द लागवड"
+    },
+    "transmissionMethod": {
+      "en": "Adult moths fly between fields",
+      "hi": "वयस्क पतंगे खेतों के बीच उड़ते हैं",
+      "mr": "प्रौढ पतंग शेतांदरम्यान उडतात"
+    },
+    "lifeCycle": {
+      "en": "35-45 days",
+      "hi": "35-45 दिन",
+      "mr": "35-45 दिवस"
+    },
+    "economicImpact": {
+      "en": "20-40% yield loss, up to 60% in severe cases",
+      "hi": "20-40% उपज हानि, गंभीर मामलों में 60% तक",
+      "mr": "20-40% उत्पादन हानी, गंभीर प्रकरणांमध्ये 60% पर्यंत"
+    },
+    "globalDistribution": {
+      "en": "Asia, Africa, Mediterranean",
+      "hi": "एशिया, अफ्रीका, भूमध्यसागरीय",
+      "mr": "आशिया, आफ्रिका, भूमध्य"
+    },
+    "commonName": {
+      "en": "Rice stem borer, yellow stem borer",
+      "hi": "धान तना छेदक, पीला तना छेदक",
+      "mr": "तांदूळ खोड छेदक, पिवळा खोड छेदक"
+    },
+    "hostRange": {
+      "en": "Rice, sugarcane, maize, other grasses",
+      "hi": "धान, गन्ना, मक्का, अन्य घास",
+      "mr": "तांदूळ, ऊस, मका, अन्य गवते"
+    },
+    "pesticideResistance": {
+      "en": "Moderate resistance reported in some populations",
+      "hi": "कुछ आबादी में मध्यम प्रतिरोध की सूचना",
+      "mr": "काही लोकसंख्यांमध्ये मध्यम प्रतिकार नोंदवला गेला"
+    }
+  },
+  {
+    "id": "4",
+    "name": {
+      "en": "Red Cotton Bug",
+      "hi": "लाल कपास कीट",
+      "mr": "तांबडा कापूस कीड"
+    },
+    "scientificName": "Dysdercus koenigii",
+    "type": {
+      "en": "sucking_pest",
+      "hi": "रस चूसने वाला कीट",
+      "mr": "रस शोषण करणारा कीटक"
+    },
+    "severity": {
+      "en": "medium",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "affectedCrops": {
+      "en": ["Cotton", "Okra", "Bhendi"],
+      "hi": ["कपास", "भिंडी", "भेंडी"],
+      "mr": ["कापूस", "भेंडी", "भेंडी"]
+    },
+    "symptoms": {
+      "en": [
+        "Reddish bugs on cotton bolls",
+        "Staining of cotton lint",
+        "Premature opening of bolls",
+        "Reduced seed germination",
+        "Wilted tender shoots"
+      ],
+      "hi": [
+        "कपास की फलियों पर लाल रंग के कीट",
+        "कपास लिंट का दागदार होना",
+        "फलियों का समय से पहले खुलना",
+        "बीज अंकुरण में कमी",
+        "कोमल प्ररोहों का मुरझाना"
+      ],
+      "mr": [
+        "कापूसच्या बोंडांवर तांबडे कीटक",
+        "कापूस फायबरचे डागदार होणे",
+        "बोंडांचे अकाली उघडणे",
+        "बियाणे उगवणात घट",
+        "कोवळ्या देठांचे मुरझाणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Hand picking and destruction",
+        "Neem seed kernel extract (5%)",
+        "Release pheromone traps",
+        "Bird perches in field",
+        "Mechanical collection using bag nets"
+      ],
+      "hi": [
+        "हाथ से चुनकर नष्ट करना",
+        "नीम बीज गिरी अर्क (5%)",
+        "फेरोमोन ट्रैप छोड़ें",
+        "खेत में पक्षी बसेरे",
+        "बैग नेट का उपयोग कर यांत्रिक संग्रह"
+      ],
+      "mr": [
+        "हाताने निवडून नष्ट करणे",
+        "निंब बिया गिरी अर्क (5%)",
+        "फेरोमोन सापळे बसवा",
+        "शेतात पक्षी बसण्याच्या सोयी",
+        "पिशवी जाळ्यांनी यांत्रिक संकलन"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Acephate (1.5g/L)",
+        "Malathion (2ml/L)",
+        "Quinalphos (2ml/L)",
+        "Cypermethrin (1ml/L)"
+      ],
+      "hi": [
+        "एसिफेट (1.5g/लीटर)",
+        "मैलाथियान (2ml/लीटर)",
+        "क्विनालफोस (2ml/लीटर)",
+        "साइपरमेथ्रिन (1ml/लीटर)"
+      ],
+      "mr": [
+        "एसिफेट (1.5g/लीटर)",
+        "मॅलाथियान (2ml/लीटर)",
+        "क्विनालफोस (2ml/लीटर)",
+        "सायपरमेथ्रिन (1ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Destroy alternate host plants (okra residues)",
+        "Early sowing to avoid pest peak",
+        "Monitor using sweep nets",
+        "Avoid ratoon cotton",
+        "Remove cotton sticks after harvest"
+      ],
+      "hi": [
+        "वैकल्पिक मेजबान पौधे नष्ट करें (भिंडी अवशेष)",
+        "कीट चरम से बचने के लिए जल्दी बुवाई करें",
+        "स्वीप नेट का उपयोग कर निगरानी करें",
+        "रतून कपास से बचें",
+        "कटाई के बाद कपास की डंडियाँ हटाएँ"
+      ],
+      "mr": [
+        "वैकल्पिक यजमान वनस्पती नष्ट करा (भेंडी अवशेष)",
+        "कीटक शिखर टाळण्यासाठी लवकर पेरणी करा",
+        "स्वीप नेटने निरीक्षण करा",
+        "रतून कापूस टाळा",
+        "कापणीनंतर कापूसाच्या काड्या काढून टाका"
+      ]
+    },
+    "description": {
+      "en": "Red cotton bug is a sucking pest that damages cotton bolls, staining the lint and reducing cotton quality and seed viability.",
+      "hi": "लाल कपास कीट एक रस चूसने वाला कीट है जो कपास की फलियों को नुकसान पहुंचाता है, लिंट पर दाग लगाता है और कपास की गुणवत्ता व बीज सक्षमता को कम करता है।",
+      "mr": "तांबडा कापूस कीड हा रस शोषण करणारा कीटक आहे जो कापूसच्या बोंडांचे नुकसान करतो, फायबरला डाग देतो व कापूस गुणवत्ता व बियाणे सक्षमता कमी करतो."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Dry weather after rainfall",
+      "hi": "वर्षा के बाद शुष्क मौसम",
+      "mr": "पावसानंतर कोरडे हवामान"
+    },
+    "transmissionMethod": {
+      "en": "Flying adults, migration from alternate hosts",
+      "hi": "उड़ने वाले वयस्क, वैकल्पिक मेजबानों से प्रवास",
+      "mr": "उडणारे प्रौढ, वैकल्पिक यजमानांपासून स्थलांतर"
+    },
+    "lifeCycle": {
+      "en": "30-60 days",
+      "hi": "30-60 दिन",
+      "mr": "30-60 दिवस"
+    },
+    "economicImpact": {
+      "en": "Medium - primarily affects lint quality",
+      "hi": "मध्यम - मुख्यतः लिंट गुणवत्ता प्रभावित करता है",
+      "mr": "मध्यम - प्रामुख्याने फायबर गुणवत्ता प्रभावित करतो"
+    },
+    "globalDistribution": {
+      "en": "India, Pakistan, Southeast Asia",
+      "hi": "भारत, पाकिस्तान, दक्षिण पूर्व एशिया",
+      "mr": "भारत, पाकिस्तान, आग्नेय आशिया"
+    },
+    "commonName": {
+      "en": "Cotton stainer, red stain bug",
+      "hi": "कपास धब्बा, लाल दाग कीट",
+      "mr": "कापूस डागवा, तांबडा डाग कीड"
+    },
+    "hostRange": {
+      "en": "Cotton, okra, other malvaceous plants",
+      "hi": "कपास, भिंडी, अन्य मालवेसिय पौधे",
+      "mr": "कापूस, भेंडी, इतर माल्वेसी वनस्पती"
+    },
+    "pesticideResistance": {
+      "en": "Limited resistance reported",
+      "hi": "सीमित प्रतिरोध की सूचना",
+      "mr": "मर्यादित प्रतिकार नोंदवला"
+    }
+  },
+  {
+    "id": "5",
+    "name": {
+      "en": "Bollworm",
+      "hi": "बॉलवर्म (इल्ली)",
+      "mr": "बॉलवर्म (इळ्या)"
+    },
+    "scientificName": "Helicoverpa armigera",
+    "type": {
+      "en": "boring_pest",
+      "hi": "बेधक कीट",
+      "mr": "भेदक कीटक"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["Cotton", "Tomato", "Chickpea", "Maize", "Sunflower"],
+      "hi": ["कपास", "टमाटर", "चना", "मक्का", "सूरजमुखी"],
+      "mr": ["कापूस", "टोमॅटो", "हरभरा", "मका", "सूर्यफूल"]
+    },
+    "symptoms": {
+      "en": [
+        "Round holes in bolls/fruits/pods",
+        "Larvae boring inside fruits",
+        "Shedding of young bolls",
+        "Frass accumulation near entry holes",
+        "Defoliation in early stages"
+      ],
+      "hi": [
+        "फलियों/फलों/फलियों में गोल छेद",
+        "फलों के अंदर सुरंग बनाते लार्वा",
+        "छोटी फलियों का गिरना",
+        "प्रवेश छिद्रों के पास फ्रैस जमा होना",
+        "प्रारंभिक अवस्थाओं में पत्ती झड़ना"
+      ],
+      "mr": [
+        "बोंड/फळे/शेंगांमध्ये गोल छिद्रे",
+        "फळांच्या आत भेद करणाऱ्या अळ्या",
+        "लहान बोंडांचे गळणे",
+        "प्रवेश छिद्रांजवळ फ्रेस साचणे",
+        "सुरुवातीच्या अवस्थेत पानगळी"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Sex pheromone traps (5 per acre)",
+        "Release Trichogramma chilonis",
+        "Nuclear Polyhedrosis Virus (NPV) spray",
+        "Neem-based insecticides (5ml/L)",
+        "Bird perches for natural predation"
+      ],
+      "hi": [
+        "सेक्स फेरोमोन ट्रैप (5 प्रति एकड़)",
+        "ट्राइकोग्रामा किलोनिस छोड़ें",
+        "न्यूक्लियर पॉलिहेड्रॉसिस वायरस (NPV) छिड़काव",
+        "नीम-आधारित कीटनाशक (5ml/लीटर)",
+        "प्राकृतिक परभक्षण के लिए पक्षी बसेरे"
+      ],
+      "mr": [
+        "सेक्स फेरोमोन सापळे (5 प्रति एकर)",
+        "ट्रायकोग्रामा किलोनिस सोडा",
+        "न्यूक्लियर पॉलिहेड्रोसिस व्हायरस (NPV) फवारणी",
+        "निंब-आधारित कीटकनाशके (5ml/लीटर)",
+        "नैसर्गिक भक्षणासाठी पक्षी बसण्याच्या सोयी"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Indoxacarb (0.5ml/L)",
+        "Emamectin benzoate (0.4g/L)",
+        "Spinosad (0.5ml/L)",
+        "Flubendiamide (0.4ml/L)"
+      ],
+      "hi": [
+        "इंडोक्साकार्ब (0.5ml/लीटर)",
+        "एमेमेक्टिन बेंजोएट (0.4g/लीटर)",
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "फ्लूबेंडियामाइड (0.4ml/लीटर)"
+      ],
+      "mr": [
+        "इंडोक्साकार्ब (0.5ml/लीटर)",
+        "एमेमेक्टिन बेंझोएट (0.4g/लीटर)",
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "फ्लूबेंडियामाइड (0.4ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Early sowing to avoid peak infestation",
+        "Grow tolerant varieties",
+        "Crop rotation with non-host crops",
+        "Destruction of crop residues",
+        "Deep summer plowing"
+      ],
+      "hi": [
+        "चरम संक्रमण से बचने के लिए जल्दी बुवाई करें",
+        "सहनशील किस्में उगाएं",
+        "गैर-मेजबान फसलों के साथ फसल चक्र",
+        "फसल अवशेषों का विनाश",
+        "गहरी ग्रीष्मकालीन जुताई"
+      ],
+      "mr": [
+        "प्रादुर्भाव शिखर टाळण्यासाठी लवकर पेरणी करा",
+        "सहनशील प्रकार घ्या",
+        "अयजमान पिकांसह पीक फेरपालट",
+        "पीक अवशेषांचा विनाश",
+        "खोल उन्हाळी नांगरणी"
+      ]
+    },
+    "description": {
+      "en": "Bollworm is one of the most destructive pests worldwide, attacking over 180 plant species. Larvae bore into fruiting bodies, causing severe yield loss.",
+      "hi": "बॉलवर्म दुनिया के सबसे विनाशकारी कीटों में से एक है, जो 180 से अधिक पौधों की प्रजातियों पर हमला करता है। लार्वा फल निर्माण अंगों में छेद करते हैं, जिससे गंभीर उपज हानि होती है।",
+      "mr": "बॉलवर्म हा जगातील सर्वात विनाशकारी कीटकांपैकी एक आहे, जो 180 हून अधिक वनस्पती प्रजातींवर हल्ला करतो. अळ्या फळधारणा अवयवांमध्ये भेद करतात, ज्यामुळे गंभीर उत्पादन हानी होते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Warm temperatures (25-35°C), moderate humidity",
+      "hi": "गर्म तापमान (25-35°C), मध्यम आर्द्रता",
+      "mr": "उबदार तापमान (25-35°C), मध्यम आर्द्रता"
+    },
+    "transmissionMethod": {
+      "en": "Adult moths fly long distances",
+      "hi": "वयस्क पतंगे लंबी दूरी तक उड़ते हैं",
+      "mr": "प्रौढ पतंग लांब अंतर उडतात"
+    },
+    "lifeCycle": {
+      "en": "35-40 days",
+      "hi": "35-40 दिन",
+      "mr": "35-40 दिवस"
+    },
+    "economicImpact": {
+      "en": "Very high - 30-60% yield loss, can destroy entire cotton crop",
+      "hi": "बहुत उच्च - 30-60% उपज हानि, पूरी कपास फसल को नष्ट कर सकता है",
+      "mr": "अत्यंत उच्च - 30-60% उत्पादन हानी, संपूर्ण कापूस पीक नष्ट करू शकतो"
+    },
+    "globalDistribution": {
+      "en": "Worldwide (tropical and temperate regions)",
+      "hi": "दुनिया भर में (उष्णकटिबंधीय और समशीतोष्ण क्षेत्र)",
+      "mr": "जगभर (उष्णकटिबंधीय व समशीतोष्ण प्रदेश)"
+    },
+    "commonName": {
+      "en": "Cotton bollworm, corn earworm, chickpea pod borer",
+      "hi": "कपास बॉलवर्म, मक्का इयरवर्म, चना फली बेधक",
+      "mr": "कापूस बॉलवर्म, मका इयरवर्म, हरभरा शेंगा छेदक"
+    },
+    "hostRange": {
+      "en": "Over 180 host plants including cotton, corn, tomato, chickpea",
+      "hi": "180 से अधिक मेजबान पौधे जिनमें कपास, मक्का, टमाटर, चना शामिल हैं",
+      "mr": "180 हून अधिक यजमान वनस्पती ज्यात कापूस, मका, टोमॅटो, हरभरा समाविष्ट"
+    },
+    "pesticideResistance": {
+      "en": "Yes, resistance to pyrethroids, organophosphates, and some newer chemistries",
+      "hi": "हाँ, पाइरेथ्रोयड्स, ऑर्गनोफॉस्फेट और कुछ नई रसायनों के प्रति प्रतिरोध",
+      "mr": "होय, पायरेथ्रॉइड्स, ऑर्गनोफॉस्फेट आणि काही नवीन रासायनिक प्रकारांना प्रतिकार"
+    }
+  },
+  {
+    "id": "6",
+    "name": {
+      "en": "Leaf Miner",
+      "hi": "पत्ती खनिक (लीफ माइनर)",
+      "mr": "पानखाण (लीफ मायनर)"
+    },
+    "scientificName": "Liriomyza trifolii",
+    "type": {
+      "en": "mining_pest",
+      "hi": "खनन करने वाला कीट",
+      "mr": "खाण करणारा कीटक"
+    },
+    "severity": {
+      "en": "medium",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "affectedCrops": {
+      "en": ["Tomato", "Onion", "Potato", "Cucurbits", "Pulses"],
+      "hi": ["टमाटर", "प्याज", "आलू", "कुकुरबिट्स", "दलहन"],
+      "mr": ["टोमॅटो", "कांदा", "बटाटा", "कुकुरबिट्स", "कडधान्ये"]
+    },
+    "symptoms": {
+      "en": [
+        "White serpentine tunnels on leaves",
+        "Mined leaf surface",
+        "Premature leaf drop",
+        "Reduced photosynthetic area",
+        "Stunted plant growth"
+      ],
+      "hi": [
+        "पत्तियों पर सफेद सर्पीन सुरंगें",
+        "खनित पत्ती की सतह",
+        "समय से पहले पत्ती गिरना",
+        "कम प्रकाश संश्लेषण क्षेत्र",
+        "पौधों की वृद्धि रुकना"
+      ],
+      "mr": [
+        "पानांवर पांढऱ्या सापासारख्या बोगद्या",
+        "खणून काढलेले पानांचे पृष्ठभाग",
+        "अकाली पानगळी",
+        "प्रकाशसंश्लेषण क्षेत्र कमी होणे",
+        "वनस्पतींची वाढ खुंटणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Neem oil spray (5ml/L)",
+        "Install yellow sticky traps",
+        "Remove and destroy infested leaves",
+        "Release Diglyphus wasps (parasitoid)",
+        "Garlic-chilli spray"
+      ],
+      "hi": [
+        "नीम तेल का छिड़काव (5ml/लीटर)",
+        "पीले चिपचिपे ट्रैप लगाएं",
+        "संक्रमित पत्तियों को हटाएं और नष्ट करें",
+        "डिग्लिफस ततैया (परजीवी) छोड़ें",
+        "लहसुन-मिर्च स्प्रे"
+      ],
+      "mr": [
+        "निंब तेल फवारणी (5ml/लीटर)",
+        "पिवळे चिकट सापळे बसवा",
+        "संक्रमित पाने काढून टाका व नष्ट करा",
+        "डिग्लिफस गांधीलमाशी (परजीवी) सोडा",
+        "लसूण-मिरची फवारणी"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Cyromazine (0.5g/L)",
+        "Abamectin (0.5ml/L)",
+        "Spinosad (0.5ml/L)",
+        "Dimethoate (1ml/L)"
+      ],
+      "hi": [
+        "साइरोमाज़ीन (0.5g/लीटर)",
+        "अबामेक्टिन (0.5ml/लीटर)",
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "डाइमेथोएट (1ml/लीटर)"
+      ],
+      "mr": [
+        "सायरोमाझिन (0.5g/लीटर)",
+        "अबामेक्टिन (0.5ml/लीटर)",
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "डायमेथोएट (1ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Crop rotation with non-host crops",
+        "Avoid excessive nitrogen fertilizer",
+        "Destroy crop residues",
+        "Use floating row covers",
+        "Monitor using yellow sticky traps"
+      ],
+      "hi": [
+        "गैर-मेजबान फसलों के साथ फसल चक्र",
+        "अत्यधिक नाइट्रोजन उर्वरक से बचें",
+        "फसल अवशेष नष्ट करें",
+        "फ्लोटिंग पंक्ति कवर का उपयोग करें",
+        "पीले चिपचिपे ट्रैप का उपयोग कर निगरानी करें"
+      ],
+      "mr": [
+        "अयजमान पिकांसह पीक फेरपालट",
+        "जास्त नायट्रोजन खत टाळा",
+        "पीक अवशेष नष्ट करा",
+        "फ्लोटिंग रांगा आवरणे वापरा",
+        "पिवळ्या चिकट सापळ्यांनी निरीक्षण करा"
+      ]
+    },
+    "description": {
+      "en": "Leaf miner larvae create tunnels or 'mines' inside leaves, damaging the photosynthetic tissue and reducing crop vigor.",
+      "hi": "लीफ माइनर के लार्वा पत्तियों के अंदर सुरंगें या 'खान' बनाते हैं, जिससे प्रकाश संश्लेषण ऊतक क्षतिग्रस्त होता है और फसल की सक्रियता कम होती है।",
+      "mr": "पानखाणाची अळी पानांच्या आत बोगद्या किंवा 'खाण' तयार करते, ज्यामुळे प्रकाशसंश्लेषण ऊतींचे नुकसान होते व पीक संजीवनी कमी होते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Warm temperatures (25-35°C), dry conditions",
+      "hi": "गर्म तापमान (25-35°C), शुष्क स्थितियाँ",
+      "mr": "उबदार तापमान (25-35°C), कोरडी परिस्थिती"
+    },
+    "transmissionMethod": {
+      "en": "Adult flies, infested plant material",
+      "hi": "वयस्क मक्खियाँ, संक्रमित पौध सामग्री",
+      "mr": "प्रौढ माशा, संक्रमित वनस्पती साहित्य"
+    },
+    "lifeCycle": {
+      "en": "14-21 days",
+      "hi": "14-21 दिन",
+      "mr": "14-21 दिवस"
+    },
+    "economicImpact": {
+      "en": "Medium - yield loss up to 40% in severe infestations",
+      "hi": "मध्यम - गंभीर संक्रमण में 40% तक उपज हानि",
+      "mr": "मध्यम - गंभीर प्रादुर्भावात 40% पर्यंत उत्पादन हानी"
+    },
+    "globalDistribution": {
+      "en": "Worldwide, particularly in warm regions",
+      "hi": "दुनिया भर में, विशेष रूप से गर्म क्षेत्रों में",
+      "mr": "जगभर, विशेषतः उबदार प्रदेशांत"
+    },
+    "commonName": {
+      "en": "American serpentine leaf miner",
+      "hi": "अमेरिकी सर्पीन पत्ती खनिक",
+      "mr": "अमेरिकन सर्पेन्टाईन पानखाण"
+    },
+    "hostRange": {
+      "en": "Over 25 vegetable and ornamental crops",
+      "hi": "25 से अधिक सब्जी और सजावटी फसलें",
+      "mr": "25 हून अधिक भाजीपाला व सजावटी पिके"
+    },
+    "pesticideResistance": {
+      "en": "Yes, resistance to many insecticides including pyrethroids and organophosphates",
+      "hi": "हाँ, पाइरेथ्रोयड और ऑर्गनोफॉस्फेट सहित कई कीटनाशकों के लिए प्रतिरोध",
+      "mr": "होय, पायरेथ्रॉइड व ऑर्गनोफॉस्फेटसह अनेक कीटकनाशकांना प्रतिकार"
+    }
+  },
+  {
+    "id": "7",
+    "name": {
+      "en": "Thrips",
+      "hi": "थ्रिप्स",
+      "mr": "थ्रिप्स"
+    },
+    "scientificName": "Thysanoptera",
+    "type": {
+      "en": "sucking_pest",
+      "hi": "रस चूसने वाला कीट",
+      "mr": "रस शोषण करणारा कीटक"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Onion", "Chili", "Cotton", "Tomato", "Grapes"],
+      "hi": ["प्याज", "मिर्च", "कपास", "टमाटर", "अंगूर"],
+      "mr": ["कांदा", "मिरची", "कापूस", "टोमॅटो", "द्राक्षे"]
+    },
+    "symptoms": {
+      "en": [
+        "Silvery-white streaks on leaves",
+        "Leaf curling and distortion",
+        "Black specks (frass) on leaf surface",
+        "Scarring on fruits",
+        "Transmission of viral diseases"
+      ],
+      "hi": [
+        "पत्तियों पर चांदी-सफेद धारियाँ",
+        "पत्तियों का मुड़ना और विकृति",
+        "पत्ती की सतह पर काले धब्बे (फ्रैस)",
+        "फलों पर निशान",
+        "विषाणु रोगों का संचरण"
+      ],
+      "mr": [
+        "पानांवर रुपेरी-पांढऱ्या पट्ट्या",
+        "पानांचे कुरळे होणे व विकृती",
+        "पानांच्या पृष्ठभागावर काळे टिंब (फ्रेस)",
+        "फळांवर डाग",
+        "विषाणूजन्य रोगांचे संक्रमण"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Blue sticky traps (8-10 per acre)",
+        "Neem oil (5ml/L) + soap spray",
+        "Release predatory mites",
+        "Reflective mulch",
+        "Garlic-chili extract"
+      ],
+      "hi": [
+        "नीले चिपचिपे ट्रैप (8-10 प्रति एकड़)",
+        "नीम तेल (5ml/लीटर) + साबुन छिड़काव",
+        "शिकारी घुन छोड़ें",
+        "परावर्तक मल्च",
+        "लहसुन-मिर्च अर्क"
+      ],
+      "mr": [
+        "निळे चिकट सापळे (8-10 प्रति एकर)",
+        "निंब तेल (5ml/लीटर) + साबण फवारणी",
+        "भक्षी माईट्स सोडा",
+        "परावर्तक आच्छादन",
+        "लसूण-मिरची अर्क"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Spinosad (0.5ml/L)",
+        "Fipronil (1ml/L)",
+        "Imidacloprid (0.5ml/L)",
+        "Dimethoate (1ml/L)"
+      ],
+      "hi": [
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "फिप्रोनिल (1ml/लीटर)",
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "डाइमेथोएट (1ml/लीटर)"
+      ],
+      "mr": [
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "फायप्रोनिल (1ml/लीटर)",
+        "इमिडाक्लोप्रिड (0.5ml/लीटर)",
+        "डायमेथोएट (1ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Avoid water stress",
+        "Maintain field hygiene",
+        "Remove weed hosts",
+        "Monitor with sticky traps",
+        "Avoid planting near infested fields"
+      ],
+      "hi": [
+        "जल तनाव से बचें",
+        "खेत की स्वच्छता बनाए रखें",
+        "खरपतवार मेजबान हटाएं",
+        "चिपचिपे ट्रैप से निगरानी करें",
+        "संक्रमित खेतों के पास रोपण से बचें"
+      ],
+      "mr": [
+        "पाणी ताण टाळा",
+        "शेत स्वच्छता राखा",
+        "तण यजमान काढून टाका",
+        "चिकट सापळ्यांनी निरीक्षण करा",
+        "संक्रमित शेतांजवळ लागवड टाळा"
+      ]
+    },
+    "description": {
+      "en": "Thrips are tiny insects that scrape plant cells and suck sap, causing silvery scars and transmitting tospoviruses. They thrive in hot, dry conditions.",
+      "hi": "थ्रिप्स छोटे कीट होते हैं जो पौधों की कोशिकाओं को रगड़ते हैं और रस चूसते हैं, जिससे चांदी के निशान बनते हैं और टॉस्पोवायरस फैलाते हैं। ये गर्म, शुष्क परिस्थितियों में पनपते हैं।",
+      "mr": "थ्रिप्स हे सूक्ष्म कीटक आहेत जे वनस्पती पेशी ओरबाडतात व रस शोषतात, ज्यामुळे रुपेरी डाग उठतात व टॉस्पोव्हायरस पसरतात. हे उबदार, कोरड्या परिस्थितीत वाढतात."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Hot, dry weather (25-35°C), low humidity",
+      "hi": "गर्म, शुष्क मौसम (25-35°C), कम आर्द्रता",
+      "mr": "उबदार, कोरडे हवामान (25-35°C), कमी आर्द्रता"
+    },
+    "transmissionMethod": {
+      "en": "Flying adults, wind",
+      "hi": "उड़ने वाले वयस्क, हवा",
+      "mr": "उडणारे प्रौढ, वारा"
+    },
+    "lifeCycle": {
+      "en": "15-20 days",
+      "hi": "15-20 दिन",
+      "mr": "15-20 दिवस"
+    },
+    "economicImpact": {
+      "en": "High - 30-50% yield loss, affects fruit quality",
+      "hi": "उच्च - 30-50% उपज हानि, फलों की गुणवत्ता प्रभावित करता है",
+      "mr": "उच्च - 30-50% उत्पादन हानी, फळांच्या गुणवत्तेवर परिणाम"
+    },
+    "globalDistribution": {
+      "en": "Worldwide",
+      "hi": "दुनिया भर में",
+      "mr": "जगभर"
+    },
+    "commonName": {
+      "en": "Thrips, thunderflies",
+      "hi": "थ्रिप्स, गर्जन मक्खियाँ",
+      "mr": "थ्रिप्स, थंडरफ्लायज"
+    },
+    "hostRange": {
+      "en": "Very wide - most vegetables, fruits, ornamentals",
+      "hi": "बहुत व्यापक - अधिकांश सब्जियां, फल, सजावटी पौधे",
+      "mr": "अत्यंत विस्तृत - बहुतेक भाज्या, फळे, सजावटी वनस्पती"
+    },
+    "pesticideResistance": {
+      "en": "Yes, widespread resistance to many insecticides",
+      "hi": "हाँ, कई कीटनाशकों के लिए व्यापक प्रतिरोध",
+      "mr": "होय, अनेक कीटकनाशकांना व्यापक प्रतिकार"
+    }
+  },
+  {
+    "id": "8",
+    "name": {
+      "en": "Pod Borer",
+      "hi": "फली छेदक",
+      "mr": "शेंगा छेदक"
+    },
+    "scientificName": "Maruca vitrata",
+    "type": {
+      "en": "boring_pest",
+      "hi": "बेधक कीट",
+      "mr": "भेदक कीटक"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Pigeonpea", "Cowpea", "Soybean", "Green gram", "Black gram"],
+      "hi": ["अरहर", "लोबिया", "सोयाबीन", "मूंग", "उड़द"],
+      "mr": ["तूर", "चवळी", "सोयाबीन", "मूग", "उडीद"]
+    },
+    "symptoms": {
+      "en": [
+        "Webbing of leaves and pods",
+        "Larvae inside pods",
+        "Holes in pods with frass",
+        "Damaged seeds",
+        "Premature pod drop"
+      ],
+      "hi": [
+        "पत्तियों और फलियों का जाला",
+        "फलियों के अंदर लार्वा",
+        "फलियों में छेद और उस पर फ्रैस",
+        "क्षतिग्रस्त बीज",
+        "समय से पहले फली गिरना"
+      ],
+      "mr": [
+        "पाने व शेंगांवर जाळी",
+        "शेंगांमध्ये अळ्या",
+        "शेंगात छिद्रे व फ्रेस",
+        "नुकसान झालेली बियाणे",
+        "अकाली शेंगा गळणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Pheromone traps (5 per acre)",
+        "Release Trichogramma chilonis",
+        "Neem seed kernel extract (5%)",
+        "Nuclear Polyhedrosis Virus spray",
+        "Hand picking of larvae"
+      ],
+      "hi": [
+        "फेरोमोन ट्रैप (5 प्रति एकड़)",
+        "ट्राइकोग्रामा किलोनिस छोड़ें",
+        "नीम बीज गिरी अर्क (5%)",
+        "न्यूक्लियर पॉलिहेड्रॉसिस वायरस स्प्रे",
+        "लार्वा का हाथ से चुनना"
+      ],
+      "mr": [
+        "फेरोमोन सापळे (5 प्रति एकर)",
+        "ट्रायकोग्रामा किलोनिस सोडा",
+        "निंब बिया गिरी अर्क (5%)",
+        "न्यूक्लियर पॉलिहेड्रोसिस व्हायरस फवारणी",
+        "अळ्या हाताने गोळा करणे"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Indoxacarb (0.5ml/L)",
+        "Emamectin benzoate (0.4g/L)",
+        "Chlorantraniliprole (0.4ml/L)",
+        "Quinalphos (2ml/L)"
+      ],
+      "hi": [
+        "इंडोक्साकार्ब (0.5ml/लीटर)",
+        "एमेमेक्टिन बेंजोएट (0.4g/लीटर)",
+        "क्लोरैंट्रानिलीप्रोल (0.4ml/लीटर)",
+        "क्विनालफोस (2ml/लीटर)"
+      ],
+      "mr": [
+        "इंडोक्साकार्ब (0.5ml/लीटर)",
+        "एमेमेक्टिन बेंझोएट (0.4g/लीटर)",
+        "क्लोरँट्रॅनिलिप्रोल (0.4ml/लीटर)",
+        "क्विनालफोस (2ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Early sowing",
+        "Grow tolerant varieties",
+        "Avoid dense planting",
+        "Remove and destroy infested pods",
+        "Crop rotation with cereals"
+      ],
+      "hi": [
+        "जल्दी बुवाई",
+        "सहनशील किस्में उगाएं",
+        "सघन रोपण से बचें",
+        "संक्रमित फलियों को हटाएं और नष्ट करें",
+        "अनाज के साथ फसल चक्र"
+      ],
+      "mr": [
+        "लवकर पेरणी",
+        "सहनशील प्रकार घ्या",
+        "गर्द लागवड टाळा",
+        "संक्रमित शेंगा काढून टाका व नष्ट करा",
+        "धान्यांसह पीक फेरपालट"
+      ]
+    },
+    "description": {
+      "en": "Pod borer larvae web leaves and flowers, then bore into pods, feeding on developing seeds and causing significant yield loss in pulses.",
+      "hi": "फली छेदक के लार्वा पत्तियों और फूलों पर जाला बनाते हैं, फिर फलियों में छेद करते हैं, विकासशील बीजों को खाते हैं और दलहन फसलों में महत्वपूर्ण उपज हानि का कारण बनते हैं।",
+      "mr": "शेंगा छेदकाची अळी पाने व फुले यांवर जाळी बनवते, नंतर शेंगांमध्ये भेद करते, विकसनशील बियांना खाते व कडधान्य पिकांमध्ये लक्षणीय उत्पादन हानी करते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Humid conditions (70-80% RH), moderate temperature (25-30°C)",
+      "hi": "आर्द्र स्थितियाँ (70-80% आर्द्रता), मध्यम तापमान (25-30°C)",
+      "mr": "आर्द्र परिस्थिती (70-80% सापेक्ष आर्द्रता), मध्यम तापमान (25-30°C)"
+    },
+    "transmissionMethod": {
+      "en": "Adult moths, migration from other pulse crops",
+      "hi": "वयस्क पतंग, अन्य दलहन फसलों से प्रवास",
+      "mr": "प्रौढ पतंग, इतर कडधान्य पिकांपासून स्थलांतर"
+    },
+    "lifeCycle": {
+      "en": "30-35 days",
+      "hi": "30-35 दिन",
+      "mr": "30-35 दिवस"
+    },
+    "economicImpact": {
+      "en": "High - 20-50% yield loss in pulses",
+      "hi": "उच्च - दलहन में 20-50% उपज हानि",
+      "mr": "उच्च - कडधान्यांमध्ये 20-50% उत्पादन हानी"
+    },
+    "globalDistribution": {
+      "en": "Tropical and subtropical Asia, Africa, Australia",
+      "hi": "उष्णकटिबंधीय और उपोष्णकटिबंधीय एशिया, अफ्रीका, ऑस्ट्रेलिया",
+      "mr": "उष्णकटिबंधीय व उपोष्णकटिबंधीय आशिया, आफ्रिका, ऑस्ट्रेलिया"
+    },
+    "commonName": {
+      "en": "Maruca pod borer, bean pod borer",
+      "hi": "मारुका फली छेदक, सेम फली छेदक",
+      "mr": "मारुका शेंगा छेदक, बीन शेंगा छेदक"
+    },
+    "hostRange": {
+      "en": "Primarily legumes - pigeonpea, cowpea, soybean",
+      "hi": "मुख्यतः फलियाँ - अरहर, लोबिया, सोयाबीन",
+      "mr": "प्रामुख्याने कडधान्ये - तूर, चवळी, सोयाबीन"
+    },
+    "pesticideResistance": {
+      "en": "Limited resistance reported",
+      "hi": "सीमित प्रतिरोध की सूचना",
+      "mr": "मर्यादित प्रतिकार नोंदवला"
+    }
+  },
+  {
+    "id": "9",
+    "name": {
+      "en": "Brown Plant Hopper",
+      "hi": "भूरा पौधा फुदका",
+      "mr": "तपकिरी झाडी फुलकी"
+    },
+    "scientificName": "Nilaparvata lugens",
+    "type": {
+      "en": "sucking_pest",
+      "hi": "रस चूसने वाला कीट",
+      "mr": "रस शोषण करणारा कीटक"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["Rice"],
+      "hi": ["धान"],
+      "mr": ["तांदूळ"]
+    },
+    "symptoms": {
+      "en": [
+        "Yellowing and drying of plants (hopperburn)",
+        "Hopperburn - circular patches of dried plants",
+        "Honeydew secretion",
+        "Sooty mold on leaves",
+        "Plant lodging in severe cases"
+      ],
+      "hi": [
+        "पौधों का पीला पड़ना और सूखना (हॉपरबर्न)",
+        "हॉपरबर्न - सूखे पौधों के गोलाकार धब्बे",
+        "हनीड्यू स्राव",
+        "पत्तियों पर कालिखी फफूंद",
+        "गंभीर मामलों में पौधों का झुकना"
+      ],
+      "mr": [
+        "वनस्पतींचे पिवळे पडणे व कोरडे होणे (हॉपरबर्न)",
+        "हॉपरबर्न - कोरड्या झाडांची वर्तुळाकार ठिपके",
+        "हनीड्यू स्राव",
+        "पानांवर काजळी बुरशी",
+        "गंभीर प्रकरणांमध्ये वनस्पतींचे वाकणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Drain the field for 3-4 days",
+        "Release green mirid bugs (Cyrtorhinus lividipennis)",
+        "Install light traps",
+        "Apply neem seed kernel extract",
+        "Use fish (tilapia) in flooded fields"
+      ],
+      "hi": [
+        "खेत को 3-4 दिनों के लिए सुखाएं",
+        "हरे मिरिड कीट (साइरटोरहिनस लिविडिपेनिस) छोड़ें",
+        "लाइट ट्रैप लगाएं",
+        "नीम बीज गिरी अर्क लगाएं",
+        "बाढ़ वाले खेतों में मछली (तिलापिया) का उपयोग करें"
+      ],
+      "mr": [
+        "शेत 3-4 दिवस कोरडे ठेवा",
+        "हिरवे मिरिड कीटक (सायरटोरहिनस लिव्हिडिपेनिस) सोडा",
+        "लाईट सापळे बसवा",
+        "निंब बिया गिरी अर्क लावा",
+        "पाण्याखाली शेतात मासे (तिलापिया) वापरा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Pymetrozine (0.5g/L)",
+        "Buprofezin (1ml/L)",
+        "Dinotefuran (0.5g/L)",
+        "Thiamethoxam (0.5g/L)"
+      ],
+      "hi": [
+        "पाइमेट्रोज़ीन (0.5g/लीटर)",
+        "ब्यूप्रोफेज़िन (1ml/लीटर)",
+        "डायनोटेफुरान (0.5g/लीटर)",
+        "थायमेथोक्साम (0.5g/लीटर)"
+      ],
+      "mr": [
+        "पायमेट्रोझिन (0.5g/लीटर)",
+        "ब्यूप्रोफेझिन (1ml/लीटर)",
+        "डायनोटेफुरान (0.5g/लीटर)",
+        "थायमेथोक्साम (0.5g/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Use resistant varieties",
+        "Avoid excessive nitrogen",
+        "Proper spacing (not too dense)",
+        "Synchronous planting in area",
+        "Drain fields periodically"
+      ],
+      "hi": [
+        "प्रतिरोधी किस्मों का उपयोग करें",
+        "अत्यधिक नाइट्रोजन से बचें",
+        "उचित दूरी (अधिक सघन नहीं)",
+        "क्षेत्र में समकालीन रोपण",
+        "समय-समय पर खेत सुखाएं"
+      ],
+      "mr": [
+        "प्रतिरोधक प्रकार वापरा",
+        "जास्त नायट्रोजन टाळा",
+        "योग्य अंतर (अति गर्द नाही)",
+        "भागात एकाच वेळी लागवड",
+        "वेळोवेळी शेत कोरडे करा"
+      ]
+    },
+    "description": {
+      "en": "Brown plant hopper is the most destructive pest of rice in Asia. In severe infestations, it causes 'hopperburn' where entire fields dry up and collapse.",
+      "hi": "भूरा पौधा फुदका एशिया में धान का सबसे विनाशकारी कीट है। गंभीर संक्रमण में, यह 'हॉपरबर्न' का कारण बनता है जहाँ पूरे खेत सूख जाते हैं और ढह जाते हैं।",
+      "mr": "तपकिरी झाडी फुलकी हा आशियातील तांदळाचा सर्वात विनाशकारी कीटक आहे. गंभीर प्रादुर्भावात, यामुळे 'हॉपरबर्न' होते ज्यामध्ये संपूर्ण शेते कोरडी पडतात व कोसळतात."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "High humidity (80-85%), temperature (25-30°C), dense planting, high nitrogen",
+      "hi": "उच्च आर्द्रता (80-85%), तापमान (25-30°C), सघन रोपण, उच्च नाइट्रोजन",
+      "mr": "उच्च आर्द्रता (80-85%), तापमान (25-30°C), गर्द लागवड, उच्च नायट्रोजन"
+    },
+    "transmissionMethod": {
+      "en": "Winged adults fly long distances",
+      "hi": "पंख वाले वयस्क लंबी दूरी तक उड़ते हैं",
+      "mr": "पंखधारी प्रौढ लांब अंतर उडतात"
+    },
+    "lifeCycle": {
+      "en": "25-30 days",
+      "hi": "25-30 दिन",
+      "mr": "25-30 दिवस"
+    },
+    "economicImpact": {
+      "en": "Critical - can cause complete crop failure",
+      "hi": "गंभीर - पूर्ण फसल विफलता का कारण बन सकता है",
+      "mr": "गंभीर - संपूर्ण पीक अपयश घडवू शकतो"
+    },
+    "globalDistribution": {
+      "en": "Asia, Oceania",
+      "hi": "एशिया, ओशिनिया",
+      "mr": "आशिया, ओशनिया"
+    },
+    "commonName": {
+      "en": "BPH, rice planthopper",
+      "hi": "BPH, धान फुदका",
+      "mr": "BPH, तांदूळ फुलकी"
+    },
+    "hostRange": {
+      "en": "Primarily rice, some grasses",
+      "hi": "मुख्यतः धान, कुछ घास",
+      "mr": "प्रामुख्याने तांदूळ, काही गवते"
+    },
+    "pesticideResistance": {
+      "en": "Yes, widespread resistance to many insecticides including imidacloprid",
+      "hi": "हाँ, इमिडाक्लोप्रिड सहित कई कीटनाशकों के लिए व्यापक प्रतिरोध",
+      "mr": "होय, इमिडाक्लोप्रिडसह अनेक कीटकनाशकांना व्यापक प्रतिकार"
+    }
+  },
+  {
+    "id": "10",
+    "name": {
+      "en": "Root-Knot Nematode",
+      "hi": "जड़ गांठ सूत्रकृमि",
+      "mr": "मूळ गाठ सूत्रकृमी"
+    },
+    "scientificName": "Meloidogyne incognita",
+    "type": {
+      "en": "nematode_pest",
+      "hi": "सूत्रकृमि कीट",
+      "mr": "सूत्रकृमी कीटक"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Tomato", "Potato", "Brinjal", "Okra", "Vegetables"],
+      "hi": ["टमाटर", "आलू", "बैंगन", "भिंडी", "सब्जियाँ"],
+      "mr": ["टोमॅटो", "बटाटा", "वांगी", "भेंडी", "भाज्या"]
+    },
+    "symptoms": {
+      "en": [
+        "Galls (knots) on roots",
+        "Stunted plant growth",
+        "Yellowing and wilting",
+        "Reduced yield",
+        "Root branching and decay"
+      ],
+      "hi": [
+        "जड़ों पर गांठें",
+        "पौधों की रुकी हुई वृद्धि",
+        "पीला पड़ना और मुरझाना",
+        "कम उपज",
+        "जड़ों का शाखन और सड़न"
+      ],
+      "mr": [
+        "मुळांवर गाठी",
+        "वनस्पतींची खुंटलेली वाढ",
+        "पिवळे पडणे व मुरझाणे",
+        "उत्पादनात घट",
+        "मुळांची फांदीदार वाढ व कुजणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Apply neem cake (1 ton/ha)",
+        "Marigold intercropping (French marigold)",
+        "Solarization of soil",
+        "Apply Pseudomonas fluorescens",
+        "Crotalaria green manuring"
+      ],
+      "hi": [
+        "नीम केक (1 टन/हेक्टेयर) लगाएं",
+        "फ्रेंच गेंदे के साथ अंतरफसल",
+        "मिट्टी की सौरीकरण",
+        "स्यूडोमोनास फ्लोरेसेंस लगाएं",
+        "क्रोटालारिया हरी खाद"
+      ],
+      "mr": [
+        "निंब केक (1 टन/हेक्टर) लावा",
+        "फ्रेंच झेंडूसह आंतरपीक",
+        "माती सौरीकरण",
+        "स्यूडोमोनास फ्लोरेसेन्स लावा",
+        "क्रोटालारिया हिरवळीचे खत"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Carbofuran (1kg active ingredient/ha)",
+        "Phorate (1kg/ha)",
+        "Fenamiphos (1kg/ha)",
+        "Fluopyram (0.5ml/L - soil drench)"
+      ],
+      "hi": [
+        "कार्बोफ्यूरान (1kg सक्रिय घटक/हेक्टेयर)",
+        "फोरेट (1kg/हेक्टेयर)",
+        "फेनामीफोस (1kg/हेक्टेयर)",
+        "फ्लुओपाइराम (0.5ml/लीटर - मृदा प्रोक्षण)"
+      ],
+      "mr": [
+        "कार्बोफ्युरान (1kg सक्रिय घटक/हेक्टर)",
+        "फोरेट (1kg/हेक्टर)",
+        "फेनामिफोस (1kg/हेक्टर)",
+        "फ्लुओपायराम (0.5ml/लीटर - माती प्रोक्षण)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Crop rotation with marigold or maize",
+        "Use nematode-free seedlings",
+        "Solarize soil before planting",
+        "Apply organic amendments",
+        "Remove and destroy infected roots"
+      ],
+      "hi": [
+        "गेंदा या मक्का के साथ फसल चक्र",
+        "सूत्रकृमि-मुक्त पौधों का उपयोग करें",
+        "रोपण से पहले मिट्टी की सौरीकरण करें",
+        "जैविक संशोधन लगाएं",
+        "संक्रमित जड़ों को हटाएं और नष्ट करें"
+      ],
+      "mr": [
+        "झेंडू किंवा मक्यासह पीक फेरपालट",
+        "सूत्रकृमीमुक्त रोपे वापरा",
+        "लागवडीपूर्वी माती सौरीकरण करा",
+        "सेंद्रिय सुधारणा लावा",
+        "संक्रमित मुळे काढून टाका व नष्ट करा"
+      ]
+    },
+    "description": {
+      "en": "Root-knot nematodes are microscopic roundworms that infect plant roots, causing galls that disrupt water and nutrient uptake, leading to stunted growth and yield loss.",
+      "hi": "जड़ गांठ सूत्रकृमि सूक्ष्म गोल कृमि हैं जो पौधों की जड़ों को संक्रमित करते हैं, जिससे गांठें बनती हैं जो पानी और पोषक तत्वों के अवशोषण को बाधित करती हैं, जिससे वृद्धि रुकती है और उपज हानि होती है।",
+      "mr": "मूळ गाठ सूत्रकृमी हे सूक्ष्म गोल कृमी आहेत जे वनस्पतींच्या मुळांना संक्रमित करतात, ज्यामुळे गाठी तयार होतात आणि पाणी व पोषकतत्त्वांचे शोषण बिघडते, ज्यामुळे वाढ खुंटते व उत्पादन हानी होते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Sandy or light soils, warm temperatures (25-30°C), high moisture",
+      "hi": "रेतीली या हल्की मिट्टी, गर्म तापमान (25-30°C), उच्च नमी",
+      "mr": "वालुवा किंवा हलकी माती, उबदार तापमान (25-30°C), उच्च ओल"
+    },
+    "transmissionMethod": {
+      "en": "Soil, infected plant material, irrigation water, farm tools",
+      "hi": "मिट्टी, संक्रमित पौध सामग्री, सिंचाई जल, खेत के उपकरण",
+      "mr": "माती, संक्रमित वनस्पती साहित्य, सिंचन पाणी, शेत अवजारे"
+    },
+    "lifeCycle": {
+      "en": "21-30 days",
+      "hi": "21-30 दिन",
+      "mr": "21-30 दिवस"
+    },
+    "economicImpact": {
+      "en": "High - 30-70% yield loss in susceptible crops",
+      "hi": "उच्च - संवेदनशील फसलों में 30-70% उपज हानि",
+      "mr": "उच्च - संवेदनशील पिकांमध्ये 30-70% उत्पादन हानी"
+    },
+    "globalDistribution": {
+      "en": "Worldwide, particularly in warm climates",
+      "hi": "दुनिया भर में, विशेष रूप से गर्म जलवायु में",
+      "mr": "जगभर, विशेषतः उबदार हवामानात"
+    },
+    "commonName": {
+      "en": "Root-knot worm, gall nematode",
+      "hi": "जड़ गांठ कीड़ा, पित्त सूत्रकृमि",
+      "mr": "मूळ गाठ किडा, पित्त सूत्रकृमी"
+    },
+    "hostRange": {
+      "en": "Very wide - over 2000 plant species",
+      "hi": "बहुत व्यापक - 2000 से अधिक पौधों की प्रजातियाँ",
+      "mr": "अत्यंत विस्तृत - 2000 हून अधिक वनस्पती प्रजाती"
+    },
+    "pesticideResistance": {
+      "en": "Reported to some nematicides in certain populations",
+      "hi": "कुछ आबादी में कुछ नेमाटिसाइड्स के प्रति प्रतिरोध की सूचना",
+      "mr": "काही लोकसंख्यांमध्ये काही नेमाटिसाइड्सना प्रतिकार नोंदवला"
+    }
+  },
+  {
+    "id": "11",
+    "name": {
+      "en": "Fruit Fly",
+      "hi": "फल मक्खी",
+      "mr": "फळ माशी"
+    },
+    "scientificName": "Bactrocera dorsalis",
+    "type": {
+      "en": "boring_pest",
+      "hi": "बेधक कीट",
+      "mr": "भेदक कीटक"
+    },
+    "severity": {
+      "en": "high",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "affectedCrops": {
+      "en": ["Mango", "Guava", "Citrus", "Pumpkin", "Bitter Gourd"],
+      "hi": ["आम", "अमरूद", "खट्टे फल", "कद्दू", "करेला"],
+      "mr": ["आंबा", "पेरू", "लिंबूवर्गीय", "भोपळा", "कारले"]
+    },
+    "symptoms": {
+      "en": [
+        "Small puncture marks on fruits",
+        "Discolored areas on fruit surface",
+        "Maggots inside fruit",
+        "Premature fruit drop",
+        "Rotting of infested fruits"
+      ],
+      "hi": [
+        "फलों पर छोटे छेद के निशान",
+        "फल की सतह पर मलिन क्षेत्र",
+        "फल के अंदर मैगट",
+        "समय से पहले फल गिरना",
+        "संक्रमित फलों का सड़ना"
+      ],
+      "mr": [
+        "फळांवर छोटी छिद्रे",
+        "फळाच्या पृष्ठभागावर वर्णहीन क्षेत्र",
+        "फळाच्या आत मॅगट (अळ्या)",
+        "अकाली फळगळ",
+        "संक्रमित फळांचे कुजणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Pheromone traps (Methyl eugenol) - 5 per acre",
+        "Protein bait traps (hydrolyzed protein + malathion)",
+        "Fruit bagging with paper covers",
+        "Parasitoid release (Fopius arisanus)",
+        "Collect and destroy fallen fruits"
+      ],
+      "hi": [
+        "फेरोमोन ट्रैप (मिथाइल यूजेनॉल) - 5 प्रति एकड़",
+        "प्रोटीन चारा ट्रैप (हाइड्रोलाइज्ड प्रोटीन + मैलाथियान)",
+        "फलों को कागज़ के कवर से बैगिंग करें",
+        "परजीवी (फोपियस एरिसानस) छोड़ें",
+        "गिरे हुए फलों को इकट्ठा करें और नष्ट करें"
+      ],
+      "mr": [
+        "फेरोमोन सापळे (मिथाइल यूजिनॉल) - 5 प्रति एकर",
+        "प्रोटीन बाईट सापळे (हायड्रोलाइज्ड प्रोटीन + मॅलाथियान)",
+        "कागदाच्या आवरणात फळे बंद करा",
+        "परजीवी (फोपियस अरिसानस) सोडा",
+        "गळून पडलेली फळे गोळा करून नष्ट करा"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Spinosad (0.5ml/L)",
+        "Malathion (2ml/L + protein hydrolysate)",
+        "Deltamethrin (0.5ml/L)",
+        "Cypermethrin (1ml/L)"
+      ],
+      "hi": [
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "मैलाथियान (2ml/लीटर + प्रोटीन हाइड्रोलाइसेट)",
+        "डेल्टामेथ्रिन (0.5ml/लीटर)",
+        "साइपरमेथ्रिन (1ml/लीटर)"
+      ],
+      "mr": [
+        "स्पिनोसाड (0.5ml/लीटर)",
+        "मॅलाथियान (2ml/लीटर + प्रोटीन हायड्रोलायसेट)",
+        "डेल्टामेथ्रिन (0.5ml/लीटर)",
+        "सायपरमेथ्रिन (1ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Collect and destroy infested fruits weekly",
+        "Deep bury or burn fallen fruits",
+        "Use fruit fly traps from fruit set stage",
+        "Avoid over-ripening on tree",
+        "Clean harvest area thoroughly"
+      ],
+      "hi": [
+        "साप्ताहिक रूप से संक्रमित फलों को इकट्ठा करें और नष्ट करें",
+        "गिरे हुए फलों को गहरा गाड़ें या जलाएं",
+        "फल बनने की अवस्था से फल मक्खी ट्रैप का उपयोग करें",
+        "पेड़ पर अधिक पकने से बचें",
+        "कटाई क्षेत्र को अच्छी तरह साफ करें"
+      ],
+      "mr": [
+        "दर आठवड्याला संक्रमित फळे गोळा करून नष्ट करा",
+        "गळून पडलेली फळे खोल गाडा किंवा जाळून टाका",
+        "फळ तयार झाल्यापासून फळ माशी सापळे वापरा",
+        "झाडावर जास्त शेकू देऊ नका",
+        "कापणी क्षेत्र पूर्णपणे स्वच्छ करा"
+      ]
+    },
+    "description": {
+      "en": "Fruit fly females lay eggs inside fruits. The maggots feed on the fruit pulp, causing premature fruit drop and making fruits unmarketable.",
+      "hi": "फल मक्खी के मादा फलों के अंदर अंडे देती हैं। मैगट फल के गूदे को खाते हैं, जिससे समय से पहले फल गिरते हैं और फल बिक्री योग्य नहीं रहते।",
+      "mr": "फळ माशीच्या मादी फळांच्या आत अंडी घालतात. मॅगट फळाचा गर खातात, ज्यामुळे अकाली फळगळ होते व फळे विक्रीयोग्य राहत नाहीत."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Warm, humid conditions (25-30°C, 70-80% RH)",
+      "hi": "गर्म, आर्द्र स्थितियाँ (25-30°C, 70-80% आर्द्रता)",
+      "mr": "उबदार, आर्द्र परिस्थिती (25-30°C, 70-80% सापेक्ष आर्द्रता)"
+    },
+    "transmissionMethod": {
+      "en": "Adult flies, infested fruits, wind",
+      "hi": "वयस्क मक्खियाँ, संक्रमित फल, हवा",
+      "mr": "प्रौढ माशा, संक्रमित फळे, वारा"
+    },
+    "lifeCycle": {
+      "en": "21-30 days",
+      "hi": "21-30 दिन",
+      "mr": "21-30 दिवस"
+    },
+    "economicImpact": {
+      "en": "High - 20-60% fruit loss, export restrictions",
+      "hi": "उच्च - 20-60% फल हानि, निर्यात प्रतिबंध",
+      "mr": "उच्च - 20-60% फळ हानी, निर्यात निर्बंध"
+    },
+    "globalDistribution": {
+      "en": "Tropical and subtropical regions worldwide",
+      "hi": "दुनिया भर के उष्णकटिबंधीय और उपोष्णकटिबंधीय क्षेत्र",
+      "mr": "जगभरातील उष्णकटिबंधीय व उपोष्णकटिबंधीय प्रदेश"
+    },
+    "commonName": {
+      "en": "Oriental fruit fly, mango fruit fly",
+      "hi": "ओरिएंटल फल मक्खी, आम फल मक्खी",
+      "mr": "ओरिएंटल फळ माशी, आंबा फळ माशी"
+    },
+    "hostRange": {
+      "en": "Over 150 fruit and vegetable crops",
+      "hi": "150 से अधिक फल और सब्जी फसलें",
+      "mr": "150 हून अधिक फळे व भाजीपाला पिके"
+    },
+    "pesticideResistance": {
+      "en": "Resistance to organophosphates reported",
+      "hi": "ऑर्गनोफॉस्फेट के लिए प्रतिरोध की सूचना",
+      "mr": "ऑर्गनोफॉस्फेटला प्रतिकार नोंदवला"
+    }
+  },
+  {
+    "id": "12",
+    "name": {
+      "en": "Locust",
+      "hi": "टिड्डी",
+      "mr": "टोळ"
+    },
+    "scientificName": "Schistocerca gregaria",
+    "type": {
+      "en": "defoliating_pest",
+      "hi": "पर्ण खाने वाला कीट",
+      "mr": "पानगळ करणारा कीटक"
+    },
+    "severity": {
+      "en": "critical",
+      "hi": "गंभीर",
+      "mr": "गंभीर"
+    },
+    "affectedCrops": {
+      "en": ["All crops - particularly wheat, maize, millet, vegetables", "Grassland and pastures"],
+      "hi": ["सभी फसलें - विशेषकर गेहूं, मक्का, बाजरा, सब्जियां", "घास के मैदान और चरागाह"],
+      "mr": ["सर्व पिके - विशेषतः गहू, मका, बाजरी, भाज्या", "गवताळ प्रदेश व चारागाह"]
+    },
+    "symptoms": {
+      "en": [
+        "Complete defoliation of plants",
+        "Crops eaten to ground level",
+        "Large swarms of insects",
+        "Bare fields within hours",
+        "Bark stripping from trees"
+      ],
+      "hi": [
+        "पौधों का पूर्ण पर्णहीन होना",
+        "फसलें जमीनी स्तर तक खाए जाना",
+        "कीटों के बड़े झुंड",
+        "घंटों के भीतर खाली खेत",
+        "पेड़ों से छाल हटाना"
+      ],
+      "mr": [
+        "वनस्पतींचे संपूर्ण पानगळ",
+        "पिके जमिनीपर्यंत खाऊन टाकणे",
+        "कीटकांचा मोठा थवा",
+        "तासाभरात शेते मोकळी होणे",
+        "झाडांपासून साली उतरवणे"
+      ]
+    },
+    "organicControls": {
+      "en": [
+        "Early warning and monitoring",
+        "Mechanical destruction of hopper bands",
+        "Use of Metarhizium fungus (bio-pesticide)",
+        "Bird perches to attract natural predators",
+        "Trench digging around fields"
+      ],
+      "hi": [
+        "प्रारंभिक चेतावनी और निगरानी",
+        "हॉपर बैंड का यांत्रिक विनाश",
+        "मेटारिज़ियम कवक (जैव-कीटनाशक) का उपयोग",
+        "प्राकृतिक शिकारियों को आकर्षित करने के लिए पक्षी बसेरे",
+        "खेतों के चारों ओर खाई खोदना"
+      ],
+      "mr": [
+        "सुरुवाती इशारा व निरीक्षण",
+        "हॉपर गट्टयांचा यांत्रिक विनाश",
+        "मेटारिझियम बुरशी (जैव-कीटकनाशक) वापर",
+        "नैसर्गिक भक्षकांना आकर्षित करण्यासाठी पक्षी बसण्याच्या सोयी",
+        "शेताभोवती खंदके खणणे"
+      ]
+    },
+    "chemicalControls": {
+      "en": [
+        "Malathion 96% (ultra-low volume spray)",
+        "Deltamethrin (0.5ml/L)",
+        "Chlorpyrifos (2ml/L)",
+        "Lambda-cyhalothrin (1ml/L)"
+      ],
+      "hi": [
+        "मैलाथियान 96% (अल्ट्रा-लो वॉल्यूम स्प्रे)",
+        "डेल्टामेथ्रिन (0.5ml/लीटर)",
+        "क्लोरपायरीफोस (2ml/लीटर)",
+        "लैम्ब्डा-साइहैलोथ्रिन (1ml/लीटर)"
+      ],
+      "mr": [
+        "मॅलाथियान 96% (अल्ट्रा-लो व्हॉल्यूम फवारणी)",
+        "डेल्टामेथ्रिन (0.5ml/लीटर)",
+        "क्लोरपायरीफोस (2ml/लीटर)",
+        "लॅम्ब्डा-सायहॅलोथ्रिन (1ml/लीटर)"
+      ]
+    },
+    "preventiveMeasures": {
+      "en": [
+        "Regular surveillance of breeding areas",
+        "Early detection and reporting",
+        "Coordinate control campaigns regionally",
+        "Destroy egg beds through plowing",
+        "Maintain locust warning systems"
+      ],
+      "hi": [
+        "प्रजनन क्षेत्रों की नियमित निगरानी",
+        "जल्दी पता लगाना और रिपोर्ट करना",
+        "क्षेत्रीय स्तर पर नियंत्रण अभियानों का समन्वय",
+        "जुताई के माध्यम से अंडा बिस्तर नष्ट करना",
+        "टिड्डी चेतावनी प्रणाली बनाए रखना"
+      ],
+      "mr": [
+        "प्रजनन क्षेत्रांचे नियमित निरीक्षण",
+        "लवकर शोध व कळवणे",
+        "प्रादेशिक नियंत्रण मोहिमांचे समन्वय",
+        "नांगरणीने अंडी बिछाने नष्ट करणे",
+        "टोळ इशारा यंत्रणा राखणे"
+      ]
+    },
+    "description": {
+      "en": "Desert locusts form massive swarms that can travel hundreds of kilometers and consume all vegetation in their path. One swarm can eat food for 35,000 people in a day.",
+      "hi": "रेगिस्तानी टिड्डियाँ विशाल झुंड बनाती हैं जो सैकड़ों किलोमीटर की यात्रा कर सकती हैं और अपने मार्ग में सभी वनस्पतियों को खा जाती हैं। एक झुंड एक दिन में 35,000 लोगों का भोजन खा सकता है।",
+      "mr": "वाळवंटी टोळ प्रचंड थवे तयार करतात जे शेकडो किलोमीटर प्रवास करू शकतात व वाटेत येणारी सर्व वनस्पती खाऊन टाकतात. एका थव्याने एका दिवसात 35,000 लोकांचे अन्न खाता येते."
+    },
+    "imageAsset": [],
+    "favorableConditions": {
+      "en": "Rainfall after dry periods, sandy soils for egg laying",
+      "hi": "शुष्क अवधि के बाद वर्षा, अंडे देने के लिए रेतीली मिट्टी",
+      "mr": "कोरड्या कालावधीनंतर पाऊस, अंडी घालण्यासाठी वालुवा माती"
+    },
+    "transmissionMethod": {
+      "en": "Flying swarms up to 150km/day",
+      "hi": "उड़ने वाले झुंड प्रति दिन 150 किमी तक",
+      "mr": "उडणारे थवे प्रतिदिन 150 किमी पर्यंत"
+    },
+    "lifeCycle": {
+      "en": "3-5 months (egg to adult)",
+      "hi": "3-5 महीने (अंडे से वयस्क)",
+      "mr": "3-5 महिने (अंड्यापासून प्रौढापर्यंत)"
+    },
+    "economicImpact": {
+      "en": "Critical - can cause complete crop failure, leading to famine",
+      "hi": "गंभीर - पूर्ण फसल विफलता का कारण बन सकता है, जिससे अकाल पड़ सकता है",
+      "mr": "गंभीर - संपूर्ण पीक अपयश घडवून दुष्काळास कारणीभूत ठरू शकतो"
+    },
+    "globalDistribution": {
+      "en": "Africa, Middle East, South Asia",
+      "hi": "अफ्रीका, मध्य पूर्व, दक्षिण एशिया",
+      "mr": "आफ्रिका, मध्य पूर्व, दक्षिण आशिया"
+    },
+    "commonName": {
+      "en": "Desert locust, migratory locust",
+      "hi": "रेगिस्तानी टिड्डी, प्रवासी टिड्डी",
+      "mr": "वाळवंटी टोळ, स्थलांतरित टोळ"
+    },
+    "hostRange": {
+      "en": "All green vegetation",
+      "hi": "सभी हरी वनस्पति",
+      "mr": "सर्व हिरवी वनस्पती"
+    },
+    "pesticideResistance": {
+      "en": "Limited resistance reported",
+      "hi": "सीमित प्रतिरोध की सूचना",
+      "mr": "मर्यादित प्रतिकार नोंदवला"
+    }
+  }
+]
