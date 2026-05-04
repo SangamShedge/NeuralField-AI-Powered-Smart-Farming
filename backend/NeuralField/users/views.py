@@ -23,6 +23,9 @@ class RegisterAPIView(APIView):
 
         if User.objects.filter(email=email).exists():
             return Response({"status": False, "message": "Email already exists"})
+        
+        if User.objects.filter(username=username).exists():
+            return Response({"status": False, "message": "Username already exists"})
 
         user = User.objects.create(
             email=email,

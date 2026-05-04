@@ -3085,6 +3085,12 @@ abstract class AppLocalizations {
   /// **'Account Already Exists'**
   String get accountAlreadyExistsTitle;
 
+  /// No description provided for @usernameExistsMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'This username is already taken. Please choose another one.'**
+  String get usernameExistsMessage;
+
   /// No description provided for @accountAlreadyExistsMessage.
   ///
   /// In en, this message translates to:
@@ -3522,6 +3528,210 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Last Updated'**
   String get csvHeaderLastUpdated;
+
+  /// No description provided for @addNoteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Note'**
+  String get addNoteTitle;
+
+  /// No description provided for @editNoteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Note'**
+  String get editNoteTitle;
+
+  /// No description provided for @titleLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get titleLabel;
+
+  /// No description provided for @titleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g., Fertilizer applied'**
+  String get titleHint;
+
+  /// No description provided for @titleRequiredValidation.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a title'**
+  String get titleRequiredValidation;
+
+  /// No description provided for @descriptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get descriptionLabel;
+
+  /// No description provided for @descriptionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Write your notes here...'**
+  String get descriptionHint;
+
+  /// No description provided for @descriptionRequiredValidation.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a description'**
+  String get descriptionRequiredValidation;
+
+  /// No description provided for @noteDateLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Note Date'**
+  String get noteDateLabel;
+
+  /// No description provided for @pleaseFillAllFields.
+  ///
+  /// In en, this message translates to:
+  /// **'Please fill all fields'**
+  String get pleaseFillAllFields;
+
+  /// No description provided for @noteCreatedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Note created successfully'**
+  String get noteCreatedSuccess;
+
+  /// No description provided for @noteUpdatedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Note updated successfully'**
+  String get noteUpdatedSuccess;
+
+  /// No description provided for @deleteNoteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Note'**
+  String get deleteNoteTitle;
+
+  /// No description provided for @deleteConfirmationMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete \"{title}\"?'**
+  String deleteConfirmationMessage(String title);
+
+  /// No description provided for @deletingNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Deleting...'**
+  String get deletingNote;
+
+  /// No description provided for @notesForCrop.
+  ///
+  /// In en, this message translates to:
+  /// **'Notes for {cropName}'**
+  String notesForCrop(String cropName);
+
+  /// No description provided for @noNotesYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No notes yet'**
+  String get noNotesYet;
+
+  /// No description provided for @tapToAddNoteHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap the + button to add a note'**
+  String get tapToAddNoteHint;
+
+  /// No description provided for @editTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit'**
+  String get editTooltip;
+
+  /// No description provided for @deleteTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get deleteTooltip;
+
+  /// No description provided for @updateNoteButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Update Note'**
+  String get updateNoteButton;
+
+  /// No description provided for @createNoteButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Note'**
+  String get createNoteButton;
+
+  /// No description provided for @failedToLoadNotes.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load notes'**
+  String get failedToLoadNotes;
+
+  /// No description provided for @monthJanuary.
+  ///
+  /// In en, this message translates to:
+  /// **'January'**
+  String get monthJanuary;
+
+  /// No description provided for @monthFebruary.
+  ///
+  /// In en, this message translates to:
+  /// **'February'**
+  String get monthFebruary;
+
+  /// No description provided for @monthMarch.
+  ///
+  /// In en, this message translates to:
+  /// **'March'**
+  String get monthMarch;
+
+  /// No description provided for @monthApril.
+  ///
+  /// In en, this message translates to:
+  /// **'April'**
+  String get monthApril;
+
+  /// No description provided for @monthJune.
+  ///
+  /// In en, this message translates to:
+  /// **'June'**
+  String get monthJune;
+
+  /// No description provided for @monthJuly.
+  ///
+  /// In en, this message translates to:
+  /// **'July'**
+  String get monthJuly;
+
+  /// No description provided for @monthAugust.
+  ///
+  /// In en, this message translates to:
+  /// **'August'**
+  String get monthAugust;
+
+  /// No description provided for @monthSeptember.
+  ///
+  /// In en, this message translates to:
+  /// **'September'**
+  String get monthSeptember;
+
+  /// No description provided for @monthOctober.
+  ///
+  /// In en, this message translates to:
+  /// **'October'**
+  String get monthOctober;
+
+  /// No description provided for @monthNovember.
+  ///
+  /// In en, this message translates to:
+  /// **'November'**
+  String get monthNovember;
+
+  /// No description provided for @monthDecember.
+  ///
+  /// In en, this message translates to:
+  /// **'December'**
+  String get monthDecember;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

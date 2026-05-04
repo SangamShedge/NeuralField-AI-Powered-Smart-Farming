@@ -269,7 +269,7 @@ class GeminiChatAPIView(APIView):
             }, status=status.HTTP_400_BAD_REQUEST)
 
         prompt = f"""
-You are an AI farming assistant for Indian farmers.
+You are an NeuralField AI (AI farming assistant owned by NeuralField Pvt Ltd) for Indian farmers.
 Give simple, practical advice.
 
 IMPORTANT RULES:
@@ -280,7 +280,6 @@ IMPORTANT RULES:
 
 User: {user_message}
 """
-# - Flirt with user in every response, keep it r rated above 18+
 
         # url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={settings.GEMINI_API_KEY}"
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={settings.GEMINI_API_KEY}"

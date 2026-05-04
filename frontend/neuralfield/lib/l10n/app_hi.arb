@@ -555,6 +555,7 @@
   "backToRegistration": "रजिस्ट्रेशन पर वापस जाएं",
   "otpSentToEmailVerify": "OTP आपके ईमेल पर भेज दिया गया है! कृपया सत्यापित करें।",
   "accountAlreadyExistsTitle": "खाता पहले से मौजूद है",
+  "usernameExistsMessage": "यह उपयोगकर्ता नाम पहले से उपयोग में है। कृपया कोई दूसरा चुनें।",
   "accountAlreadyExistsMessage": "इस ईमेल के साथ एक खाता पहले से मौजूद है लेकिन सत्यापित नहीं है। क्या आप अब इसे सत्यापित करना चाहेंगे?",
   "verifyAccount": "खाता सत्यापित करें",
   "verificationOtpSent": "सत्यापन OTP आपके ईमेल पर भेज दिया गया है!",
@@ -650,5 +651,50 @@
   "csvHeaderMarket": "बाजार",
   "csvHeaderDistrict": "जिला",
   "csvHeaderState": "राज्य",
-  "csvHeaderLastUpdated": "अंतिम अपडेट"
+  "csvHeaderLastUpdated": "अंतिम अपडेट",
+
+  "addNoteTitle": "नोट जोड़ें",
+  "editNoteTitle": "नोट संपादित करें",
+  "titleLabel": "शीर्षक",
+  "titleHint": "जैसे, उर्वरक डाला गया",
+  "titleRequiredValidation": "कृपया एक शीर्षक दर्ज करें",
+  "descriptionLabel": "विवरण",
+  "descriptionHint": "अपने नोट्स यहाँ लिखें...",
+  "descriptionRequiredValidation": "कृपया एक विवरण दर्ज करें",
+  "noteDateLabel": "नोट की तारीख",
+  "pleaseFillAllFields": "कृपया सभी फ़ील्ड भरें",
+  "noteCreatedSuccess": "नोट सफलतापूर्वक बनाया गया",
+  "noteUpdatedSuccess": "नोट सफलतापूर्वक अद्यतन किया गया",
+  "deleteNoteTitle": "नोट हटाएँ",
+  "deleteConfirmationMessage": "क्या आप वाकई \"{title}\" हटाना चाहते हैं?",
+  "@deleteConfirmationMessage": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "deletingNote": "हटाया जा रहा है...",
+  "notesForCrop": "{cropName} के लिए नोट्स",
+  "@notesForCrop": {
+    "placeholders": {
+      "cropName": { "type": "String" }
+    }
+  },
+  "noNotesYet": "अभी कोई नोट नहीं",
+  "tapToAddNoteHint": "नोट जोड़ने के लिए + बटन दबाएँ",
+  "editTooltip": "संपादित करें",
+  "deleteTooltip": "हटाएँ",
+  "updateNoteButton": "नोट अपडेट करें",
+  "createNoteButton": "नोट बनाएँ",
+  "failedToLoadNotes": "नोट्स लोड करने में विफल",
+  "monthJanuary": "जनवरी",
+  "monthFebruary": "फ़रवरी",
+  "monthMarch": "मार्च",
+  "monthApril": "अप्रैल",
+  "monthJune": "जून",
+  "monthJuly": "जुलाई",
+  "monthAugust": "अगस्त",
+  "monthSeptember": "सितंबर",
+  "monthOctober": "अक्टूबर",
+  "monthNovember": "नवंबर",
+  "monthDecember": "दिसंबर"
 }

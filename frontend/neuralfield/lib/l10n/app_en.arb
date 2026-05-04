@@ -555,6 +555,7 @@
   "backToRegistration": "Back to Registration",
   "otpSentToEmailVerify": "OTP sent to your email! Please verify.",
   "accountAlreadyExistsTitle": "Account Already Exists",
+  "usernameExistsMessage": "This username is already taken. Please choose another one.",
   "accountAlreadyExistsMessage": "An account with this email already exists but is not verified. Would you like to verify it now?",
   "verifyAccount": "Verify Account",
   "verificationOtpSent": "Verification OTP sent to your email!",
@@ -650,5 +651,50 @@
   "csvHeaderMarket": "Market",
   "csvHeaderDistrict": "District",
   "csvHeaderState": "State",
-  "csvHeaderLastUpdated": "Last Updated"
+  "csvHeaderLastUpdated": "Last Updated",
+
+  "addNoteTitle": "Add Note",
+  "editNoteTitle": "Edit Note",
+  "titleLabel": "Title",
+  "titleHint": "e.g., Fertilizer applied",
+  "titleRequiredValidation": "Please enter a title",
+  "descriptionLabel": "Description",
+  "descriptionHint": "Write your notes here...",
+  "descriptionRequiredValidation": "Please enter a description",
+  "noteDateLabel": "Note Date",
+  "pleaseFillAllFields": "Please fill all fields",
+  "noteCreatedSuccess": "Note created successfully",
+  "noteUpdatedSuccess": "Note updated successfully",
+  "deleteNoteTitle": "Delete Note",
+  "deleteConfirmationMessage": "Are you sure you want to delete \"{title}\"?",
+  "@deleteConfirmationMessage": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "deletingNote": "Deleting...",
+  "notesForCrop": "Notes for {cropName}",
+  "@notesForCrop": {
+    "placeholders": {
+      "cropName": { "type": "String" }
+    }
+  },
+  "noNotesYet": "No notes yet",
+  "tapToAddNoteHint": "Tap the + button to add a note",
+  "editTooltip": "Edit",
+  "deleteTooltip": "Delete",
+  "updateNoteButton": "Update Note",
+  "createNoteButton": "Create Note",
+  "failedToLoadNotes": "Failed to load notes",
+  "monthJanuary": "January",
+  "monthFebruary": "February",
+  "monthMarch": "March",
+  "monthApril": "April",
+  "monthJune": "June",
+  "monthJuly": "July",
+  "monthAugust": "August",
+  "monthSeptember": "September",
+  "monthOctober": "October",
+  "monthNovember": "November",
+  "monthDecember": "December"
 }

@@ -8,6 +8,7 @@ import '../api/api_request.dart';
 import '../api/api_response.dart';
 import '../services/cache_manager.dart';
 import '../l10n/app_localizations.dart';
+import '../widgets/notes_screen.dart';
 
 // ==================== ENUMS (localized) ====================
 enum GrowthStage {
@@ -1596,6 +1597,21 @@ class CropDetailScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => NotesScreen(
+                cropId: crop.id,
+                cropName: crop.name,
+              ),
+            ),
+          );
+        },
+        backgroundColor: const Color(0xFF4CAF50),
+        child: const Icon(Icons.note_add, color: Colors.white),
       ),
     );
   }

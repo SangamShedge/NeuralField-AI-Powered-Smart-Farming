@@ -1093,6 +1093,71 @@ class CropListResponse {
 }
 
 
+//------------------------Crop Note Response-----------------------
+class CropNoteResponse {
+  final int id;
+  final String title;
+  final String description;
+  final String noteDate;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final bool isActive;
+  final int crop;
+
+  CropNoteResponse({required this.id, required this.title, required this.description, required this.noteDate, required this.createdAt, required this.updatedAt, required this.isActive, required this.crop});
+
+  factory CropNoteResponse.fromJson(Map<String, dynamic> json) => CropNoteResponse(
+    id: json['id'],
+    title: json['title'],
+    description: json['description'],
+    noteDate: json['note_date'],
+    createdAt: DateTime.parse(json['created_at']),
+    updatedAt: DateTime.parse(json['updated_at']),
+    isActive: json['is_active'],
+    crop: json['crop'],
+  );
+}
+
+
+class CropNoteListResponse {
+  final bool status;
+  final int count;
+  final List<CropNoteResponse> data;
+
+  CropNoteListResponse({
+    required this.status,
+    required this.count,
+    required this.data,
+  });
+
+  factory CropNoteListResponse.fromJson(Map<String, dynamic> json) {
+    final list = (json['data'] as List)
+        .map((noteJson) => CropNoteResponse.fromJson(noteJson))
+        .toList();
+    return CropNoteListResponse(
+      status: json['status'],
+      count: json['count'],
+      data: list,
+    );
+  }
+}
+
+
+// Delete Response (simple)
+class CropNoteDeleteResponse {
+  final bool status;
+  final String message;
+
+  CropNoteDeleteResponse({required this.status, required this.message});
+
+  factory CropNoteDeleteResponse.fromJson(Map<String, dynamic> json) {
+    return CropNoteDeleteResponse(
+      status: json['status'],
+      message: json['message'],
+    );
+  }
+}
+
 
 //--------------------------Crop Encyclopedia Response----------------------------
 class CropEncyclopediaResponse {

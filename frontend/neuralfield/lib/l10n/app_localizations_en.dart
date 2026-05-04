@@ -1546,6 +1546,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get accountAlreadyExistsTitle => 'Account Already Exists';
 
   @override
+  String get usernameExistsMessage => 'This username is already taken. Please choose another one.';
+
+  @override
   String get accountAlreadyExistsMessage => 'An account with this email already exists but is not verified. Would you like to verify it now?';
 
   @override
@@ -1769,4 +1772,110 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get csvHeaderLastUpdated => 'Last Updated';
+
+  @override
+  String get addNoteTitle => 'Add Note';
+
+  @override
+  String get editNoteTitle => 'Edit Note';
+
+  @override
+  String get titleLabel => 'Title';
+
+  @override
+  String get titleHint => 'e.g., Fertilizer applied';
+
+  @override
+  String get titleRequiredValidation => 'Please enter a title';
+
+  @override
+  String get descriptionLabel => 'Description';
+
+  @override
+  String get descriptionHint => 'Write your notes here...';
+
+  @override
+  String get descriptionRequiredValidation => 'Please enter a description';
+
+  @override
+  String get noteDateLabel => 'Note Date';
+
+  @override
+  String get pleaseFillAllFields => 'Please fill all fields';
+
+  @override
+  String get noteCreatedSuccess => 'Note created successfully';
+
+  @override
+  String get noteUpdatedSuccess => 'Note updated successfully';
+
+  @override
+  String get deleteNoteTitle => 'Delete Note';
+
+  @override
+  String deleteConfirmationMessage(String title) {
+    return 'Are you sure you want to delete \"$title\"?';
+  }
+
+  @override
+  String get deletingNote => 'Deleting...';
+
+  @override
+  String notesForCrop(String cropName) {
+    return 'Notes for $cropName';
+  }
+
+  @override
+  String get noNotesYet => 'No notes yet';
+
+  @override
+  String get tapToAddNoteHint => 'Tap the + button to add a note';
+
+  @override
+  String get editTooltip => 'Edit';
+
+  @override
+  String get deleteTooltip => 'Delete';
+
+  @override
+  String get updateNoteButton => 'Update Note';
+
+  @override
+  String get createNoteButton => 'Create Note';
+
+  @override
+  String get failedToLoadNotes => 'Failed to load notes';
+
+  @override
+  String get monthJanuary => 'January';
+
+  @override
+  String get monthFebruary => 'February';
+
+  @override
+  String get monthMarch => 'March';
+
+  @override
+  String get monthApril => 'April';
+
+  @override
+  String get monthJune => 'June';
+
+  @override
+  String get monthJuly => 'July';
+
+  @override
+  String get monthAugust => 'August';
+
+  @override
+  String get monthSeptember => 'September';
+
+  @override
+  String get monthOctober => 'October';
+
+  @override
+  String get monthNovember => 'November';
+
+  @override
+  String get monthDecember => 'December';
 }

@@ -1546,6 +1546,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get accountAlreadyExistsTitle => 'खाता पहले से मौजूद है';
 
   @override
+  String get usernameExistsMessage => 'यह उपयोगकर्ता नाम पहले से उपयोग में है। कृपया कोई दूसरा चुनें।';
+
+  @override
   String get accountAlreadyExistsMessage => 'इस ईमेल के साथ एक खाता पहले से मौजूद है लेकिन सत्यापित नहीं है। क्या आप अब इसे सत्यापित करना चाहेंगे?';
 
   @override
@@ -1769,4 +1772,110 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get csvHeaderLastUpdated => 'अंतिम अपडेट';
+
+  @override
+  String get addNoteTitle => 'नोट जोड़ें';
+
+  @override
+  String get editNoteTitle => 'नोट संपादित करें';
+
+  @override
+  String get titleLabel => 'शीर्षक';
+
+  @override
+  String get titleHint => 'जैसे, उर्वरक डाला गया';
+
+  @override
+  String get titleRequiredValidation => 'कृपया एक शीर्षक दर्ज करें';
+
+  @override
+  String get descriptionLabel => 'विवरण';
+
+  @override
+  String get descriptionHint => 'अपने नोट्स यहाँ लिखें...';
+
+  @override
+  String get descriptionRequiredValidation => 'कृपया एक विवरण दर्ज करें';
+
+  @override
+  String get noteDateLabel => 'नोट की तारीख';
+
+  @override
+  String get pleaseFillAllFields => 'कृपया सभी फ़ील्ड भरें';
+
+  @override
+  String get noteCreatedSuccess => 'नोट सफलतापूर्वक बनाया गया';
+
+  @override
+  String get noteUpdatedSuccess => 'नोट सफलतापूर्वक अद्यतन किया गया';
+
+  @override
+  String get deleteNoteTitle => 'नोट हटाएँ';
+
+  @override
+  String deleteConfirmationMessage(String title) {
+    return 'क्या आप वाकई \"$title\" हटाना चाहते हैं?';
+  }
+
+  @override
+  String get deletingNote => 'हटाया जा रहा है...';
+
+  @override
+  String notesForCrop(String cropName) {
+    return '$cropName के लिए नोट्स';
+  }
+
+  @override
+  String get noNotesYet => 'अभी कोई नोट नहीं';
+
+  @override
+  String get tapToAddNoteHint => 'नोट जोड़ने के लिए + बटन दबाएँ';
+
+  @override
+  String get editTooltip => 'संपादित करें';
+
+  @override
+  String get deleteTooltip => 'हटाएँ';
+
+  @override
+  String get updateNoteButton => 'नोट अपडेट करें';
+
+  @override
+  String get createNoteButton => 'नोट बनाएँ';
+
+  @override
+  String get failedToLoadNotes => 'नोट्स लोड करने में विफल';
+
+  @override
+  String get monthJanuary => 'जनवरी';
+
+  @override
+  String get monthFebruary => 'फ़रवरी';
+
+  @override
+  String get monthMarch => 'मार्च';
+
+  @override
+  String get monthApril => 'अप्रैल';
+
+  @override
+  String get monthJune => 'जून';
+
+  @override
+  String get monthJuly => 'जुलाई';
+
+  @override
+  String get monthAugust => 'अगस्त';
+
+  @override
+  String get monthSeptember => 'सितंबर';
+
+  @override
+  String get monthOctober => 'अक्टूबर';
+
+  @override
+  String get monthNovember => 'नवंबर';
+
+  @override
+  String get monthDecember => 'दिसंबर';
 }

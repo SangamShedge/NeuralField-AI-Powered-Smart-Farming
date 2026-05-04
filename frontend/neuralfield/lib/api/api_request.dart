@@ -514,6 +514,64 @@ class CropDeleteRequest {
 }
 
 
+
+//-------------------------Crop Note Request------------------------------
+class CropNoteCreateRequest {
+  final int crop;
+  final String title;
+  final String description;
+  final String noteDate;
+
+  CropNoteCreateRequest({required this.crop, required this.title, required this.description, required this.noteDate});
+
+  Map<String, dynamic> toJson() => {
+    'crop': crop,
+    'title': title,
+    'description': description,
+    'note_date': noteDate,
+  };
+}
+
+
+class CropNoteListRequest {
+  final int crop;
+
+  CropNoteListRequest({required this.crop});
+
+  Map<String, dynamic> toJson() => {'crop': crop};
+}
+
+
+// Existing CropNoteCreateRequest ...
+
+class CropNoteUpdateRequest {
+  final int id;
+  final String title;
+  final String description;
+  final String noteDate;
+
+  CropNoteUpdateRequest({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.noteDate,
+  });
+
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'description': description,
+    'note_date': noteDate,
+  };
+}
+
+class CropNoteDeleteRequest {
+  final int id;
+  CropNoteDeleteRequest({required this.id});
+  Map<String, dynamic> toJson() => {'id': id};
+}
+
+
 //--------------------------Crop Encyclopedia----------------------------
 class CropEncyclopediaRequest {
   final String lang;

@@ -1458,6 +1458,122 @@ class CropService {
 
 
 
+//----------------------------Crop Note Service----------------------------
+class CropNoteService {
+  final http.Client _client;
+
+  CropNoteService({http.Client? client}) : _client = client ?? http.Client();
+
+  Future<String?> _getAuthToken() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString('access_token');
+  }
+
+  Future<Map<String, String>> _getHeaders() async {
+    final token = await _getAuthToken();
+    return {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      if (token != null) 'Authorization': 'Bearer $token',
+    };
+  }
+
+  // ---------- CREATE NOTE ----------
+  Future<CropNoteResponse> createNote(CropNoteCreateRequest request) async {
+    final url = Uri.parse(Urls.getFullUrl(Urls.cropNoteCreate));
+    final headers = await _getHeaders();
+
+    final response = await _client.post(
+      url,
+      headers: headers,
+      body: jsonEncode(request.toJson()),
+    ).timeout(const Duration(seconds: 15));
+
+    if (response.statusCode == 200 || response.statusCode == 201) {
+      final jsonRes = jsonDecode(response.body);
+      // Assuming response body: { "status": true, "message": "...", "data": { ... } }
+      if (jsonRes['status'] == true && jsonRes['data'] != null) {
+        return CropNoteResponse.fromJson(jsonRes['data']);
+      } else {
+        throw Exception(jsonRes['message'] ?? 'Failed to create note');
+      }
+    } else {
+      throw Exception('Failed to create note: ${response.statusCode}');
+    }
+  }
+
+// ---------- LIST NOTES ----------
+  Future<CropNoteListResponse> listNotes(int cropId) async {
+    final url = Uri.parse(Urls.getFullUrl(Urls.cropNoteList));
+    final headers = await _getHeaders();
+    final requestBody = CropNoteListRequest(crop: cropId);
+
+    final response = await _client.post(
+      url,
+      headers: headers,
+      body: jsonEncode(requestBody.toJson()),
+    ).timeout(const Duration(seconds: 15));
+
+    if (response.statusCode == 200) {
+      final jsonRes = jsonDecode(response.body);
+      if (jsonRes['status'] == true) {
+        return CropNoteListResponse.fromJson(jsonRes);
+      } else {
+        throw Exception(jsonRes['message'] ?? 'Failed to load notes');
+      }
+    } else {
+      throw Exception('Failed to load notes: ${response.statusCode}');
+    }
+  }
+
+  // -------------------- UPDATE NOTE --------------------
+  Future<CropNoteResponse> updateNote(CropNoteUpdateRequest request) async {
+    final url = Uri.parse(Urls.getFullUrl(Urls.cropNoteUpdate));
+    final headers = await _getHeaders();
+
+    final response = await _client.post(
+      url,
+      headers: headers,
+      body: jsonEncode(request.toJson()),
+    ).timeout(const Duration(seconds: 15));
+
+    if (response.statusCode == 200) {
+      final jsonRes = jsonDecode(response.body);
+      if (jsonRes['status'] == true && jsonRes['data'] != null) {
+        return CropNoteResponse.fromJson(jsonRes['data']);
+      } else {
+        throw Exception(jsonRes['message'] ?? 'Failed to update note');
+      }
+    } else {
+      throw Exception('Failed to update note: ${response.statusCode}');
+    }
+  }
+
+  // -------------------- SOFT DELETE NOTE --------------------
+  Future<CropNoteDeleteResponse> deleteNote(int noteId) async {
+    final url = Uri.parse(Urls.getFullUrl(Urls.cropNoteSoftDelete));
+    final headers = await _getHeaders();
+    final request = CropNoteDeleteRequest(id: noteId);
+
+    final response = await _client.post(
+      url,
+      headers: headers,
+      body: jsonEncode(request.toJson()),
+    ).timeout(const Duration(seconds: 15));
+
+    if (response.statusCode == 200) {
+      final jsonRes = jsonDecode(response.body);
+      return CropNoteDeleteResponse.fromJson(jsonRes);
+    } else {
+      throw Exception('Failed to delete note: ${response.statusCode}');
+    }
+  }
+
+  void dispose() => _client.close();
+}
+
+
+
 // -------------------------- Crop Encyclopedia Service -----------------------------
 class CropEncyclopediaService {
   final http.Client _client;

@@ -68,6 +68,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       if (!mounted) return;
 
       if (response.isSuccess) {
+        // Registration successful – proceed with OTP verification
         _registeredEmail = _emailController.text.trim();
         _registeredPassword = _passwordController.text;
         _registeredUsername = _nameController.text.trim();
@@ -85,10 +86,21 @@ class _RegisterScreenState extends State<RegisterScreen> {
           ),
         );
       } else {
-        // Check if the error is because email already exists but not verified
-        if (response.message.contains('already exists')) {
+        // 🆕 Distinguish email vs username conflict
+        if (response.message.contains('Email already exists')) {
+          // Existing email (likely unverified) – offer verification
           _showVerificationDialog();
+        } else if (response.message.contains('Username already exists')) {
+          // Username conflict – just show error
+          final localizations = AppLocalizations.of(context)!;
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(localizations.usernameExistsMessage), // new localization key
+              backgroundColor: Colors.red,
+            ),
+          );
         } else {
+          // Any other error
           final localizations = AppLocalizations.of(context)!;
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(

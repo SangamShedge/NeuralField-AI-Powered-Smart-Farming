@@ -555,6 +555,7 @@
   "backToRegistration": "नोंदणीकडे परत जा",
   "otpSentToEmailVerify": "OTP तुमच्या ईमेलवर पाठवला आहे! कृपया सत्यापित करा.",
   "accountAlreadyExistsTitle": "खाते आधीच अस्तित्वात आहे",
+  "usernameExistsMessage": "हे वापरकर्तानाव आधीच घेतले गेले आहे. कृपया दुसरे निवडा.",
   "accountAlreadyExistsMessage": "या ईमेलसह एक खाते आधीच अस्तित्वात आहे परंतु सत्यापित नाही. तुम्हाला आता ते सत्यापित करायचे आहे का?",
   "verifyAccount": "खाते सत्यापित करा",
   "verificationOtpSent": "सत्यापन OTP तुमच्या ईमेलवर पाठवला आहे!",
@@ -650,5 +651,50 @@
   "csvHeaderMarket": "बाजार",
   "csvHeaderDistrict": "जिल्हा",
   "csvHeaderState": "राज्य",
-  "csvHeaderLastUpdated": "शेवटचा अपडेट"
+  "csvHeaderLastUpdated": "शेवटचा अपडेट",
+
+  "addNoteTitle": "नोंद जोडा",
+  "editNoteTitle": "नोंद संपादित करा",
+  "titleLabel": "शीर्षक",
+  "titleHint": "उदा., खत टाकले",
+  "titleRequiredValidation": "कृपया शीर्षक प्रविष्ट करा",
+  "descriptionLabel": "वर्णन",
+  "descriptionHint": "तुमच्या नोंदी इथे लिहा...",
+  "descriptionRequiredValidation": "कृपया वर्णन प्रविष्ट करा",
+  "noteDateLabel": "नोंद तारीख",
+  "pleaseFillAllFields": "कृपया सर्व फील्ड भरा",
+  "noteCreatedSuccess": "नोंद यशस्वीरित्या तयार झाली",
+  "noteUpdatedSuccess": "नोंद यशस्वीरित्या अद्यतनित केली",
+  "deleteNoteTitle": "नोंद हटवा",
+  "deleteConfirmationMessage": "तुम्हाला खात्रीने \"{title}\" हटवायची आहे का?",
+  "@deleteConfirmationMessage": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "deletingNote": "हटवत आहे...",
+  "notesForCrop": "{cropName} साठी नोंदी",
+  "@notesForCrop": {
+    "placeholders": {
+      "cropName": { "type": "String" }
+    }
+  },
+  "noNotesYet": "अद्याप कोणत्याही नोंदी नाहीत",
+  "tapToAddNoteHint": "नोंद जोडण्यासाठी + बटण दाबा",
+  "editTooltip": "संपादित करा",
+  "deleteTooltip": "हटवा",
+  "updateNoteButton": "नोंद अद्यतनित करा",
+  "createNoteButton": "नोंद तयार करा",
+  "failedToLoadNotes": "नोंदी लोड करण्यात अयशस्वी",
+  "monthJanuary": "जानेवारी",
+  "monthFebruary": "फेब्रुवारी",
+  "monthMarch": "मार्च",
+  "monthApril": "एप्रिल",
+  "monthJune": "जून",
+  "monthJuly": "जुलै",
+  "monthAugust": "ऑगस्ट",
+  "monthSeptember": "सप्टेंबर",
+  "monthOctober": "ऑक्टोबर",
+  "monthNovember": "नोव्हेंबर",
+  "monthDecember": "डिसेंबर"
 }

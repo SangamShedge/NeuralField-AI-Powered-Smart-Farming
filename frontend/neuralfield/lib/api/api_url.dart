@@ -52,6 +52,12 @@ class Urls {
   static const String cropUpdate = '/crops/my_crop/update/';
   static const String cropSoftDelete = '/crops/my_crop/soft_delete/';
 
+  // Crop notes
+  static const String cropNoteCreate = '/crops/crop_note/create/';
+  static const String cropNoteList = '/crops/crop_note/list/';
+  static const String cropNoteUpdate = '/crops/crop_note/update/';
+  static const String cropNoteSoftDelete = '/crops/crop_note/soft_delete/';
+
   // Knowledge Hub Endpoints
   static const String cropEncyclopedia = '/knowledge_hub/crops/';
   static const String cultivationTips = '/knowledge_hub/cultivation/';
