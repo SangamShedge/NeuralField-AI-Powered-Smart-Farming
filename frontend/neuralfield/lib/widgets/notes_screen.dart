@@ -46,15 +46,13 @@ class _NotesScreenState extends State<NotesScreen> {
   }
 
   // ----------------------------------------------------------------------
-  // Styled modal bottom sheet with form
+  // Modal bottom sheet with FIXED date picker (no form rebuild)
+  // and correct API handling for create/update (no .status check)
   // ----------------------------------------------------------------------
   void _showNoteForm({CropNoteResponse? existingNote}) {
     final isEditing = existingNote != null;
     final titleCtrl = TextEditingController(text: existingNote?.title ?? '');
     final descCtrl = TextEditingController(text: existingNote?.description ?? '');
-    DateTime selectedDate = existingNote != null
-        ? DateTime.parse(existingNote.noteDate)
-        : DateTime.now();
 
     showModalBottomSheet(
       context: context,
@@ -65,186 +63,200 @@ class _NotesScreenState extends State<NotesScreen> {
         maxChildSize: 0.95,
         minChildSize: 0.5,
         expand: false,
-        builder: (context, scrollController) => Container(
-          decoration: const BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-          ),
-          child: Column(
-            children: [
-              // Drag handle + close button
-              Padding(
-                padding: const EdgeInsets.only(top: 12, right: 16),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    const SizedBox(width: 40),
-                    Container(
-                      width: 40,
-                      height: 4,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[300],
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.close, color: Colors.grey),
-                      onPressed: () => Navigator.pop(context),
-                    ),
-                  ],
-                ),
+        builder: (context, scrollController) {
+          // Local mutable date – will be updated without closing the sheet
+          DateTime selectedDate = existingNote != null
+              ? DateTime.parse(existingNote.noteDate)
+              : DateTime.now();
+
+          return StatefulBuilder(
+            builder: (context, setState) => Container(
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
               ),
-              const SizedBox(height: 8),
-              Expanded(
-                child: ListView(
-                  controller: scrollController,
-                  padding: const EdgeInsets.symmetric(horizontal: 24),
-                  children: [
-                    Text(
-                      isEditing
-                          ? AppLocalizations.of(context)!.editNoteTitle
-                          : AppLocalizations.of(context)!.addNoteTitle,
-                      style: const TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xFF2E7D32),
-                      ),
-                    ),
-                    const SizedBox(height: 24),
-                    // Title field
-                    TextFormField(
-                      controller: titleCtrl,
-                      decoration: InputDecoration(
-                        labelText: AppLocalizations.of(context)!.titleLabel,
-                        hintText: AppLocalizations.of(context)!.titleHint,
-                        prefixIcon: const Icon(Icons.title, color: Color(0xFF4CAF50)),
-                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(16),
-                          borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
-                        ),
-                      ),
-                      validator: (v) =>
-                      v == null || v.trim().isEmpty ? AppLocalizations.of(context)!.titleRequiredValidation : null,
-                    ),
-                    const SizedBox(height: 20),
-                    // Description field
-                    TextFormField(
-                      controller: descCtrl,
-                      maxLines: 5,
-                      decoration: InputDecoration(
-                        labelText: AppLocalizations.of(context)!.descriptionLabel,
-                        hintText: AppLocalizations.of(context)!.descriptionHint,
-                        prefixIcon: const Icon(Icons.description, color: Color(0xFF4CAF50)),
-                        alignLabelWithHint: true,
-                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(16),
-                          borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
-                        ),
-                      ),
-                      validator: (v) =>
-                      v == null || v.trim().isEmpty ? AppLocalizations.of(context)!.descriptionRequiredValidation : null,
-                    ),
-                    const SizedBox(height: 20),
-                    // Date picker (clean, only calendar icon)
-                    TextFormField(
-                      readOnly: true,
-                      controller: TextEditingController(
-                        text: _formatDateForDisplay(context, selectedDate),
-                      ),
-                      decoration: InputDecoration(
-                        labelText: AppLocalizations.of(context)!.noteDateLabel,
-                        prefixIcon: const Icon(Icons.calendar_today, color: Color(0xFF4CAF50)),
-                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(16),
-                          borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
-                        ),
-                      ),
-                      onTap: () async {
-                        final date = await showDatePicker(
-                          context: context,
-                          initialDate: selectedDate,
-                          firstDate: DateTime(2020),
-                          lastDate: DateTime.now(),
-                          builder: (context, child) => Theme(
-                            data: ThemeData.light().copyWith(
-                              colorScheme: const ColorScheme.light(primary: Color(0xFF4CAF50)),
-                            ),
-                            child: child!,
+              child: Column(
+                children: [
+                  // Drag handle + close button (unchanged)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 12, right: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        const SizedBox(width: 40),
+                        Container(
+                          width: 40,
+                          height: 4,
+                          decoration: BoxDecoration(
+                            color: Colors.grey[300],
+                            borderRadius: BorderRadius.circular(10),
                           ),
-                        );
-                        if (date != null && mounted) {
-                          _showNoteForm(existingNote: existingNote); // rebuild with new date
-                        }
-                      },
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.close, color: Colors.grey),
+                          onPressed: () => Navigator.pop(context),
+                        ),
+                      ],
                     ),
-                    const SizedBox(height: 32),
-                    // Submit button
-                    ElevatedButton(
-                      onPressed: () async {
-                        if (titleCtrl.text.trim().isEmpty ||
-                            descCtrl.text.trim().isEmpty) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text(AppLocalizations.of(context)!.pleaseFillAllFields)),
-                          );
-                          return;
-                        }
-                        Navigator.pop(context);
-                        final dateStr = selectedDate.toIso8601String().split('T').first;
-                        try {
-                          if (!isEditing) {
-                            final request = CropNoteCreateRequest(
-                              crop: widget.cropId,
-                              title: titleCtrl.text.trim(),
-                              description: descCtrl.text.trim(),
-                              noteDate: dateStr,
+                  ),
+                  const SizedBox(height: 8),
+                  Expanded(
+                    child: ListView(
+                      controller: scrollController,
+                      padding: const EdgeInsets.symmetric(horizontal: 24),
+                      children: [
+                        Text(
+                          isEditing
+                              ? AppLocalizations.of(context)!.editNoteTitle
+                              : AppLocalizations.of(context)!.addNoteTitle,
+                          style: const TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xFF2E7D32),
+                          ),
+                        ),
+                        const SizedBox(height: 24),
+                        // Title field
+                        TextFormField(
+                          controller: titleCtrl,
+                          decoration: InputDecoration(
+                            labelText: AppLocalizations.of(context)!.titleLabel,
+                            hintText: AppLocalizations.of(context)!.titleHint,
+                            prefixIcon: const Icon(Icons.title, color: Color(0xFF4CAF50)),
+                            border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(16),
+                              borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 20),
+                        // Description field
+                        TextFormField(
+                          controller: descCtrl,
+                          maxLines: 5,
+                          decoration: InputDecoration(
+                            labelText: AppLocalizations.of(context)!.descriptionLabel,
+                            hintText: AppLocalizations.of(context)!.descriptionHint,
+                            prefixIcon: const Icon(Icons.description, color: Color(0xFF4CAF50)),
+                            alignLabelWithHint: true,
+                            border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(16),
+                              borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 20),
+                        // Date picker (now works without closing the form)
+                        TextFormField(
+                          readOnly: true,
+                          controller: TextEditingController(
+                            text: _formatDateForDisplay(context, selectedDate),
+                          ),
+                          decoration: InputDecoration(
+                            labelText: AppLocalizations.of(context)!.noteDateLabel,
+                            prefixIcon: const Icon(Icons.calendar_today, color: Color(0xFF4CAF50)),
+                            border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+                            focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(16),
+                              borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
+                            ),
+                          ),
+                          onTap: () async {
+                            final picked = await showDatePicker(
+                              context: context,
+                              initialDate: selectedDate,
+                              firstDate: DateTime(2020),
+                              lastDate: DateTime.now(),
+                              builder: (context, child) => Theme(
+                                data: ThemeData.light().copyWith(
+                                  colorScheme: const ColorScheme.light(primary: Color(0xFF4CAF50)),
+                                ),
+                                child: child!,
+                              ),
                             );
-                            await _noteService.createNote(request);
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(content: Text(AppLocalizations.of(context)!.noteCreatedSuccess)),
-                            );
-                          } else {
-                            final request = CropNoteUpdateRequest(
-                              id: existingNote.id,
-                              title: titleCtrl.text.trim(),
-                              description: descCtrl.text.trim(),
-                              noteDate: dateStr,
-                            );
-                            await _noteService.updateNote(request);
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              SnackBar(content: Text(AppLocalizations.of(context)!.noteUpdatedSuccess)),
-                            );
-                          }
-                          _loadNotes();
-                        } catch (e) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text('${AppLocalizations.of(context)!.errorPrefix}$e'), backgroundColor: Colors.red),
-                          );
-                        }
-                      },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF4CAF50),
-                        foregroundColor: Colors.white,
-                        minimumSize: const Size(double.infinity, 52),
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                        elevation: 2,
-                      ),
-                      child: Text(
-                        isEditing
-                            ? AppLocalizations.of(context)!.updateNoteButton
-                            : AppLocalizations.of(context)!.createNoteButton,
-                        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-                      ),
+                            if (picked != null && mounted) {
+                              // Update only the local date, form stays open
+                              setState(() => selectedDate = picked);
+                            }
+                          },
+                        ),
+                        const SizedBox(height: 32),
+                        // Submit button – correctly handles create/update responses
+                        ElevatedButton(
+                          onPressed: () async {
+                            if (titleCtrl.text.trim().isEmpty ||
+                                descCtrl.text.trim().isEmpty) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text(AppLocalizations.of(context)!.pleaseFillAllFields)),
+                              );
+                              return;
+                            }
+                            final dateStr = selectedDate.toIso8601String().split('T').first;
+
+                            // Close bottom sheet before network call
+                            Navigator.pop(context);
+
+                            try {
+                              if (!isEditing) {
+                                final request = CropNoteCreateRequest(
+                                  crop: widget.cropId,
+                                  title: titleCtrl.text.trim(),
+                                  description: descCtrl.text.trim(),
+                                  noteDate: dateStr,
+                                );
+                                await _noteService.createNote(request);
+                                // Success – no status to check, just show message
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text(AppLocalizations.of(context)!.noteCreatedSuccess)),
+                                );
+                              } else {
+                                final request = CropNoteUpdateRequest(
+                                  id: existingNote.id,
+                                  title: titleCtrl.text.trim(),
+                                  description: descCtrl.text.trim(),
+                                  noteDate: dateStr,
+                                );
+                                await _noteService.updateNote(request);
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text(AppLocalizations.of(context)!.noteUpdatedSuccess)),
+                                );
+                              }
+                              // Refresh the list after successful operation
+                              _loadNotes();
+                            } catch (e) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                  content: Text('${AppLocalizations.of(context)!.errorPrefix}$e'),
+                                  backgroundColor: Colors.red,
+                                ),
+                              );
+                            }
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF4CAF50),
+                            foregroundColor: Colors.white,
+                            minimumSize: const Size(double.infinity, 52),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                            elevation: 2,
+                          ),
+                          child: Text(
+                            isEditing
+                                ? AppLocalizations.of(context)!.updateNoteButton
+                                : AppLocalizations.of(context)!.createNoteButton,
+                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                        const SizedBox(height: 32),
+                      ],
                     ),
-                    const SizedBox(height: 32),
-                  ],
-                ),
+                  ),
+                ],
               ),
-            ],
-          ),
-        ),
+            ),
+          );
+        },
       ),
     );
   }
@@ -369,7 +381,7 @@ class _NotesScreenState extends State<NotesScreen> {
           : _notes.isEmpty
           ? _buildEmptyState()
           : RefreshIndicator(
-        onRefresh: _loadNotes,
+        onRefresh: () async => _loadNotes(),
         color: const Color(0xFF4CAF50),
         child: ListView.builder(
           padding: const EdgeInsets.all(16),
@@ -400,10 +412,7 @@ class _NotesScreenState extends State<NotesScreen> {
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [
-                Colors.white,
-                Colors.grey.shade50,
-              ],
+              colors: [Colors.white, Colors.grey.shade50],
             ),
           ),
           child: Padding(
@@ -428,11 +437,7 @@ class _NotesScreenState extends State<NotesScreen> {
                         children: [
                           Text(
                             note.title,
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              letterSpacing: -0.3,
-                            ),
+                            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, letterSpacing: -0.3),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -503,11 +508,7 @@ class _NotesScreenState extends State<NotesScreen> {
           const SizedBox(height: 24),
           Text(
             AppLocalizations.of(context)!.noNotesYet,
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              color: Colors.grey[700],
-            ),
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.grey[700]),
           ),
           const SizedBox(height: 8),
           Text(
