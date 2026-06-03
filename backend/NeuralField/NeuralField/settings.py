@@ -139,8 +139,8 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = "sravanfakesinha@gmail.com"
-EMAIL_HOST_PASSWORD = "egkb rveg hhfj gltr"
+EMAIL_HOST_USER = "email"
+EMAIL_HOST_PASSWORD = "email_app_key"
 
 
 
