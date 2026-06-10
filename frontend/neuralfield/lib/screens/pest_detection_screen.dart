@@ -373,6 +373,7 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
               ),
 
             // Results Section
+            // Results Section
             if (_detectionResult != null)
               FadeTransition(
                 opacity: _fadeAnimation,
@@ -392,6 +393,10 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                   ? Colors.red.shade50
                                   : _severity == 'High'
                                   ? Colors.orange.shade50
+                                  : _severity == 'Invalid Input'
+                                  ? Colors.grey.shade100
+                                  : _severity == 'No Disease'
+                                  ? Colors.green.shade50
                                   : Colors.yellow.shade50,
                               Colors.white,
                             ],
@@ -404,6 +409,10 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                 ? Colors.red.shade200
                                 : _severity == 'High'
                                 ? Colors.orange.shade200
+                                : _severity == 'Invalid Input'
+                                ? Colors.grey.shade300
+                                : _severity == 'No Disease'
+                                ? Colors.green.shade200
                                 : Colors.yellow.shade200,
                             width: 1,
                           ),
@@ -420,15 +429,27 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                         ? Colors.red.shade100
                                         : _severity == 'High'
                                         ? Colors.orange.shade100
+                                        : _severity == 'Invalid Input'
+                                        ? Colors.grey.shade200
+                                        : _severity == 'No Disease'
+                                        ? Colors.green.shade100
                                         : Colors.yellow.shade100,
                                     shape: BoxShape.circle,
                                   ),
                                   child: Icon(
-                                    Icons.science,
+                                    _severity == 'Invalid Input'
+                                        ? Icons.image_not_supported
+                                        : _severity == 'No Disease'
+                                        ? Icons.health_and_safety
+                                        : Icons.science,
                                     color: _severity == 'Severe'
                                         ? Colors.red.shade700
                                         : _severity == 'High'
                                         ? Colors.orange.shade700
+                                        : _severity == 'Invalid Input'
+                                        ? Colors.grey.shade600
+                                        : _severity == 'No Disease'
+                                        ? Colors.green.shade700
                                         : Colors.yellow.shade700,
                                     size: 28,
                                   ),
@@ -439,13 +460,21 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        localizations.detectedDiseaseLabel,
+                                        _severity == 'Invalid Input'
+                                            ? 'Analysis Result'
+                                            : _severity == 'No Disease'
+                                            ? 'Plant Health Status'
+                                            : localizations.detectedDiseaseLabel,
                                         style: TextStyle(
                                           fontSize: 12,
                                           color: _severity == 'Severe'
                                               ? Colors.red.shade700
                                               : _severity == 'High'
                                               ? Colors.orange.shade700
+                                              : _severity == 'Invalid Input'
+                                              ? Colors.grey.shade700
+                                              : _severity == 'No Disease'
+                                              ? Colors.green.shade700
                                               : Colors.yellow.shade700,
                                           fontWeight: FontWeight.w600,
                                         ),
@@ -462,7 +491,7 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                     ],
                                   ),
                                 ),
-                                if (_confidence != null)
+                                if (_confidence != null && _severity != 'Invalid Input')
                                   Container(
                                     padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                                     decoration: BoxDecoration(
@@ -470,7 +499,9 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                           ? Colors.red.shade100
                                           : _severity == 'High'
                                           ? Colors.orange.shade100
-                                          : Colors.green.shade100,
+                                          : _severity == 'No Disease'
+                                          ? Colors.green.shade100
+                                          : Colors.yellow.shade100,
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                     child: Text(
@@ -480,7 +511,9 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                             ? Colors.red.shade800
                                             : _severity == 'High'
                                             ? Colors.orange.shade800
-                                            : Colors.green.shade800,
+                                            : _severity == 'No Disease'
+                                            ? Colors.green.shade800
+                                            : Colors.yellow.shade800,
                                         fontSize: 11,
                                         fontWeight: FontWeight.w600,
                                       ),
@@ -488,7 +521,7 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                   ),
                               ],
                             ),
-                            if (_severity != null)
+                            if (_severity != null && _severity != 'Invalid Input' && _severity != 'No Disease')
                               Padding(
                                 padding: const EdgeInsets.only(top: 12),
                                 child: Row(
@@ -523,38 +556,76 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                       ),
                       const SizedBox(height: 16),
 
-                      // Solution Card
+                      // Solution Card (shown for all cases)
                       if (_solution != null)
                         Container(
                           padding: const EdgeInsets.all(16),
                           decoration: BoxDecoration(
-                            color: RedTheme.primaryLight,
+                            color: _severity == 'Invalid Input'
+                                ? Colors.grey.shade100
+                                : _severity == 'No Disease'
+                                ? Colors.green.shade50
+                                : RedTheme.primaryLight,
                             borderRadius: BorderRadius.circular(16),
-                            border: Border.all(color: RedTheme.accent, width: 1),
+                            border: Border.all(
+                              color: _severity == 'Invalid Input'
+                                  ? Colors.grey.shade300
+                                  : _severity == 'No Disease'
+                                  ? Colors.green.shade200
+                                  : RedTheme.accent,
+                              width: 1,
+                            ),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
-                                  Icon(Icons.medication, color: RedTheme.primary, size: 20),
+                                  Icon(
+                                    _severity == 'Invalid Input'
+                                        ? Icons.help_outline
+                                        : _severity == 'No Disease'
+                                        ? Icons.thumb_up
+                                        : Icons.medication,
+                                    color: _severity == 'Invalid Input'
+                                        ? Colors.grey.shade700
+                                        : _severity == 'No Disease'
+                                        ? Colors.green.shade700
+                                        : RedTheme.primary,
+                                    size: 20,
+                                  ),
                                   const SizedBox(width: 8),
                                   Expanded(
                                     child: Text(
-                                      localizations.recommendedSolutionTitle,
+                                      _severity == 'Invalid Input'
+                                          ? 'Suggestion'
+                                          : _severity == 'No Disease'
+                                          ? 'Recommendation'
+                                          : localizations.recommendedSolutionTitle,
                                       style: TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold,
-                                        color: RedTheme.primary,
+                                        color: _severity == 'Invalid Input'
+                                            ? Colors.grey.shade700
+                                            : _severity == 'No Disease'
+                                            ? Colors.green.shade700
+                                            : RedTheme.primary,
                                       ),
                                     ),
                                   ),
-                                  IconButton(
-                                    onPressed: () => _speakResult(_solution!),
-                                    icon: Icon(Icons.volume_up, size: 20, color: RedTheme.primary),
-                                    padding: EdgeInsets.zero,
-                                    constraints: const BoxConstraints(),
-                                  ),
+                                  if (_solution != null && _severity != 'Invalid Input')
+                                    IconButton(
+                                      onPressed: () => _speakResult(_solution!),
+                                      icon: Icon(
+                                        Icons.volume_up,
+                                        size: 20,
+                                        color: _severity == 'No Disease'
+                                            ? Colors.green.shade700
+                                            : RedTheme.primary,
+                                      ),
+                                      padding: EdgeInsets.zero,
+                                      constraints: const BoxConstraints(),
+                                    ),
                                 ],
                               ),
                               const SizedBox(height: 12),
@@ -567,28 +638,35 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                         ),
                       const SizedBox(height: 16),
 
-                      // Prevention Tips Card
-                      if (_preventionTips.isNotEmpty)
+                      // Prevention Tips Card (show only if not unknown or healthy)
+                      if (_preventionTips.isNotEmpty && _severity != 'Invalid Input')
                         Container(
                           padding: const EdgeInsets.all(16),
                           decoration: BoxDecoration(
-                            color: RedTheme.gradientStart,
+                            color: _severity == 'No Disease' ? Colors.green.shade50 : RedTheme.gradientStart,
                             borderRadius: BorderRadius.circular(16),
-                            border: Border.all(color: RedTheme.accent, width: 1),
+                            border: Border.all(
+                              color: _severity == 'No Disease' ? Colors.green.shade200 : RedTheme.accent,
+                              width: 1,
+                            ),
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
-                                  Icon(Icons.shield, color: RedTheme.primary, size: 20),
+                                  Icon(
+                                    Icons.shield,
+                                    color: _severity == 'No Disease' ? Colors.green.shade700 : RedTheme.primary,
+                                    size: 20,
+                                  ),
                                   const SizedBox(width: 8),
                                   Text(
                                     localizations.preventionTipsTitle,
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
-                                      color: RedTheme.primary,
+                                      color: _severity == 'No Disease' ? Colors.green.shade700 : RedTheme.primary,
                                     ),
                                   ),
                                 ],
@@ -599,7 +677,7 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                                 child: Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text('•', style: TextStyle(fontSize: 16, color: RedTheme.primary)),
+                                    Text('•', style: TextStyle(fontSize: 16, color: _severity == 'No Disease' ? Colors.green.shade700 : RedTheme.primary)),
                                     const SizedBox(width: 8),
                                     Expanded(
                                       child: Text(
@@ -618,6 +696,252 @@ class _PestDetectionScreenState extends State<PestDetectionScreen>
                   ),
                 ),
               ),
+
+            // if (_detectionResult != null)
+            //   FadeTransition(
+            //     opacity: _fadeAnimation,
+            //     child: Padding(
+            //       padding: const EdgeInsets.symmetric(horizontal: 16),
+            //       child: Column(
+            //         crossAxisAlignment: CrossAxisAlignment.start,
+            //         children: [
+            //           const SizedBox(height: 8),
+            //           // Detection Result Card
+            //           Container(
+            //             padding: const EdgeInsets.all(20),
+            //             decoration: BoxDecoration(
+            //               gradient: LinearGradient(
+            //                 colors: [
+            //                   _severity == 'Severe'
+            //                       ? Colors.red.shade50
+            //                       : _severity == 'High'
+            //                       ? Colors.orange.shade50
+            //                       : Colors.yellow.shade50,
+            //                   Colors.white,
+            //                 ],
+            //                 begin: Alignment.topLeft,
+            //                 end: Alignment.bottomRight,
+            //               ),
+            //               borderRadius: BorderRadius.circular(20),
+            //               border: Border.all(
+            //                 color: _severity == 'Severe'
+            //                     ? Colors.red.shade200
+            //                     : _severity == 'High'
+            //                     ? Colors.orange.shade200
+            //                     : Colors.yellow.shade200,
+            //                 width: 1,
+            //               ),
+            //             ),
+            //             child: Column(
+            //               children: [
+            //                 Row(
+            //                   crossAxisAlignment: CrossAxisAlignment.start,
+            //                   children: [
+            //                     Container(
+            //                       padding: const EdgeInsets.all(10),
+            //                       decoration: BoxDecoration(
+            //                         color: _severity == 'Severe'
+            //                             ? Colors.red.shade100
+            //                             : _severity == 'High'
+            //                             ? Colors.orange.shade100
+            //                             : Colors.yellow.shade100,
+            //                         shape: BoxShape.circle,
+            //                       ),
+            //                       child: Icon(
+            //                         Icons.science,
+            //                         color: _severity == 'Severe'
+            //                             ? Colors.red.shade700
+            //                             : _severity == 'High'
+            //                             ? Colors.orange.shade700
+            //                             : Colors.yellow.shade700,
+            //                         size: 28,
+            //                       ),
+            //                     ),
+            //                     const SizedBox(width: 16),
+            //                     Expanded(
+            //                       child: Column(
+            //                         crossAxisAlignment: CrossAxisAlignment.start,
+            //                         children: [
+            //                           Text(
+            //                             localizations.detectedDiseaseLabel,
+            //                             style: TextStyle(
+            //                               fontSize: 12,
+            //                               color: _severity == 'Severe'
+            //                                   ? Colors.red.shade700
+            //                                   : _severity == 'High'
+            //                                   ? Colors.orange.shade700
+            //                                   : Colors.yellow.shade700,
+            //                               fontWeight: FontWeight.w600,
+            //                             ),
+            //                           ),
+            //                           const SizedBox(height: 4),
+            //                           Text(
+            //                             _detectionResult!,
+            //                             style: const TextStyle(
+            //                               fontSize: 16,
+            //                               fontWeight: FontWeight.bold,
+            //                               color: Colors.black87,
+            //                             ),
+            //                           ),
+            //                         ],
+            //                       ),
+            //                     ),
+            //                     if (_confidence != null)
+            //                       Container(
+            //                         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+            //                         decoration: BoxDecoration(
+            //                           color: _severity == 'Severe'
+            //                               ? Colors.red.shade100
+            //                               : _severity == 'High'
+            //                               ? Colors.orange.shade100
+            //                               : Colors.green.shade100,
+            //                           borderRadius: BorderRadius.circular(20),
+            //                         ),
+            //                         child: Text(
+            //                           _confidence!,
+            //                           style: TextStyle(
+            //                             color: _severity == 'Severe'
+            //                                 ? Colors.red.shade800
+            //                                 : _severity == 'High'
+            //                                 ? Colors.orange.shade800
+            //                                 : Colors.green.shade800,
+            //                             fontSize: 11,
+            //                             fontWeight: FontWeight.w600,
+            //                           ),
+            //                         ),
+            //                       ),
+            //                   ],
+            //                 ),
+            //                 if (_severity != null)
+            //                   Padding(
+            //                     padding: const EdgeInsets.only(top: 12),
+            //                     child: Row(
+            //                       children: [
+            //                         Icon(
+            //                           Icons.warning_amber_rounded,
+            //                           size: 16,
+            //                           color: _severity == 'Severe'
+            //                               ? Colors.red.shade700
+            //                               : _severity == 'High'
+            //                               ? Colors.orange.shade700
+            //                               : Colors.yellow.shade700,
+            //                         ),
+            //                         const SizedBox(width: 8),
+            //                         Text(
+            //                           '${localizations.severityLabelPDS} $_severity',
+            //                           style: TextStyle(
+            //                             fontSize: 13,
+            //                             fontWeight: FontWeight.w500,
+            //                             color: _severity == 'Severe'
+            //                                 ? Colors.red.shade700
+            //                                 : _severity == 'High'
+            //                                 ? Colors.orange.shade700
+            //                                 : Colors.yellow.shade700,
+            //                           ),
+            //                         ),
+            //                       ],
+            //                     ),
+            //                   ),
+            //               ],
+            //             ),
+            //           ),
+            //           const SizedBox(height: 16),
+            //
+            //           // Solution Card
+            //           if (_solution != null)
+            //             Container(
+            //               padding: const EdgeInsets.all(16),
+            //               decoration: BoxDecoration(
+            //                 color: RedTheme.primaryLight,
+            //                 borderRadius: BorderRadius.circular(16),
+            //                 border: Border.all(color: RedTheme.accent, width: 1),
+            //               ),
+            //               child: Column(
+            //                 crossAxisAlignment: CrossAxisAlignment.start,
+            //                 children: [
+            //                   Row(
+            //                     children: [
+            //                       Icon(Icons.medication, color: RedTheme.primary, size: 20),
+            //                       const SizedBox(width: 8),
+            //                       Expanded(
+            //                         child: Text(
+            //                           localizations.recommendedSolutionTitle,
+            //                           style: TextStyle(
+            //                             fontSize: 16,
+            //                             fontWeight: FontWeight.bold,
+            //                             color: RedTheme.primary,
+            //                           ),
+            //                         ),
+            //                       ),
+            //                       IconButton(
+            //                         onPressed: () => _speakResult(_solution!),
+            //                         icon: Icon(Icons.volume_up, size: 20, color: RedTheme.primary),
+            //                         padding: EdgeInsets.zero,
+            //                         constraints: const BoxConstraints(),
+            //                       ),
+            //                     ],
+            //                   ),
+            //                   const SizedBox(height: 12),
+            //                   Text(
+            //                     _solution!,
+            //                     style: const TextStyle(fontSize: 14, height: 1.4, color: Colors.black87),
+            //                   ),
+            //                 ],
+            //               ),
+            //             ),
+            //           const SizedBox(height: 16),
+            //
+            //           // Prevention Tips Card
+            //           if (_preventionTips.isNotEmpty)
+            //             Container(
+            //               padding: const EdgeInsets.all(16),
+            //               decoration: BoxDecoration(
+            //                 color: RedTheme.gradientStart,
+            //                 borderRadius: BorderRadius.circular(16),
+            //                 border: Border.all(color: RedTheme.accent, width: 1),
+            //               ),
+            //               child: Column(
+            //                 crossAxisAlignment: CrossAxisAlignment.start,
+            //                 children: [
+            //                   Row(
+            //                     children: [
+            //                       Icon(Icons.shield, color: RedTheme.primary, size: 20),
+            //                       const SizedBox(width: 8),
+            //                       Text(
+            //                         localizations.preventionTipsTitle,
+            //                         style: TextStyle(
+            //                           fontSize: 16,
+            //                           fontWeight: FontWeight.bold,
+            //                           color: RedTheme.primary,
+            //                         ),
+            //                       ),
+            //                     ],
+            //                   ),
+            //                   const SizedBox(height: 12),
+            //                   ..._preventionTips.map((tip) => Padding(
+            //                     padding: const EdgeInsets.only(bottom: 8),
+            //                     child: Row(
+            //                       crossAxisAlignment: CrossAxisAlignment.start,
+            //                       children: [
+            //                         Text('•', style: TextStyle(fontSize: 16, color: RedTheme.primary)),
+            //                         const SizedBox(width: 8),
+            //                         Expanded(
+            //                           child: Text(
+            //                             tip,
+            //                             style: const TextStyle(fontSize: 13, height: 1.3, color: Colors.black87),
+            //                           ),
+            //                         ),
+            //                       ],
+            //                     ),
+            //                   )),
+            //                 ],
+            //               ),
+            //             ),
+            //           const SizedBox(height: 24),
+            //         ],
+            //       ),
+            //     ),
+            //   ),
           ],
         ),
       ),

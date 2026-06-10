@@ -936,62 +936,161 @@ class PestDetectionData {
 
   String get confidencePercentage => '${(confidence * 100).toInt()}%';
 
-  bool get isDisease => true; // API returns disease names
+  bool get isHealthy => disease.toLowerCase().contains('healthy');
+  bool get isUnknown => disease.toLowerCase() == 'unknown';
+  bool get isDisease => !isHealthy && !isUnknown;
 
   String get displayName {
-    // Format the disease name for display
-    return disease.replaceAll('_', ' ');
+    if (isUnknown) return 'Not Recognized';
+    // Format: replace underscores with spaces, then capitalize each word
+    final words = disease.replaceAll('_', ' ').split(' ');
+    return words.map((word) => word.isNotEmpty
+        ? word[0].toUpperCase() + word.substring(1).toLowerCase()
+        : '').join(' ');
   }
 
+  // Dynamically generate solution based on disease name keywords
   String getSolution() {
-    final diseaseLower = disease.toLowerCase();
-    if (diseaseLower.contains('late_blight')) {
-      return 'Apply copper-based fungicides immediately. Remove and destroy infected plant parts. Avoid overhead irrigation.';
-    } else if (diseaseLower.contains('early_blight')) {
-      return 'Apply chlorothalonil or copper fungicides. Practice crop rotation. Remove infected leaves.';
-    } else if (diseaseLower.contains('powdery_mildew')) {
-      return 'Apply sulfur or potassium bicarbonate sprays. Improve air circulation. Water at base of plants.';
-    } else if (diseaseLower.contains('leaf_curl')) {
-      return 'Remove infected plants. Control whitefly population. Use insecticidal soap or neem oil.';
-    } else if (diseaseLower.contains('mosaic')) {
-      return 'Remove infected plants immediately. Control aphid vectors. Use virus-resistant varieties.';
-    } else if (diseaseLower.contains('wilt')) {
-      return 'Improve soil drainage. Apply fungicides. Remove infected plants. Practice crop rotation.';
-    } else {
-      return 'Consult local agricultural extension office for specific treatment recommendations.';
+    if (isUnknown) {
+      return 'The uploaded image does not appear to be a plant leaf or is not recognized. Please take a clear photo of a leaf showing symptoms (spots, discoloration, wilting, etc.) and try again.';
     }
+    if (isHealthy) {
+      return 'Great news! Your plant appears healthy. No treatment is needed. Continue providing proper care (water, sunlight, nutrients) and monitor regularly.';
+    }
+
+    final nameLower = disease.toLowerCase();
+
+    // Keyword-based solutions (ordered by specificity)
+    if (nameLower.contains('bacterial') || nameLower.contains('spot')) {
+      return 'Apply copper-based bactericides. Remove severely infected leaves. Avoid overhead irrigation. Practice crop rotation (3-4 years). Use disease-free seeds.';
+    }
+    if (nameLower.contains('late_blight')) {
+      return 'Apply metalaxyl or chlorothalonil immediately. Destroy infected plants. Do not compost. Avoid irrigation during cool, wet weather. Use resistant varieties.';
+    }
+    if (nameLower.contains('early_blight')) {
+      return 'Apply chlorothalonil or mancozeb fungicides. Remove infected lower leaves. Improve air circulation. Mulch to prevent soil splash.';
+    }
+    if (nameLower.contains('blight')) {
+      return 'Apply appropriate fungicides (chlorothalonil, mancozeb, or copper). Remove and destroy infected parts. Avoid overhead watering. Space plants for air flow.';
+    }
+    if (nameLower.contains('powdery_mildew')) {
+      return 'Apply sulfur, potassium bicarbonate, or neem oil. Improve air circulation. Water at base, not on leaves. Remove severely infected leaves.';
+    }
+    if (nameLower.contains('downy_mildew')) {
+      return 'Apply fungicides containing metalaxyl or phosphorous acid. Reduce humidity. Remove infected foliage. Avoid overhead irrigation.';
+    }
+    if (nameLower.contains('mosaic')) {
+      return 'Remove infected plants immediately. Control aphid and whitefly vectors. Use virus-resistant varieties. Disinfect tools.';
+    }
+    if (nameLower.contains('wilt')) {
+      return 'Improve soil drainage. Apply appropriate fungicides. Remove infected plants. Practice crop rotation. Use resistant rootstocks.';
+    }
+    if (nameLower.contains('curl') || nameLower.contains('leaf_curl')) {
+      return 'Control whitefly population. Remove infected plants. Use insecticidal soap or neem oil. Reflective mulches can deter vectors.';
+    }
+    if (nameLower.contains('rust')) {
+      return 'Apply fungicides containing myclobutanil or azoxystrobin. Remove fallen leaves. Improve air circulation. Avoid overhead watering.';
+    }
+    if (nameLower.contains('canker')) {
+      return 'Prune infected branches (sterilize tools between cuts). Apply copper fungicides. Avoid wounding plants. Remove severely affected plants.';
+    }
+    // Generic fallback for any other disease
+    return 'Consult local agricultural extension office for specific treatment recommendations. Apply appropriate broad-spectrum fungicide/bactericide as preventive measure. Remove infected plant parts. Practice good field hygiene.';
   }
 
+  // Dynamically generate prevention tips based on disease keywords
   List<String> getPreventionTips() {
-    final diseaseLower = disease.toLowerCase();
-    if (diseaseLower.contains('blight')) {
+    if (isUnknown) {
       return [
-        'Use disease-resistant varieties',
-        'Practice crop rotation (3-4 year cycle)',
-        'Avoid overhead irrigation',
-        'Ensure proper plant spacing for air circulation',
-        'Remove crop debris after harvest',
-      ];
-    } else if (diseaseLower.contains('powdery_mildew')) {
-      return [
-        'Water plants at base, not on leaves',
-        'Ensure good air circulation',
-        'Apply preventive neem oil sprays',
-        'Remove severely infected leaves',
-        'Avoid overcrowding of plants',
-      ];
-    } else {
-      return [
-        'Maintain field hygiene',
-        'Use certified disease-free seeds',
-        'Regular field monitoring',
-        'Apply preventive sprays as recommended',
-        'Remove weed hosts around fields',
+        'Ensure good lighting when taking photos',
+        'Focus clearly on the affected leaf area',
+        'Avoid blurry or distant images',
+        'Take photo during daylight hours',
+        'Capture both top and bottom of leaf if possible',
       ];
     }
+    if (isHealthy) {
+      return [
+        'Continue regular field monitoring (weekly)',
+        'Maintain proper watering schedule (morning watering)',
+        'Apply balanced fertilizer as needed',
+        'Remove weeds that can host pests',
+        'Practice crop rotation for next season',
+      ];
+    }
+
+    final nameLower = disease.toLowerCase();
+    final tips = <String>[];
+
+    // Base tips that apply to most diseases
+    tips.add('Inspect plants regularly (at least twice a week)');
+    tips.add('Maintain field hygiene - remove crop debris after harvest');
+
+    // Keyword-specific tips
+    if (nameLower.contains('bacterial') || nameLower.contains('spot')) {
+      tips.addAll([
+        'Use disease-free seeds and certified transplants',
+        'Avoid working in plants when foliage is wet',
+        'Apply preventative copper sprays in high-risk periods',
+        'Rotate with non-solanaceous crops (3-4 years)',
+      ]);
+    } else if (nameLower.contains('blight')) {
+      tips.addAll([
+        'Plant resistant varieties when available',
+        'Practice 3-4 year crop rotation',
+        'Avoid overhead irrigation - water at base',
+        'Ensure proper plant spacing for air circulation',
+        'Remove volunteer plants and weeds',
+      ]);
+    } else if (nameLower.contains('mildew')) {
+      tips.addAll([
+        'Water plants at the base, not on leaves',
+        'Ensure good air circulation (prune if needed)',
+        'Apply preventive neem oil or sulfur sprays',
+        'Avoid overcrowding of plants',
+        'Choose disease-resistant varieties',
+      ]);
+    } else if (nameLower.contains('mosaic') || nameLower.contains('virus')) {
+      tips.addAll([
+        'Control insect vectors (aphids, whiteflies, thrips)',
+        'Use virus-resistant varieties',
+        'Disinfect pruning tools between plants',
+        'Remove infected plants immediately',
+        'Install reflective mulches to deter vectors',
+      ]);
+    } else if (nameLower.contains('wilt')) {
+      tips.addAll([
+        'Improve soil drainage and avoid overwatering',
+        'Practice long-term crop rotation (4-5 years)',
+        'Use disease-free seeds and transplants',
+        'Apply biological fungicides as preventive',
+        'Remove and destroy infected plants promptly',
+      ]);
+    } else if (nameLower.contains('curl')) {
+      tips.addAll([
+        'Control whitefly populations with yellow sticky traps',
+        'Apply insecticidal soap or neem oil early season',
+        'Remove severely infected plants',
+        'Use reflective mulches to repel vectors',
+        'Monitor regularly for early signs',
+      ]);
+    } else {
+      // Generic tips
+      tips.addAll([
+        'Use certified disease-free seeds/seedlings',
+        'Apply preventive sprays as recommended locally',
+        'Remove weed hosts around field boundaries',
+        'Practice proper plant spacing and pruning',
+      ]);
+    }
+
+    return tips;
   }
 
+  // Severity based on confidence and disease type
   String getSeverity() {
+    if (isUnknown) return 'Invalid Input';
+    if (isHealthy) return 'No Disease';
     if (confidence > 0.95) return 'Severe';
     if (confidence > 0.85) return 'High';
     if (confidence > 0.70) return 'Moderate';
@@ -999,12 +1098,111 @@ class PestDetectionData {
   }
 
   Color getSeverityColor() {
+    if (isUnknown) return Colors.grey;
+    if (isHealthy) return Colors.green;
     if (confidence > 0.95) return Colors.red;
     if (confidence > 0.85) return Colors.orange;
     if (confidence > 0.70) return Colors.yellow.shade700;
     return Colors.green;
   }
+
+  bool get showTreatmentUI => !isUnknown && !isHealthy;
 }
+
+// class PestDetectionData {
+//   final String disease;
+//   final double confidence;
+//
+//   PestDetectionData({
+//     required this.disease,
+//     required this.confidence,
+//   });
+//
+//   factory PestDetectionData.fromJson(Map<String, dynamic> json) {
+//     return PestDetectionData(
+//       disease: json['disease'] ?? 'Unknown',
+//       confidence: (json['confidence'] ?? 0.0).toDouble(),
+//     );
+//   }
+//
+//   Map<String, dynamic> toJson() {
+//     return {
+//       'disease': disease,
+//       'confidence': confidence,
+//     };
+//   }
+//
+//   String get confidencePercentage => '${(confidence * 100).toInt()}%';
+//
+//   bool get isDisease => true; // API returns disease names
+//
+//   String get displayName {
+//     // Format the disease name for display
+//     return disease.replaceAll('_', ' ');
+//   }
+//
+//   String getSolution() {
+//     final diseaseLower = disease.toLowerCase();
+//     if (diseaseLower.contains('late_blight')) {
+//       return 'Apply copper-based fungicides immediately. Remove and destroy infected plant parts. Avoid overhead irrigation.';
+//     } else if (diseaseLower.contains('early_blight')) {
+//       return 'Apply chlorothalonil or copper fungicides. Practice crop rotation. Remove infected leaves.';
+//     } else if (diseaseLower.contains('powdery_mildew')) {
+//       return 'Apply sulfur or potassium bicarbonate sprays. Improve air circulation. Water at base of plants.';
+//     } else if (diseaseLower.contains('leaf_curl')) {
+//       return 'Remove infected plants. Control whitefly population. Use insecticidal soap or neem oil.';
+//     } else if (diseaseLower.contains('mosaic')) {
+//       return 'Remove infected plants immediately. Control aphid vectors. Use virus-resistant varieties.';
+//     } else if (diseaseLower.contains('wilt')) {
+//       return 'Improve soil drainage. Apply fungicides. Remove infected plants. Practice crop rotation.';
+//     } else {
+//       return 'Consult local agricultural extension office for specific treatment recommendations.';
+//     }
+//   }
+//
+//   List<String> getPreventionTips() {
+//     final diseaseLower = disease.toLowerCase();
+//     if (diseaseLower.contains('blight')) {
+//       return [
+//         'Use disease-resistant varieties',
+//         'Practice crop rotation (3-4 year cycle)',
+//         'Avoid overhead irrigation',
+//         'Ensure proper plant spacing for air circulation',
+//         'Remove crop debris after harvest',
+//       ];
+//     } else if (diseaseLower.contains('powdery_mildew')) {
+//       return [
+//         'Water plants at base, not on leaves',
+//         'Ensure good air circulation',
+//         'Apply preventive neem oil sprays',
+//         'Remove severely infected leaves',
+//         'Avoid overcrowding of plants',
+//       ];
+//     } else {
+//       return [
+//         'Maintain field hygiene',
+//         'Use certified disease-free seeds',
+//         'Regular field monitoring',
+//         'Apply preventive sprays as recommended',
+//         'Remove weed hosts around fields',
+//       ];
+//     }
+//   }
+//
+//   String getSeverity() {
+//     if (confidence > 0.95) return 'Severe';
+//     if (confidence > 0.85) return 'High';
+//     if (confidence > 0.70) return 'Moderate';
+//     return 'Low';
+//   }
+//
+//   Color getSeverityColor() {
+//     if (confidence > 0.95) return Colors.red;
+//     if (confidence > 0.85) return Colors.orange;
+//     if (confidence > 0.70) return Colors.yellow.shade700;
+//     return Colors.green;
+//   }
+// }
 
 
 

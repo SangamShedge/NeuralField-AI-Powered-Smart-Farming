@@ -1,6 +1,7 @@
 import os
 import json
 import numpy as np # type: ignore
+
 from .model_loader import model
 from .utils import preprocess_image
 
@@ -10,12 +11,15 @@ LABELS_PATH = os.path.join(BASE_DIR, "model", "labels.json")
 with open(LABELS_PATH, "r") as f:
     labels = json.load(f)
 
+CONFIDENCE_THRESHOLD = 0.60
+
 def predict_disease(image_path):
     img = preprocess_image(image_path)
-    preds = model.predict(img)
+
+    preds = model.predict(img, verbose=0)[0]
 
     class_index = int(np.argmax(preds))
-    confidence = float(np.max(preds))
+    confidence = float(preds[class_index])
 
     disease = labels[str(class_index)]
 

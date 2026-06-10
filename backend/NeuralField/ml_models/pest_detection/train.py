@@ -1,29 +1,22 @@
 import os
 import json
 import tensorflow as tf # type: ignore
+
 from tensorflow.keras.preprocessing import image_dataset_from_directory # type: ignore
 from tensorflow.keras.applications import MobileNetV2 # type: ignore
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input # type: ignore
 from tensorflow.keras import layers, models # type: ignore
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint # type: ignore
 
-# =========================
-# PATHS
-# =========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_DIR = os.path.join(BASE_DIR, "dataset")
 MODEL_DIR = os.path.join(BASE_DIR, "model")
 
 os.makedirs(MODEL_DIR, exist_ok=True)
 
-# =========================
-# CONFIG
-# =========================
 IMG_SIZE = (224, 224)
-BATCH_SIZE = 32
-EPOCHS = 5   # start small
+BATCH_SIZE = 16
 
-# =========================
-# LOAD DATASET
-# =========================
 train_ds = image_dataset_from_directory(
     DATASET_DIR,
     validation_split=0.2,
@@ -43,70 +36,114 @@ val_ds = image_dataset_from_directory(
 )
 
 class_names = train_ds.class_names
-print("Classes:", class_names)
 
-# =========================
-# SAVE LABELS
-# =========================
+print("\nClasses:")
+print(class_names)
+
 labels_path = os.path.join(MODEL_DIR, "labels.json")
-with open(labels_path, "w") as f:
-    json.dump({i: name for i, name in enumerate(class_names)}, f)
 
-# =========================
-# PERFORMANCE OPTIMIZATION
-# =========================
+with open(labels_path, "w") as f:
+    json.dump(
+        {i: name for i, name in enumerate(class_names)},
+        f
+    )
+
 AUTOTUNE = tf.data.AUTOTUNE
 
-train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
-val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
+train_ds = train_ds.shuffle(1000).prefetch(AUTOTUNE)
+val_ds = val_ds.prefetch(AUTOTUNE)
 
-# =========================
-# MODEL (MobileNetV2)
-# =========================
+data_augmentation = tf.keras.Sequential([
+    layers.RandomFlip("horizontal"),
+    layers.RandomRotation(0.15),
+    layers.RandomZoom(0.15),
+    layers.RandomContrast(0.15),
+])
+
 base_model = MobileNetV2(
-    input_shape=(224, 224, 3),
+    input_shape=(224,224,3),
     include_top=False,
     weights="imagenet"
 )
 
-base_model.trainable = False  # freeze base model
+base_model.trainable = False
 
-# =========================
-# CUSTOM HEAD
-# =========================
-x = base_model.output
+inputs = tf.keras.Input(shape=(224,224,3))
+
+x = data_augmentation(inputs)
+
+x = preprocess_input(x)
+
+x = base_model(x, training=False)
+
 x = layers.GlobalAveragePooling2D()(x)
+
 x = layers.Dense(128, activation="relu")(x)
+
 x = layers.Dropout(0.3)(x)
-outputs = layers.Dense(len(class_names), activation="softmax")(x)
 
-model = models.Model(inputs=base_model.input, outputs=outputs)
+outputs = layers.Dense(
+    len(class_names),
+    activation="softmax"
+)(x)
 
-# =========================
-# COMPILE
-# =========================
+model = models.Model(inputs, outputs)
+
 model.compile(
     optimizer="adam",
     loss="sparse_categorical_crossentropy",
     metrics=["accuracy"]
 )
 
-model.summary()
-
-# =========================
-# TRAIN
-# =========================
-history = model.fit(
-    train_ds,
-    validation_data=val_ds,
-    epochs=EPOCHS
+model_path = os.path.join(
+    MODEL_DIR,
+    "pest_model.h5"
 )
 
-# =========================
-# SAVE MODEL
-# =========================
-model_path = os.path.join(MODEL_DIR, "pest_model.h5")
-model.save(model_path, include_optimizer=False, save_format="h5")
+early_stop = EarlyStopping(
+    monitor="val_loss",
+    patience=3,
+    restore_best_weights=True,
+    verbose=1
+)
 
-print(f"\n✅ Model saved at: {model_path}")
-print(f"✅ Labels saved at: {labels_path}")
+checkpoint = ModelCheckpoint(
+    model_path,
+    monitor="val_accuracy",
+    save_best_only=True,
+    verbose=1
+)
+
+print("\n===== INITIAL TRAINING =====")
+
+model.fit(
+    train_ds,
+    validation_data=val_ds,
+    epochs=20,
+    callbacks=[early_stop, checkpoint]
+)
+
+print("\n===== FINE TUNING =====")
+
+base_model.trainable = True
+
+for layer in base_model.layers[:-30]:
+    layer.trainable = False
+
+model.compile(
+    optimizer=tf.keras.optimizers.Adam(1e-5),
+    loss="sparse_categorical_crossentropy",
+    metrics=["accuracy"]
+)
+
+model.fit(
+    train_ds,
+    validation_data=val_ds,
+    epochs=10,
+    callbacks=[early_stop]
+)
+
+model.save(model_path)
+
+print("\nModel Saved:", model_path)
+print("Labels Saved:", labels_path)

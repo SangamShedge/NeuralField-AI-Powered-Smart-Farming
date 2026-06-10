@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Application definition
 
@@ -94,6 +95,16 @@ DATABASES = {
         'PASSWORD': 'root',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'neuralfield',
+#         'USER': 'postgres',
+#         'PASSWORD': 'postgres',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
@@ -141,7 +152,6 @@ EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = "email"
 EMAIL_HOST_PASSWORD = "email_app_key"
-
 
 
 AUTH_USER_MODEL = 'users.User'
